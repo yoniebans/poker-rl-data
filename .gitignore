@@ -187,3 +187,4 @@ wandb
 winning_players/
 preflop_decisions/
 *_README.md
+diagnostic_logs/
