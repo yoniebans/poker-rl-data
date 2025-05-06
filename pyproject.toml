@@ -29,22 +29,7 @@ calculate-win-rates = "data_wrangler.player_win_rates:main"
 export-dataset = "data_wrangler.export_to_hf:main"
 migrate-db = "data_wrangler.migrate_database:main"
 check-schema = "data_wrangler.check_db_schema:main"
-
-[project.optional-dependencies]
-dev = [
-    "pytest",
-    "black",
-    "isort",
-    "flake8",
-    "mypy",
-]
-viz = [
-    "matplotlib>=3.7.1",
-    "seaborn>=0.12.2",
-]
-all = [
-    "poker-rl-data[dev,viz]"
-]
+create-pokergpt-dataset = "data_wrangler.pokergpt_dataset_creation:main"
 
 [build-system]
 requires = ["setuptools>=61.0.0", "wheel"]

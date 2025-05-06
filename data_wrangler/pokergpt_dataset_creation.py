@@ -1,16 +1,167 @@
-# data_wrangler/pokergpt_dataset_creation.py
 import os
 import json
 from dotenv import load_dotenv
 from data_wrangler.export_to_hf import HuggingFaceExporter
 from data_wrangler.pokergpt_formatter import PokerGPTFormatter
+from data_wrangler.poker_hand_evaluator import PokerHandEvaluator
 
-# Load environment variables including database connection string
+# Load environment variables
 load_dotenv()
+
+def filter_showdown_hands(db_connection):
+    """
+    Create a database view or query to filter for hands that went to showdown.
+    This ensures we have actual private card data available.
+    """
+    import psycopg2
+    
+    conn = psycopg2.connect(db_connection)
+    cursor = conn.cursor()
+    
+    # Create a view of hands that went to showdown
+    cursor.execute("""
+    CREATE OR REPLACE VIEW showdown_hands AS
+    SELECT * FROM hand_histories
+    WHERE has_showdown = TRUE 
+    AND raw_text LIKE '%shows [%'  -- Ensures cards are visible in raw text
+    """)
+    
+    conn.commit()
+    cursor.close()
+    conn.close()
+    
+    print("Created view of showdown hands with visible cards")
+
+def test_card_extraction(db_connection):
+    """
+    Test the card extraction functionality with a sample hand.
+    """
+    import psycopg2
+    
+    conn = psycopg2.connect(db_connection)
+    cursor = conn.cursor()
+    
+    # Get a sample showdown hand
+    cursor.execute("""
+    SELECT hand_id, raw_text, pokergpt_format, winner
+    FROM hand_histories
+    WHERE has_showdown = TRUE 
+    AND raw_text LIKE '%shows [%'
+    LIMIT 1
+    """)
+    
+    row = cursor.fetchone()
+    if not row:
+        print("No showdown hands found in database")
+        return
+        
+    hand_id, raw_text, pokergpt_format_json, winner = row
+    
+    # Parse the JSON
+    if isinstance(pokergpt_format_json, str):
+        pokergpt_format = json.loads(pokergpt_format_json)
+    else:
+        pokergpt_format = pokergpt_format_json
+    
+    # Create a hand data dictionary
+    hand_data = {
+        'hand_id': hand_id,
+        'raw_text': raw_text,
+        'pokergpt_format': pokergpt_format,
+        'winner': winner
+    }
+    
+    # Test the card extraction
+    formatter = PokerGPTFormatter()
+    private_cards = formatter._extract_private_cards(hand_data, winner)
+    
+    print(f"Hand ID: {hand_id}")
+    print(f"Winner: {winner}")
+    print(f"Extracted private cards: {private_cards}")
+    
+    # Show card characteristics
+    characteristics = formatter._get_card_characteristics(private_cards)
+    print(f"Card characteristics: {characteristics}")
+    
+    # Test hand evaluation with a few community card scenarios
+    community_cards_scenarios = [
+        [],  # Preflop
+        ['Ah', '7d', '2s'],  # Flop
+        ['Ah', '7d', '2s', 'Kc'],  # Turn
+        ['Ah', '7d', '2s', 'Kc', 'Qh']  # River
+    ]
+    
+    print("\nHand evaluation tests:")
+    for scenario in community_cards_scenarios:
+        eval_result = PokerHandEvaluator.evaluate_hand(private_cards, scenario)
+        stage_name = "Preflop" if not scenario else f"{'Flop' if len(scenario) == 3 else 'Turn' if len(scenario) == 4 else 'River'}"
+        print(f"  {stage_name} ({scenario}): {eval_result['rank']}")
+    
+    # Show a complete prompt example
+    prompt = formatter.format_hand_to_pokergpt_prompt(hand_data)
+    
+    print("\nGenerated PokerGPT prompt:")
+    print("=" * 40)
+    print(prompt)
+    print("=" * 40)
+    
+    cursor.close()
+    conn.close()
+
+def export_showdown_hands_dataset(db_connection):
+    """
+    Export a dataset of showdown hands with proper card extraction and hand evaluation.
+    """
+    # Create the SQL query to filter for hands with showdown and visible cards
+    filter_query = """
+    has_showdown = TRUE 
+    AND raw_text LIKE '%shows [%'
+    AND EXISTS (
+        SELECT 1 FROM players p
+        WHERE 
+            p.player_id = winner
+            AND p.mbb_per_hour >= 200
+            AND p.total_hands >= 50
+    )
+    """
+    
+    filter_description = """
+    This dataset contains high-quality hands that went to showdown, allowing access to the 
+    actual private cards of players. This ensures proper hand evaluation and more realistic
+    decision contexts for the model. All hands are from players with a win rate of at least
+    200 mbb/hour over at least 50 hands, representing skilled play.
+    """
+    
+    # Initialize the exporter with proper formatting
+    exporter = HuggingFaceExporter(db_connection)
+    
+    # Export the dataset
+    dataset = exporter.export_dataset(
+        filter_query=filter_query,
+        dataset_name="pokergpt_showdown_hands",
+        push_to_hub=False,
+        filter_description=filter_description,
+        win_rate_threshold=200,
+        min_hands=50,
+        include_pokergpt_format=True,
+        include_actions=True
+    )
+    
+    print(f"Exported {len(dataset)} showdown hands to dataset")
+    
+    # Print a sample if available
+    if len(dataset) > 0:
+        print("\nSample PokerGPT prompt from showdown hands:")
+        print("-" * 40)
+        print(dataset[0]['pokergpt_prompt'])
+        
+        if 'action' in dataset[0]:
+            print("\nCorresponding action:")
+            print(dataset[0]['action'])
 
 def main():
     """
-    Demonstrate the PokerGPT dataset creation workflow
+    Main function to demonstrate the updated PokerGPT components.
     """
     # Get database connection string from environment
     db_connection = os.environ.get("DB_CONNECTION")
@@ -19,72 +170,20 @@ def main():
         print("Please create a .env file with your database connection string")
         return
     
-    # Initialize the exporter
-    exporter = HuggingFaceExporter(db_connection)
+    print("Testing updated PokerGPT components...")
     
-    print("Creating PokerGPT format dataset...")
+    # Create a view of showdown hands (optional)
+    # filter_showdown_hands(db_connection)
     
-    # Export a dataset with PokerGPT format prompts
-    dataset = exporter.export_winning_player_dataset(
-        min_win_rate=500,  # 500 mbb/h is a good threshold for skilled players
-        min_hands=100,     # Ensure players have sufficient history
-        dataset_name="pokergpt_training_data",
-        push_to_hub=False,  # Set to True to push to HuggingFace Hub
-        hub_name=None,      # Set to "your-username/dataset-name" for Hub
-        include_pokergpt_format=True  # Include the formatted prompts
-    )
+    # Test the card extraction and hand evaluation
+    print("\n1. Testing card extraction and hand evaluation:")
+    test_card_extraction(db_connection)
     
-    # Display statistics about the dataset
-    print(f"Created dataset with {len(dataset)} examples")
+    # Export a dataset of showdown hands
+    print("\n2. Exporting dataset of showdown hands:")
+    export_showdown_hands_dataset(db_connection)
     
-    # Print a sample prompt
-    if len(dataset) > 0:
-        print("\nSample PokerGPT prompt:")
-        print("-----------------------")
-        print(dataset[0]['pokergpt_prompt'])
-        
-        # Print the corresponding action if available
-        if 'action' in dataset[0]:
-            print("\nWinning action:")
-            print(dataset[0]['action'])
-    
-    # Demonstrate custom formatting
-    print("\nDemonstrating custom formatting capabilities:")
-    formatter = PokerGPTFormatter()
-    
-    # Get a single example
-    example = {
-        'pokergpt_format': dataset[0]['pokergpt_format'], 
-        'winner': dataset[0]['winner']
-    }
-    
-    # Format for different game stages
-    stages = ['preflop', 'flop', 'turn', 'river']
-    for stage in stages:
-        try:
-            prompt = formatter.format_hand_to_pokergpt_prompt(
-                hand_data=example,
-                stage=stage
-            )
-            
-            # Print a short preview (first few lines)
-            preview = "\n".join(prompt.split("\n")[:5]) + "\n..."
-            print(f"\n{stage.upper()} stage prompt preview:")
-            print(preview)
-        except Exception as e:
-            print(f"Stage {stage} not available in this hand: {e}")
-    
-    print("\nDataset creation complete!")
-    print(f"Dataset saved to: pokergpt_training_data/")
-    
-    # Example of preparing for model training
-    print("\nNext steps for training:")
-    print("1. Load the dataset:")
-    print("   from datasets import load_from_disk")
-    print("   dataset = load_from_disk('pokergpt_training_data')")
-    print("2. Format for training:")
-    print("   train_data = [{'prompt': row['pokergpt_prompt'], 'completion': row['action']} for row in dataset]")
-    print("3. Fine-tune your language model with this data")
+    print("\nAll tests complete!")
 
 if __name__ == "__main__":
     main()
