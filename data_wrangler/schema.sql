@@ -1,3 +1,4 @@
+-- Hand histories table
 CREATE TABLE hand_histories (
     hand_id TEXT PRIMARY KEY,
     raw_text TEXT,
@@ -22,12 +23,23 @@ CREATE TABLE hand_histories (
     
     -- Player filtering
     player_ids TEXT[],
-    player_win_rates JSONB,  -- Map of player_id -> win_rate (mbb/h)
     
     -- Timestamps
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
 );
 
--- Index for filtering by win rates
-CREATE INDEX idx_player_win_rates ON hand_histories USING GIN (player_win_rates);
+-- Player statistics table
+CREATE TABLE players (
+    player_id TEXT PRIMARY KEY,
+    total_hands INTEGER,
+    total_bb NUMERIC,
+    mbb_per_hand NUMERIC,
+    mbb_per_hour NUMERIC,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Indexes for efficient filtering
+CREATE INDEX idx_hand_histories_winner ON hand_histories(winner);
+CREATE INDEX idx_players_mbb_per_hour ON players(mbb_per_hour);

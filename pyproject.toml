@@ -1,0 +1,65 @@
+[project]
+name = "pokergpt-data"
+version = "0.1.0"
+description = "Data processing tools for PokerGPT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Database
+    "psycopg2-binary>=2.9.6",
+    
+    # Data processing
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    
+    # HuggingFace
+    "datasets>=2.12.0",
+    "transformers>=4.30.0",
+    "huggingface-hub>=0.16.0",
+    
+    # Utilities
+    "tqdm>=4.65.0",
+    "tabulate>=0.9.0",
+]
+
+[project.scripts]
+parse-hands = "data_wrangler.parse_poker_hands:main"
+calculate-win-rates = "data_wrangler.player_win_rates:main"
+export-dataset = "data_wrangler.export_to_hf:main"
+migrate-db = "data_wrangler.migrate_database:main"
+check-schema = "data_wrangler.check_db_schema:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
+]
+viz = [
+    "matplotlib>=3.7.1",
+    "seaborn>=0.12.2",
+]
+all = [
+    "pokergpt-data[dev,viz]"
+]
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["data_wrangler"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.flake8]
+max-line-length = 100
+extend-ignore = "E203"

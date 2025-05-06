@@ -15,8 +15,8 @@ class PlayerWinRateCalculator:
         raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
     
     def calculate_win_rates(self):
-        """Calculate win rates for all players and update the database"""
-        # First, collect all player participation and winnings
+        """Calculate win rates for all players and update the players table"""
+        # Collect all player participation and winnings
         with self.conn.cursor() as cur:
             cur.execute("""
                 SELECT 
@@ -53,24 +53,31 @@ class PlayerWinRateCalculator:
             hands_per_hour = 30  # Assumption: average hands per hour
             mbb_per_hour = mbb_per_hand * hands_per_hour
             
+            # Update the players table
+            with self.conn.cursor() as cur:
+                cur.execute("""
+                    INSERT INTO players (player_id, total_hands, total_bb, mbb_per_hand, mbb_per_hour)
+                    VALUES (%s, %s, %s, %s, %s)
+                    ON CONFLICT (player_id) DO UPDATE
+                    SET total_hands = EXCLUDED.total_hands,
+                        total_bb = EXCLUDED.total_bb,
+                        mbb_per_hand = EXCLUDED.mbb_per_hand,
+                        mbb_per_hour = EXCLUDED.mbb_per_hour,
+                        updated_at = NOW()
+                """, (
+                    player_id,
+                    int(total_hands),
+                    total_bb,
+                    mbb_per_hand,
+                    mbb_per_hour
+                ))
+            
             player_win_rates[player_id] = {
                 'total_hands': int(total_hands),
                 'total_bb': total_bb,
                 'mbb_per_hand': mbb_per_hand,
                 'mbb_per_hour': mbb_per_hour
             }
-        
-        # Update the database with win rates
-        with self.conn.cursor() as cur:
-            for player_id, stats in player_win_rates.items():
-                cur.execute("""
-                    UPDATE hand_histories
-                    SET player_win_rates = player_win_rates || %s::jsonb
-                    WHERE %s = ANY(player_ids)
-                """, (
-                    json.dumps({player_id: stats}, default=self._decimal_to_float),
-                    player_id
-                ))
         
         self.conn.commit()
         return player_win_rates

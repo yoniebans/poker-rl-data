@@ -51,11 +51,11 @@ class HuggingFaceExporter:
         """Export a dataset filtered to only include hands from winning players"""
         filter_query = f"""
             EXISTS (
-                SELECT 1 FROM jsonb_each(player_win_rates) AS p(player_id, stats)
+                SELECT 1 FROM players p
                 WHERE 
-                    player_id = winner
-                    AND (stats->>'mbb_per_hour')::float >= {min_win_rate}
-                    AND (stats->>'total_hands')::int >= {min_hands}
+                    p.player_id = winner
+                    AND p.mbb_per_hour >= {min_win_rate}
+                    AND p.total_hands >= {min_hands}
             )
         """
         
@@ -66,9 +66,10 @@ class HuggingFaceExporter:
         filter_query = f"""
             has_preflop = TRUE
             AND EXISTS (
-                SELECT 1 FROM jsonb_each(player_win_rates) AS p(player_id, stats)
+                SELECT 1 FROM players p
                 WHERE 
-                    (stats->>'mbb_per_hour')::float >= {min_win_rate}
+                    p.player_id = ANY(player_ids)
+                    AND p.mbb_per_hour >= {min_win_rate}
             )
         """
         

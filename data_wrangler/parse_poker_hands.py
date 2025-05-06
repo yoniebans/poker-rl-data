@@ -78,8 +78,7 @@ class PokerHandProcessor:
             'has_turn': has_turn,
             'has_river': has_river,
             'has_showdown': has_showdown,
-            'player_ids': list(players.keys()),
-            'player_win_rates': {}  # Will be updated in a separate process
+            'player_ids': list(players.keys())
         }
     
     def _convert_to_pokergpt_format(self, raw_hand, players, blinds, winner, bb_won):
@@ -196,7 +195,7 @@ class PokerHandProcessor:
                     })
             # Transaction is automatically committed if successful
             # or rolled back if an exception occurs
-            print(f"Successfully inserted hand {parsed_hand['hand_id']}")
+            # print(f"Successfully inserted hand {parsed_hand['hand_id']}")
             return True
         except Exception as e:
             # Transaction is already rolled back by the context manager
@@ -225,16 +224,22 @@ class PokerHandProcessor:
             with open('encoding_issues.log', 'a') as log:
                 log.write(f"{file_path}: {str(e)}\n")
         
-        # Process hand histories as before
+        # Process hand histories with improved splitting
         hand_splits = re.split(r'(?=PokerStars Hand #)', content)
         
         hands_processed = 0
         hands_failed = 0
         
-        for hand_text in hand_splits:
+        for i, hand_text in enumerate(hand_splits):
             if not hand_text.strip():
                 continue
                 
+            # Skip entries that don't start with "PokerStars Hand #" (typically the first split)
+            if not hand_text.lstrip().startswith("PokerStars Hand #"):
+                if i == 0:  # Only log this for the first split to avoid confusion
+                    print(f"Skipping header or incomplete hand in {file_path}")
+                continue
+                    
             try:
                 parsed_hand = self.parse_pokerstars_hand(hand_text)
                 self.insert_hand(parsed_hand)
