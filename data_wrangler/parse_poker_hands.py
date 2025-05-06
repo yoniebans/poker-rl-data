@@ -4,6 +4,7 @@ import psycopg2
 from typing import Dict, List, Tuple, Any
 import re
 import argparse
+from datetime import datetime
 
 class PokerHandProcessor:
     def __init__(self, db_connection_string: str):
@@ -32,6 +33,21 @@ class PokerHandProcessor:
             raise ValueError("Could not parse blind values")
         
         blinds = [float(blinds_match.group(1)), float(blinds_match.group(2))]
+        
+        # Extract table name
+        table_match = re.search(r"Table '([^']+)'", raw_hand)
+        table_name = table_match.group(1) if table_match else None
+        
+        # Extract timestamp
+        timestamp_match = re.search(r'(\d{4}/\d{2}/\d{2} \d{1,2}:\d{2}:\d{2})', raw_hand)
+        played_at = None
+        if timestamp_match:
+            try:
+                # Parse the timestamp from the hand history
+                timestamp_str = timestamp_match.group(1)
+                played_at = datetime.strptime(timestamp_str, '%Y/%m/%d %H:%M:%S')
+            except (ValueError, TypeError) as e:
+                print(f"Warning: Could not parse timestamp from hand: {e}")
         
         # Extract players and their stacks - improved to handle more username formats
         players = {}
@@ -78,17 +94,24 @@ class PokerHandProcessor:
             'has_turn': has_turn,
             'has_river': has_river,
             'has_showdown': has_showdown,
-            'player_ids': list(players.keys())
+            'player_ids': list(players.keys()),
+            'played_at': played_at,
+            'table_name': table_name
         }
     
     def _convert_to_pokergpt_format(self, raw_hand, players, blinds, winner, bb_won):
         """Convert parsed hand to PokerGPT format"""
         # This needs to match the specific format used by PokerGPT
+        # Extract table name
+        table_match = re.search(r"Table '([^']+)'", raw_hand)
+        table_name = table_match.group(1) if table_match else None
+        
         return {
             "basic_info": {
                 "blinds": f"{blinds[0]}/{blinds[1]}",
                 "players": [{"name": name, "stack": data["stack"]} for name, data in players.items()],
-                "dealer_position": self._extract_dealer_position(raw_hand)
+                "dealer_position": self._extract_dealer_position(raw_hand),
+                "table_name": table_name
             },
             "stages": self._extract_stages(raw_hand),
             "outcomes": {
@@ -182,11 +205,11 @@ class PokerHandProcessor:
                         INSERT INTO hand_histories (
                             hand_id, raw_text, pokergpt_format, game_type, blinds, big_blind,
                             player_count, winner, bb_won, has_preflop, has_flop, has_turn,
-                            has_river, has_showdown, player_ids
+                            has_river, has_showdown, player_ids, played_at, table_name
                         ) VALUES (
                             %(hand_id)s, %(raw_text)s, %(pokergpt_format)s, %(game_type)s, %(blinds)s, %(big_blind)s,
                             %(player_count)s, %(winner)s, %(bb_won)s, %(has_preflop)s, %(has_flop)s, %(has_turn)s,
-                            %(has_river)s, %(has_showdown)s, %(player_ids)s
+                            %(has_river)s, %(has_showdown)s, %(player_ids)s, %(played_at)s, %(table_name)s
                         )
                     """, {
                         **parsed_hand,
@@ -194,8 +217,6 @@ class PokerHandProcessor:
                         'blinds': parsed_hand['blinds']
                     })
             # Transaction is automatically committed if successful
-            # or rolled back if an exception occurs
-            # print(f"Successfully inserted hand {parsed_hand['hand_id']}")
             return True
         except Exception as e:
             # Transaction is already rolled back by the context manager
@@ -239,7 +260,7 @@ class PokerHandProcessor:
                 if i == 0:  # Only log this for the first split to avoid confusion
                     print(f"Skipping header or incomplete hand in {file_path}")
                 continue
-                    
+                
             try:
                 parsed_hand = self.parse_pokerstars_hand(hand_text)
                 self.insert_hand(parsed_hand)

@@ -24,6 +24,12 @@ CREATE TABLE hand_histories (
     -- Player filtering
     player_ids TEXT[],
     
+    -- Table information
+    table_name TEXT,
+    
+    -- Timestamp information
+    played_at TIMESTAMP,
+    
     -- Timestamps
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
@@ -36,10 +42,25 @@ CREATE TABLE players (
     total_bb NUMERIC,
     mbb_per_hand NUMERIC,
     mbb_per_hour NUMERIC,
+    hands_per_hour NUMERIC,
+    
+    -- Table-based metrics
+    active_hours NUMERIC,
+    tables INTEGER,
+    table_sessions INTEGER,
+    table_data JSONB,
+    
+    -- Timestamp information
+    first_hand_at TIMESTAMP,
+    last_hand_at TIMESTAMP,
+    
+    -- Timestamps
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW()
 );
 
 -- Indexes for efficient filtering
 CREATE INDEX idx_hand_histories_winner ON hand_histories(winner);
+CREATE INDEX idx_hand_histories_played_at ON hand_histories(played_at);
+CREATE INDEX idx_hand_histories_table_name ON hand_histories(table_name);
 CREATE INDEX idx_players_mbb_per_hour ON players(mbb_per_hour);
