@@ -1,6 +1,6 @@
-# PokerGPT Data Processing Pipeline
+# Poker-RL Data Processing Pipeline
 
-A comprehensive toolkit for processing poker hand histories and preparing high-quality training data for PokerGPT, focusing on accurate player win rate calculation using a table-based approach.
+A comprehensive toolkit for processing poker hand histories and preparing high-quality training data for Poker-RL, focusing on accurate player win rate calculation using a table-based approach.
 
 ## Overview
 
@@ -9,9 +9,9 @@ This project provides a data processing pipeline for poker hand histories that:
 1. Parses PokerStars hand history files with robust error handling
 2. Stores structured data in a PostgreSQL database
 3. Calculates accurate player win rates using a table-based approach
-4. Exports filtered datasets for PokerGPT training based on player skill level
+4. Exports filtered datasets for Poker-RL training based on player skill level
 
-The pipeline is designed to support the methodology described in the PokerGPT paper, which requires identifying high-skill players for training data selection.
+The pipeline is designed to support the methodology described in the Poker-RL paper, which requires identifying high-skill players for training data selection.
 
 ## Installation
 
@@ -52,7 +52,7 @@ Stores individual poker hands with the following key fields:
 
 - `hand_id`: Unique identifier for each hand
 - `raw_text`: Original hand history text
-- `pokergpt_format`: Structured JSON representation
+- `Poker-RL_format`: Structured JSON representation
 - `player_ids`: Array of player identifiers in the hand
 - `table_name`: Name of the poker table
 - `played_at`: Timestamp when the hand was played
@@ -80,7 +80,7 @@ erDiagram
     hand_histories {
         string hand_id PK
         text raw_text
-        jsonb pokergpt_format
+        jsonb Poker-RL_format
         string game_type
         numeric[2] blinds
         numeric big_blind
@@ -98,7 +98,7 @@ erDiagram
         timestamp created_at
         timestamp updated_at
     }
-    
+
     players {
         string player_id PK
         integer total_hands
@@ -115,9 +115,9 @@ erDiagram
         timestamp created_at
         timestamp updated_at
     }
-    
+
     hand_histories ||--o{ players : "tracked_in"
-    
+
     players ||--o{ hand_histories : "participates_in"
 ```
 
@@ -145,7 +145,7 @@ Calculates accurate player win rates using a table-based approach that:
 
 ### 3. Dataset Exporter (`export_to_hf.py`)
 
-Exports filtered datasets for PokerGPT training based on:
+Exports filtered datasets for Poker-RL training based on:
 
 - Player skill level (minimum win rate)
 - Minimum number of hands played
@@ -175,11 +175,28 @@ parse-hands --input-dir /path/to/hand/histories --db-connection "postgresql://us
 calculate-win-rates --db-connection "postgresql://user:pass@localhost:5432/poker_db" --min-hands 50
 ```
 
-### 4. Export Dataset for PokerGPT
+### 4. Export Dataset for Poker-RL
 
 ```bash
-export-dataset --db-connection "postgresql://user:pass@localhost:5432/poker_db" --min-win-rate 500
+# Export dataset locally
+export-dataset --db-connection "postgresql://user:pass@localhost:5432/poker_db" --min-win-rate 500 --dataset-name "winning_players"
+
+# Export and push to Hugging Face Hub (requires HUGGINGFACE_TOKEN in .env file)
+export-dataset --db-connection "postgresql://user:pass@localhost:5432/poker_db" --min-win-rate 500 --push-to-hub --hub-name "username/poker-dataset" --private
 ```
+
+#### Hugging Face Authentication
+
+When pushing datasets to the Hugging Face Hub, you'll need to authenticate:
+
+1. Create a token at [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+2. Copy the `.env.sample` file to `.env` and add your token:
+   ```bash
+   cp .env.sample .env
+   # Edit .env and add your HUGGINGFACE_TOKEN
+   ```
+
+The exporter will automatically create a comprehensive dataset card following Hugging Face guidelines, documenting the dataset's content, creation process, and intended use.
 
 ## Table-Based Win Rate Calculation
 
@@ -217,4 +234,4 @@ This approach yields far more accurate win rates than simplistic calculations, p
 
 ## References
 
-This project supports the methodology described in the PokerGPT paper, which uses player win rates to identify high-quality training data for poker AI development.
+This project supports the methodology described in the Poker-RL paper, which uses player win rates to identify high-quality training data for poker AI development.

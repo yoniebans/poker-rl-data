@@ -1,7 +1,7 @@
 [project]
-name = "pokergpt-data"
+name = "poker-rl-data"
 version = "0.1.0"
-description = "Data processing tools for PokerGPT"
+description = "Data processing tools for Poker-RL"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
@@ -20,6 +20,7 @@ dependencies = [
     # Utilities
     "tqdm>=4.65.0",
     "tabulate>=0.9.0",
+    "python-dotenv>=1.0.0",
 ]
 
 [project.scripts]
@@ -42,7 +43,7 @@ viz = [
     "seaborn>=0.12.2",
 ]
 all = [
-    "pokergpt-data[dev,viz]"
+    "poker-rl-data[dev,viz]"
 ]
 
 [build-system]

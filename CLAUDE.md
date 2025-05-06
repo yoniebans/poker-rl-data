@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository contains a data processing pipeline for poker hand histories, specifically designed to support PokerGPT training. The pipeline:
+This repository contains a data processing pipeline for poker hand histories, specifically designed to support poker-rl training. The pipeline:
 
 1. Parses PokerStars hand history files
 2. Stores data in a PostgreSQL database
@@ -43,7 +43,7 @@ parse-hands --input-dir /path/to/hand/histories --db-connection "postgresql://us
 # 2. Calculate player win rates
 calculate-win-rates --db-connection "postgresql://user:pass@localhost:5432/poker_db" --min-hands 50
 
-# 3. Export dataset for PokerGPT
+# 3. Export dataset for poker-rl
 export-dataset --db-connection "postgresql://user:pass@localhost:5432/poker_db" --min-win-rate 500 --dataset-name "poker_winning_players"
 ```
 
