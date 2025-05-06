@@ -73,6 +73,56 @@ Stores player statistics with an emphasis on table-based metrics:
 - `table_sessions`: Number of distinct table sessions (including rejoins)
 - `table_data`: JSONB array of recent table session details
 
+### Data Model Diagram
+
+```mermaid
+erDiagram
+    hand_histories {
+        string hand_id PK
+        text raw_text
+        jsonb pokergpt_format
+        string game_type
+        numeric[2] blinds
+        numeric big_blind
+        integer player_count
+        string winner
+        numeric bb_won
+        boolean has_preflop
+        boolean has_flop
+        boolean has_turn
+        boolean has_river
+        boolean has_showdown
+        string[] player_ids
+        string table_name
+        timestamp played_at
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    players {
+        string player_id PK
+        integer total_hands
+        numeric total_bb
+        numeric mbb_per_hand
+        numeric mbb_per_hour
+        numeric hands_per_hour
+        numeric active_hours
+        integer tables
+        integer table_sessions
+        jsonb table_data
+        timestamp first_hand_at
+        timestamp last_hand_at
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    hand_histories ||--o{ players : "tracked_in"
+    
+    players ||--o{ hand_histories : "participates_in"
+```
+
+The diagram shows the relationship between the two main tables. Each player can participate in many hand histories, and each hand history tracks multiple players through the `player_ids` array. The relationship between tables is managed programmatically rather than through explicit foreign key constraints, providing flexibility for the table-based win rate calculation approach.
+
 ## Core Components
 
 ### 1. Hand Parser (`parse_poker_hands.py`)
