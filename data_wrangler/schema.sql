@@ -27,6 +27,17 @@ CREATE TABLE hand_histories (
     -- Table information
     table_name TEXT,
     
+    -- Positions
+    dealer_position INTEGER,
+    dealer_player TEXT,
+    small_blind_player TEXT,
+    big_blind_player TEXT,
+    
+    -- Summary information
+    pot_total NUMERIC,
+    rake NUMERIC,
+    board TEXT[],
+    
     -- Timestamp information
     played_at TIMESTAMP,
     

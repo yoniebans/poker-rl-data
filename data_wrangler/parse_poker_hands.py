@@ -1,6 +1,6 @@
 import json
 import psycopg2
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Tuple, Any, Optional
 import re
 import argparse
 from datetime import datetime
@@ -74,11 +74,27 @@ class PokerHandProcessor:
                 'stack': float(stack)
             }
         
-        # Debug log for player extraction
-        # if self.debug_mode:
-        #     self.debug_log.append(f"Hand {hand_id}: Found {len(players)} players in initial extraction")
-        #     for player, data in players.items():
-        #         self.debug_log.append(f"  - Player: {player}, Seat: {data['seat']}, Stack: {data['stack']}")
+        # Extract dealer position
+        dealer_position = self._extract_dealer_position(raw_hand)
+        
+        # Find the dealer player based on the dealer position
+        dealer_player = None
+        if dealer_position:
+            # Search through players to find who is sitting in the dealer position
+            for player_name, player_data in players.items():
+                if player_data['seat'] == dealer_position:
+                    dealer_player = player_name
+                    break
+        
+        # Extract small and big blind players
+        small_blind_player, big_blind_player = self._extract_blind_players(raw_hand)
+        
+        # Extract all actions to find missing players
+        all_actions, missing_action_players = self._extract_all_actions(raw_hand, players, hand_id)
+        
+        # Save the raw text for hands with missing players
+        if missing_action_players and self.debug_mode:
+            self._save_problematic_hand(hand_id, raw_hand, players, missing_action_players)
         
         # Extract winner and amount won - improved to handle more username formats
         winner = None
@@ -100,20 +116,22 @@ class PokerHandProcessor:
         has_river = "*** RIVER ***" in raw_hand
         has_showdown = "*** SHOW DOWN ***" in raw_hand
         
-        # # Extract all actions to find missing players
-        # all_actions, missing_action_players = self._extract_all_actions(raw_hand, players, hand_id)
-        
-        # # Save the raw text for hands with missing players
-        # if missing_action_players and self.debug_mode:
-        #     self._save_problematic_hand(hand_id, raw_hand, players, missing_action_players)
-        
-        # Extract stages
+        # Extract stages including showdown
         stages = self._extract_stages(raw_hand, players, hand_id)
+        
+        # Extract summary information
+        summary_info = self._extract_summary(raw_hand)
         
         # Convert to PokerGPT format
         pokergpt_format = self._convert_to_pokergpt_format(
-            raw_hand, players, blinds, winner, bb_won, stages
+            raw_hand, players, blinds, winner, bb_won, stages, summary_info,
+            small_blind_player, big_blind_player, dealer_position, dealer_player
         )
+        
+        # Get pot total, rake, and board from summary info
+        pot_total = summary_info.get('pot_total') if summary_info else None
+        rake = summary_info.get('rake') if summary_info else None
+        board = summary_info.get('board') if summary_info else None
         
         return {
             'hand_id': hand_id,
@@ -132,8 +150,32 @@ class PokerHandProcessor:
             'has_showdown': has_showdown,
             'player_ids': list(players.keys()),
             'played_at': played_at,
-            'table_name': table_name
+            'table_name': table_name,
+            'dealer_position': dealer_position,
+            'dealer_player': dealer_player,
+            'small_blind_player': small_blind_player,
+            'big_blind_player': big_blind_player,
+            'pot_total': pot_total,
+            'rake': rake,
+            'board': board
         }
+    
+    def _extract_blind_players(self, raw_hand: str) -> Tuple[Optional[str], Optional[str]]:
+        """Extract the players who posted small and big blinds."""
+        small_blind_player = None
+        big_blind_player = None
+        
+        # Look for patterns like "PlayerName: posts small blind $0.50"
+        sb_match = re.search(r'(.*?): posts small blind', raw_hand)
+        if sb_match:
+            small_blind_player = sb_match.group(1).strip()
+        
+        # Look for patterns like "PlayerName: posts big blind $1"
+        bb_match = re.search(r'(.*?): posts big blind', raw_hand)
+        if bb_match:
+            big_blind_player = bb_match.group(1).strip()
+            
+        return small_blind_player, big_blind_player
     
     def _save_problematic_hand(self, hand_id, raw_hand, players, missing_players):
         """Save problematic hands to separate files for analysis"""
@@ -214,9 +256,9 @@ class PokerHandProcessor:
         
         return all_actions, missing_players
     
-    def _convert_to_pokergpt_format(self, raw_hand, players, blinds, winner, bb_won, stages=None):
-        """Convert parsed hand to PokerGPT format"""
-        # This needs to match the specific format used by PokerGPT
+    def _convert_to_pokergpt_format(self, raw_hand, players, blinds, winner, bb_won, stages=None, summary_info=None, 
+                                  small_blind_player=None, big_blind_player=None, dealer_position=None, dealer_player=None):
+        """Convert parsed hand to PokerGPT format with enhanced information."""
         # Extract table name
         table_match = re.search(r"Table '([^']+)'", raw_hand)
         table_name = table_match.group(1) if table_match else None
@@ -224,12 +266,22 @@ class PokerHandProcessor:
         if stages is None:
             stages = self._extract_stages(raw_hand, players)
         
-        return {
+        if summary_info is None:
+            summary_info = self._extract_summary(raw_hand)
+        
+        if dealer_position is None:
+            dealer_position = self._extract_dealer_position(raw_hand)
+        
+        # Create the basic pokergpt format
+        pokergpt_format = {
             "basic_info": {
                 "blinds": f"{blinds[0]}/{blinds[1]}",
                 "players": [{"name": name, "stack": data["stack"]} for name, data in players.items()],
-                "dealer_position": self._extract_dealer_position(raw_hand),
-                "table_name": table_name
+                "dealer_position": dealer_position,
+                "dealer_player": dealer_player,
+                "table_name": table_name,
+                "small_blind_player": small_blind_player,
+                "big_blind_player": big_blind_player
             },
             "stages": stages,
             "outcomes": {
@@ -237,6 +289,12 @@ class PokerHandProcessor:
                 "bb_won": bb_won
             }
         }
+        
+        # Add summary information
+        if summary_info:
+            pokergpt_format["summary"] = summary_info
+        
+        return pokergpt_format
     
     def _extract_dealer_position(self, raw_hand):
         # Extract dealer position
@@ -246,7 +304,7 @@ class PokerHandProcessor:
         return None
     
     def _extract_stages(self, raw_hand, players, hand_id=None):
-        # Extract information for each stage (preflop, flop, turn, river)
+        # Extract information for each stage (preflop, flop, turn, river, showdown)
         stages = {}
         
         # Define stage markers in the hand history
@@ -254,31 +312,147 @@ class PokerHandProcessor:
             ("preflop", "*** HOLE CARDS ***", "*** FLOP ***"),
             ("flop", "*** FLOP ***", "*** TURN ***"),
             ("turn", "*** TURN ***", "*** RIVER ***"),
-            ("river", "*** RIVER ***", "*** SHOW DOWN ***")
+            ("river", "*** RIVER ***", "*** SHOW DOWN ***"),
+            ("showdown", "*** SHOW DOWN ***", "*** SUMMARY ***")  # Added showdown stage
         ]
         
-        end_stages = "*** SUMMARY ***"
+        # Fallback end marker for all stages
+        fallback_end_marker = "*** SUMMARY ***"
         
         for stage_name, start_marker, end_marker in stage_markers:
             if start_marker in raw_hand:
                 start_idx = raw_hand.index(start_marker) + len(start_marker)
-                end_idx = raw_hand.index(end_marker) if end_marker in raw_hand else len(end_stages)
+                
+                # Find the end of this section
+                if end_marker in raw_hand[start_idx:]:
+                    end_idx = raw_hand.index(end_marker, start_idx)
+                elif fallback_end_marker in raw_hand[start_idx:]:
+                    # If standard end marker not found but SUMMARY exists, use that
+                    end_idx = raw_hand.index(fallback_end_marker, start_idx)
+                else:
+                    # If no markers found, go to the end of the hand
+                    end_idx = len(raw_hand)
+                    
                 stage_text = raw_hand[start_idx:end_idx].strip()
                 
-                # Parse actions for this stage
-                actions = self._parse_actions(stage_text, players, hand_id, stage_name)
-                
-                # For flop/turn/river, also extract community cards
-                cards = None
-                if stage_name != "preflop":
-                    cards = self._extract_community_cards(stage_text, stage_name)
-                
-                stages[stage_name] = {
-                    "actions": actions,
-                    "community_cards": cards
-                }
+                # Process based on stage type
+                if stage_name == "showdown":
+                    # For showdown, extract player cards and hand descriptions
+                    stages[stage_name] = self._parse_showdown(stage_text)
+                else:
+                    # For other stages, use existing action parsing
+                    actions = self._parse_actions(stage_text, players, hand_id, stage_name)
+                    
+                    # For flop/turn/river, also extract community cards
+                    cards = None
+                    if stage_name != "preflop":
+                        cards = self._extract_community_cards(stage_text, stage_name)
+                    
+                    stages[stage_name] = {
+                        "actions": actions,
+                        "community_cards": cards
+                    }
         
         return stages
+    
+    def _parse_showdown(self, showdown_text: str) -> Dict[str, Any]:
+        """Parse the showdown section to extract player cards and hand descriptions."""
+        showdown_data = {
+            "players": []
+        }
+        
+        # Process each line in the showdown text
+        for line in showdown_text.split('\n'):
+            line = line.strip()
+            if not line or ': ' not in line:
+                continue
+            
+            # Handle lines like "PlayerName: shows [Ks Qd] (two pair, Queens and Tens)"
+            show_match = re.search(r'(.*?): shows \[(.*?)\](?: \((.*?)\))?', line)
+            if show_match:
+                player_name = show_match.group(1).strip()
+                cards_str = show_match.group(2).strip()
+                hand_desc = show_match.group(3).strip() if show_match.group(3) else None
+                
+                # Split cards into a list
+                cards = [card.strip() for card in cards_str.split() if card.strip()]
+                
+                # Add to showdown data
+                showdown_data["players"].append({
+                    "player": player_name,
+                    "cards": cards,
+                    "hand_description": hand_desc
+                })
+                
+            # Handle lines like "PlayerName collected $48.54 from pot"
+            collect_match = re.search(r'(.*?) collected \$?([\d.]+)', line)
+            if collect_match:
+                player_name = collect_match.group(1).strip()
+                amount = float(collect_match.group(2))
+                
+                # Add collection info to showdown data
+                if "collections" not in showdown_data:
+                    showdown_data["collections"] = []
+                    
+                showdown_data["collections"].append({
+                    "player": player_name,
+                    "amount": amount
+                })
+        
+        return showdown_data
+    
+    def _extract_summary(self, raw_hand: str) -> Dict[str, Any]:
+        """Extract information from the summary section."""
+        summary_data = {}
+        
+        # Check if summary section exists
+        if "*** SUMMARY ***" not in raw_hand:
+            return summary_data
+            
+        # Extract summary section
+        summary_start = raw_hand.index("*** SUMMARY ***") + len("*** SUMMARY ***")
+        summary_text = raw_hand[summary_start:].strip()
+        
+        # Extract pot and rake
+        pot_match = re.search(r'Total pot \$?([\d.]+) \| Rake \$?([\d.]+)', summary_text)
+        if pot_match:
+            summary_data["pot_total"] = float(pot_match.group(1))
+            summary_data["rake"] = float(pot_match.group(2))
+        
+        # Extract board
+        board_match = re.search(r'Board \[(.*?)\]', summary_text)
+        if board_match:
+            board_str = board_match.group(1).strip()
+            summary_data["board"] = [card.strip() for card in board_str.split() if card.strip()]
+        
+        # Extract player results
+        player_results = []
+        
+        # Look for lines with seat information
+        seat_pattern = r'Seat (\d+): (.*?) \((.*?)\) (.*)'
+        for seat_match in re.finditer(seat_pattern, summary_text):
+            seat_num = int(seat_match.group(1))
+            player_name = seat_match.group(2).strip()
+            position = seat_match.group(3).strip()
+            result = seat_match.group(4).strip()
+            
+            player_result = {
+                "seat": seat_num,
+                "player": player_name,
+                "position": position,
+                "result": result
+            }
+            
+            # Extract hand description if available
+            hand_desc_match = re.search(r'showed \[.*?\] and (?:won|lost)(?: \$?[\d.]+)? with (.*)', result)
+            if hand_desc_match:
+                player_result["hand_description"] = hand_desc_match.group(1).strip()
+                
+            player_results.append(player_result)
+        
+        summary_data["player_results"] = player_results
+        
+        return summary_data
     
     def _parse_actions(self, stage_text, players=None, hand_id=None, stage_name=None):
         """
@@ -346,8 +520,30 @@ class PokerHandProcessor:
                         pass
             elif action_text == 'folds':
                 action_data["action"] = "folds"
+            elif action_text.startswith('folds ['):
+                # Handle "folds [cards]" actions
+                action_data["action"] = "folds_show"
+                # Extract cards shown
+                cards_match = re.search(r'folds \[(.*?)\]', action_text)
+                if cards_match:
+                    cards_str = cards_match.group(1).strip()
+                    action_data["cards"] = [card.strip() for card in cards_str.split() if card.strip()]
             elif action_text == 'checks':
                 action_data["action"] = "checks"
+            elif action_text == "doesn't show hand":
+                action_data["action"] = "doesnt_show"
+            elif action_text.startswith('shows '):
+                action_data["action"] = "shows"
+                # Try to extract cards and hand description
+                show_match = re.search(r'shows \[(.*?)\](?: \((.*?)\))?', action_text)
+                if show_match:
+                    cards_str = show_match.group(1).strip()
+                    hand_desc = show_match.group(2).strip() if show_match.group(2) else None
+                    
+                    # Split cards into a list
+                    action_data["cards"] = [card.strip() for card in cards_str.split() if card.strip()]
+                    if hand_desc:
+                        action_data["hand_description"] = hand_desc
             else:
                 # Unknown action, log and skip
                 if self.debug_mode:
@@ -383,11 +579,15 @@ class PokerHandProcessor:
                         INSERT INTO hand_histories (
                             hand_id, raw_text, pokergpt_format, game_type, blinds, big_blind,
                             player_count, winner, bb_won, has_preflop, has_flop, has_turn,
-                            has_river, has_showdown, player_ids, played_at, table_name
+                            has_river, has_showdown, player_ids, played_at, table_name,
+                            dealer_position, dealer_player, small_blind_player, big_blind_player,
+                            pot_total, rake, board
                         ) VALUES (
                             %(hand_id)s, %(raw_text)s, %(pokergpt_format)s, %(game_type)s, %(blinds)s, %(big_blind)s,
                             %(player_count)s, %(winner)s, %(bb_won)s, %(has_preflop)s, %(has_flop)s, %(has_turn)s,
-                            %(has_river)s, %(has_showdown)s, %(player_ids)s, %(played_at)s, %(table_name)s
+                            %(has_river)s, %(has_showdown)s, %(player_ids)s, %(played_at)s, %(table_name)s,
+                            %(dealer_position)s, %(dealer_player)s, %(small_blind_player)s, %(big_blind_player)s,
+                            %(pot_total)s, %(rake)s, %(board)s
                         )
                     """, {
                         **parsed_hand,
