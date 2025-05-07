@@ -70,8 +70,32 @@ CREATE TABLE players (
     updated_at TIMESTAMP DEFAULT NOW()
 );
 
+-- Dataset records table for HuggingFace export review
+CREATE TABLE dataset_records (
+    id SERIAL PRIMARY KEY,
+    hand_id TEXT REFERENCES hand_histories(hand_id),
+    
+    -- Basic hand info
+    winner TEXT,
+    bb_won NUMERIC,
+    game_type TEXT,
+    big_blind NUMERIC,
+    
+    -- Card evaluations
+    evaluator_rank TEXT,  -- Result from our poker_hand_evaluator
+    pokerstars_description TEXT,  -- Description from PokerStars in summary/showdown
+    
+    -- PokerGPT dataset fields
+    pokergpt_prompt TEXT,  -- The formatted prompt
+    winning_action TEXT,   -- The winning action
+    
+    -- Timestamps
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
 -- Indexes for efficient filtering
 CREATE INDEX idx_hand_histories_winner ON hand_histories(winner);
 CREATE INDEX idx_hand_histories_played_at ON hand_histories(played_at);
 CREATE INDEX idx_hand_histories_table_name ON hand_histories(table_name);
 CREATE INDEX idx_players_mbb_per_hour ON players(mbb_per_hour);
+CREATE INDEX idx_dataset_records_hand_id ON dataset_records(hand_id);

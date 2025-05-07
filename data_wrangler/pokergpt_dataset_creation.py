@@ -108,6 +108,87 @@ def test_card_extraction(db_connection):
     cursor.close()
     conn.close()
 
+def log_dataset_records(dataset, db_connection):
+    """
+    Log dataset records to the dataset_records table for review.
+    
+    Args:
+        dataset: The HuggingFace dataset containing the records
+        db_connection: Database connection string
+    """
+    import psycopg2
+    
+    conn = psycopg2.connect(db_connection)
+    cursor = conn.cursor()
+    
+    print(f"Logging {len(dataset)} dataset records to database...")
+    
+    for record in dataset:
+        # Extract hand data
+        hand_id = record.get('hand_id')
+        winner = record.get('winner')
+        bb_won = record.get('bb_won')
+        game_type = record.get('game_type')
+        big_blind = record.get('big_blind')
+        
+        # Get the prompt and action
+        pokergpt_prompt = record.get('pokergpt_prompt', '')
+        winning_action = record.get('action', '')
+        
+        # Extract hand evaluation information
+        pokergpt_format = record.get('pokergpt_format', {})
+        if isinstance(pokergpt_format, str):
+            import json
+            pokergpt_format = json.loads(pokergpt_format)
+        
+        # Get PokerStars description from showdown or summary
+        pokerstars_description = ""
+        
+        # Try to get from showdown first
+        if 'showdown' in pokergpt_format.get('stages', {}):
+            showdown = pokergpt_format['stages']['showdown']
+            for player in showdown.get('players', []):
+                if player.get('player') == winner and 'hand_description' in player:
+                    pokerstars_description = player['hand_description']
+                    break
+        
+        # If not found in showdown, try summary
+        if not pokerstars_description and 'summary' in pokergpt_format:
+            for result in pokergpt_format['summary'].get('player_results', []):
+                if result.get('player') == winner and 'hand_description' in result:
+                    pokerstars_description = result['hand_description']
+                    break
+        
+        # Extract evaluator rank from the prompt
+        evaluator_rank = ""
+        if pokergpt_prompt:
+            # Try to parse the rank from the prompt
+            import re
+            rank_match = re.search(r'My rank: \["([^"]+)"\]', pokergpt_prompt)
+            if rank_match:
+                evaluator_rank = rank_match.group(1)
+        
+        # Insert the record
+        cursor.execute("""
+            INSERT INTO dataset_records (
+                hand_id, winner, bb_won, game_type, big_blind,
+                evaluator_rank, pokerstars_description, 
+                pokergpt_prompt, winning_action
+            ) VALUES (
+                %s, %s, %s, %s, %s, %s, %s, %s, %s
+            )
+        """, (
+            hand_id, winner, bb_won, game_type, big_blind,
+            evaluator_rank, pokerstars_description,
+            pokergpt_prompt, winning_action
+        ))
+    
+    conn.commit()
+    cursor.close()
+    conn.close()
+    
+    print(f"Successfully logged {len(dataset)} records to dataset_records table")
+
 def export_showdown_hands_dataset(db_connection):
     """
     Export a dataset of showdown hands with proper card extraction and hand evaluation.
@@ -148,6 +229,9 @@ def export_showdown_hands_dataset(db_connection):
     )
     
     print(f"Exported {len(dataset)} showdown hands to dataset")
+
+    # Add this new line to log the dataset records
+    log_dataset_records(dataset, db_connection)
     
     # Print a sample if available
     if len(dataset) > 0:

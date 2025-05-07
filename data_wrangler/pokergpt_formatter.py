@@ -259,6 +259,20 @@ class PokerGPTFormatter:
             river_card = stages['river'].get('community_cards')
             if river_card:
                 community_cards[4] = river_card
+        elif stage == 'showdown' and 'showdown' in stages:
+            # For showdown, we want to show all community cards from previous stages
+            if 'flop' in stages:
+                flop_cards = stages['flop'].get('community_cards', [])
+                if isinstance(flop_cards, list) and len(flop_cards) == 3:
+                    community_cards[:3] = flop_cards
+            if 'turn' in stages:
+                turn_card = stages['turn'].get('community_cards')
+                if turn_card:
+                    community_cards[3] = turn_card
+            if 'river' in stages:
+                river_card = stages['river'].get('community_cards')
+                if river_card:
+                    community_cards[4] = river_card
                 
         # Get player's private cards
         private_cards = self._extract_private_cards(hand_data, player_perspective)
@@ -287,8 +301,14 @@ class PokerGPTFormatter:
         discard_status = {p_name: False for p_name in player_names}
         
         # Process actions for each stage up to the current one
-        stage_order = ['preflop', 'flop', 'turn', 'river']
-        stage_idx = stage_order.index(stage)
+        stage_order = ['preflop', 'flop', 'turn', 'river', 'showdown']  # Added showdown here
+        
+        # Get stage index, with fallback for showdown or unknown stages
+        try:
+            stage_idx = stage_order.index(stage)
+        except ValueError:
+            # If stage not in stage_order, just use all stages
+            stage_idx = len(stage_order) - 1
         
         # Track all players mentioned in actions
         all_players_in_actions = set()
