@@ -24,6 +24,9 @@ class PokerHandProcessor:
         if not hand_id_match:
             raise ValueError("Could not find hand ID in the hand history")
         hand_id = hand_id_match.group(1)
+
+        # Check for and log multiple boards
+        has_multiple_boards = self._check_for_multiple_boards(raw_hand, hand_id)
         
         # Extract game type and blinds with improved regex
         game_info_match = re.search(r':\s+([\w\' ]+)\s+\((\$[\d.]+/\$[\d.]+)', raw_hand)
@@ -157,7 +160,8 @@ class PokerHandProcessor:
             'big_blind_player': big_blind_player,
             'pot_total': pot_total,
             'rake': rake,
-            'board': board
+            'board': board,
+            'has_multiple_boards': has_multiple_boards
         }
     
     def _extract_blind_players(self, raw_hand: str) -> Tuple[Optional[str], Optional[str]]:
@@ -596,6 +600,51 @@ class PokerHandProcessor:
                 return match.group(1)  # Return the single card
         return None
     
+    def _check_for_multiple_boards(self, raw_hand: str, hand_id: str) -> bool:
+        """
+        Check if a hand has multiple boards (run it twice or more).
+        These hands have a very different structure and aren't supported 
+        for detailed parsing yet.
+        
+        Returns True if multiple boards are detected.
+        """
+        # Strong indicators specific to multiple boards
+        strong_indicators = [
+            "Hand was run twice",
+            "FIRST FLOP",
+            "SECOND FLOP",
+            "FIRST TURN",
+            "FIRST RIVER",
+            "FIRST SHOW DOWN",
+            "SECOND SHOW DOWN"
+        ]
+        
+        # Check for strong indicators
+        for indicator in strong_indicators:
+            if indicator in raw_hand:
+                # Log this multi-board hand
+                with open("multiple_board_hands.log", "a") as log_file:
+                    log_file.write(f"{hand_id}: multiple board hand detected\n")
+                    
+                if self.debug_mode:
+                    self.debug_log.append(f"Multiple boards detected in hand {hand_id} - skipping parsing")
+                
+                return True
+                
+        # Count board markers as backup check
+        board_markers = re.findall(r'(FIRST|SECOND) Board \[', raw_hand)
+        if len(board_markers) > 0:
+            # Log this multi-board hand
+            with open("multiple_board_hands.log", "a") as log_file:
+                log_file.write(f"{hand_id}: {len(board_markers)} boards detected\n")
+                
+            if self.debug_mode:
+                self.debug_log.append(f"Multiple boards detected in hand {hand_id}: {len(board_markers)} boards")
+            
+            return True
+        
+        return False
+    
     def insert_hand(self, parsed_hand):
         """Insert a parsed hand into the database"""
         try:
@@ -665,6 +714,7 @@ class PokerHandProcessor:
         hands_processed = 0
         hands_failed = 0
         hands_with_missing_players = 0
+        multi_board_hands_skipped = 0
         
         for i, hand_text in enumerate(hand_splits):
             if not hand_text.strip():
@@ -678,7 +728,16 @@ class PokerHandProcessor:
                     else:
                         print(f"Skipping header or incomplete hand in {file_path}")
                 continue
+            
+            # Extract hand ID for logging
+            hand_id_match = re.search(r'Hand #(\d+)', hand_text)
+            hand_id = hand_id_match.group(1) if hand_id_match else "unknown"
                 
+            # First check if this is a multi-board hand we should skip
+            if self._check_for_multiple_boards(hand_text, hand_id):
+                multi_board_hands_skipped += 1
+                continue
+                    
             try:
                 parsed_hand = self.parse_pokerstars_hand(hand_text)
                 
@@ -701,12 +760,14 @@ class PokerHandProcessor:
             except Exception as e:
                 hands_failed += 1
                 if self.debug_mode:
-                    self.debug_log.append(f"Error processing hand: {e}")
+                    self.debug_log.append(f"Error processing hand {hand_id}: {e}")
                 else:
-                    print(f"Error processing hand: {e}")
+                    print(f"Error processing hand {hand_id}: {e}")
                 continue
         
         summary = f"File {file_path} complete: {hands_processed} hands processed, {hands_failed} failed"
+        if multi_board_hands_skipped > 0:
+            summary += f", {multi_board_hands_skipped} multi-board hands skipped"
         if self.debug_mode:
             summary += f", {hands_with_missing_players} hands with missing players"
         
