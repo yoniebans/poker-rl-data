@@ -100,12 +100,12 @@ class PokerHandProcessor:
         has_river = "*** RIVER ***" in raw_hand
         has_showdown = "*** SHOW DOWN ***" in raw_hand
         
-        # Extract all actions to find missing players
-        all_actions, missing_action_players = self._extract_all_actions(raw_hand, players, hand_id)
+        # # Extract all actions to find missing players
+        # all_actions, missing_action_players = self._extract_all_actions(raw_hand, players, hand_id)
         
-        # Save the raw text for hands with missing players
-        if missing_action_players and self.debug_mode:
-            self._save_problematic_hand(hand_id, raw_hand, players, missing_action_players)
+        # # Save the raw text for hands with missing players
+        # if missing_action_players and self.debug_mode:
+        #     self._save_problematic_hand(hand_id, raw_hand, players, missing_action_players)
         
         # Extract stages
         stages = self._extract_stages(raw_hand, players, hand_id)
