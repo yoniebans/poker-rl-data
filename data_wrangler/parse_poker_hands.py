@@ -52,13 +52,22 @@ class PokerHandProcessor:
                 # Parse the timestamp from the hand history
                 timestamp_str = timestamp_match.group(1)
                 played_at = datetime.strptime(timestamp_str, '%Y/%m/%d %H:%M:%S')
-            except (ValueError, TypeError) as e:
-                if self.debug_mode:
-                    self.debug_log.append(f"Warning: Could not parse timestamp from hand {hand_id}: {e}")
+            except (ValueError, TypeError) as e:            
+                raise ValueError(f"Could not parse timestamp from hand {hand_id}: {e}")                
         
-        # Extract players and their stacks - FIXED to handle names with spaces 
+        # Extract players and their stacks - only search up to HOLE CARDS section
         players = {}
-        for player_match in re.finditer(r'Seat (\d+): (.*?) \(\$?([\d.]+)', raw_hand):
+        # First check if the HOLE CARDS section exists and limit our search area
+        hole_cards_index = raw_hand.find("*** HOLE CARDS ***")
+        if hole_cards_index != -1:
+            # Only search in the text before the HOLE CARDS section
+            player_section = raw_hand[:hole_cards_index]
+        else:            
+            # Abort processing this hand
+            raise ValueError(f"Invalid hand data: Missing HOLE CARDS section in hand #{hand_id}")
+
+        # Now extract players only from the truncated section
+        for player_match in re.finditer(r'Seat (\d+): (.*?) \(\$?([\d.]+)', player_section):
             seat, player_name, stack = player_match.groups()
             players[player_name] = {
                 'seat': int(seat),
@@ -66,10 +75,10 @@ class PokerHandProcessor:
             }
         
         # Debug log for player extraction
-        if self.debug_mode:
-            self.debug_log.append(f"Hand {hand_id}: Found {len(players)} players in initial extraction")
-            for player, data in players.items():
-                self.debug_log.append(f"  - Player: {player}, Seat: {data['seat']}, Stack: {data['stack']}")
+        # if self.debug_mode:
+        #     self.debug_log.append(f"Hand {hand_id}: Found {len(players)} players in initial extraction")
+        #     for player, data in players.items():
+        #         self.debug_log.append(f"  - Player: {player}, Seat: {data['seat']}, Stack: {data['stack']}")
         
         # Extract winner and amount won - improved to handle more username formats
         winner = None
@@ -248,10 +257,12 @@ class PokerHandProcessor:
             ("river", "*** RIVER ***", "*** SHOW DOWN ***")
         ]
         
+        end_stages = "*** SUMMARY ***"
+        
         for stage_name, start_marker, end_marker in stage_markers:
             if start_marker in raw_hand:
                 start_idx = raw_hand.index(start_marker) + len(start_marker)
-                end_idx = raw_hand.index(end_marker) if end_marker in raw_hand else len(raw_hand)
+                end_idx = raw_hand.index(end_marker) if end_marker in raw_hand else len(end_stages)
                 stage_text = raw_hand[start_idx:end_idx].strip()
                 
                 # Parse actions for this stage
