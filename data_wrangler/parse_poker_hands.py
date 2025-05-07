@@ -457,18 +457,33 @@ class PokerHandProcessor:
     def _parse_actions(self, stage_text, players=None, hand_id=None, stage_name=None):
         """
         Parse player actions from stage text with correct handling of full player names
-        
-        The key fix here is to properly split each line at the first colon to get the full player name,
-        rather than using regex patterns that might truncate names with spaces.
+        and special scenarios like all-ins and uncalled bets.
         """
         actions = []
         
         # Process each line in the stage text
         for line in stage_text.split('\n'):
             line = line.strip()
-            if not line or ': ' not in line:
+            if not line:
+                continue
+                
+            # Handle uncalled bet returns - special case that doesn't follow the player: action format
+            uncalled_match = re.search(r'Uncalled bet \(\$?([\d.]+)\) returned to (.*)', line)
+            if uncalled_match:
+                amount = float(uncalled_match.group(1))
+                player_name = uncalled_match.group(2).strip()
+                
+                actions.append({
+                    "action": "uncalled_bet_returned",
+                    "player": player_name,
+                    "amount": amount
+                })
                 continue
             
+            # Standard actions with player: action format
+            if ': ' not in line:
+                continue
+                
             # Split at the first colon to get the full player name
             parts = line.split(': ', 1)
             if len(parts) != 2:
@@ -490,6 +505,12 @@ class PokerHandProcessor:
             
             # Parse the action
             action_data = {"player": player_name}
+            
+            # Check for all-in flag
+            is_all_in = " and is all-in" in action_text
+            if is_all_in:
+                action_text = action_text.replace(" and is all-in", "")
+                action_data["is_all_in"] = True
             
             if action_text.startswith('raises '):
                 action_data["action"] = "raises"
@@ -555,18 +576,24 @@ class PokerHandProcessor:
         return actions
     
     def _extract_community_cards(self, stage_text, stage_name):
-        # Extract community cards based on the stage
-        card_pattern = r'\[(.*?)\]'
+        """
+        Extract community cards based on the stage.
+        For flop, we extract 3 cards from the first bracket.
+        For turn and river, we extract the single card from the second bracket.
+        """
         if stage_name == "flop":
-            # Flop has 3 cards
-            match = re.search(card_pattern, stage_text)
+            # Flop has 3 cards in first bracket
+            flop_pattern = r'\[(.*?)\]'
+            match = re.search(flop_pattern, stage_text)
             if match:
                 return match.group(1).split()
         elif stage_name == "turn" or stage_name == "river":
-            # Turn and river add 1 card
-            match = re.search(card_pattern, stage_text)
+            # Turn and river add 1 card in second bracket
+            # Pattern looks for two bracketed groups and captures the second one
+            turn_river_pattern = r'\[.*?\] \[(.*?)\]'
+            match = re.search(turn_river_pattern, stage_text)
             if match:
-                return match.group(1).split()[-1]
+                return match.group(1)  # Return the single card
         return None
     
     def insert_hand(self, parsed_hand):
