@@ -189,3 +189,6 @@ preflop_decisions/
 *_README.md
 diagnostic_logs/
 pokergpt_showdown_hands/
+
+# OS files
+.DS_Store

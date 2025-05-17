@@ -1,0 +1,2030 @@
+﻿PokerStars Hand #254797471272:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:18:35 WET [2025/02/10 5:18:35 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 1: andru_rock ($100 in chips) 
+Seat 4: Pippa83 ($119.20 in chips) 
+Seat 5: Sergey.V90 ($96 in chips) 
+Seat 6: Burlica2013 ($100.47 in chips) 
+Sergey.V90: posts small blind $0.50
+Burlica2013: posts big blind $1
+*** HOLE CARDS ***
+andru_rock: folds 
+Pippa83: raises $1.50 to $2.50
+Sergey.V90: folds 
+Burlica2013: folds 
+Uncalled bet ($1.50) returned to Pippa83
+Pippa83 collected $2.50 from pot
+Pippa83: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 4: Pippa83 (button) collected ($2.50)
+Seat 5: Sergey.V90 (small blind) folded before Flop
+Seat 6: Burlica2013 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797473178:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:18:53 WET [2025/02/10 5:18:53 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 1: andru_rock ($100 in chips) 
+Seat 4: Pippa83 ($120.70 in chips) 
+Seat 5: Sergey.V90 ($95.50 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Burlica2013: posts small blind $0.50
+andru_rock: posts big blind $1
+*** HOLE CARDS ***
+Pippa83: folds 
+Sergey.V90: folds 
+Burlica2013: raises $2 to $3
+andru_rock: folds 
+Uncalled bet ($2) returned to Burlica2013
+Burlica2013 collected $2 from pot
+Burlica2013: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: andru_rock (big blind) folded before Flop
+Seat 4: Pippa83 folded before Flop (didn't bet)
+Seat 5: Sergey.V90 (button) folded before Flop (didn't bet)
+Seat 6: Burlica2013 (small blind) collected ($2)
+
+
+
+PokerStars Hand #254797475721:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:19:17 WET [2025/02/10 5:19:17 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 1: andru_rock ($100 in chips) 
+Seat 4: Pippa83 ($120.70 in chips) 
+Seat 5: Sergey.V90 ($95.50 in chips) 
+Seat 6: Burlica2013 ($101 in chips) 
+andru_rock: posts small blind $0.50
+Pippa83: posts big blind $1
+*** HOLE CARDS ***
+Sergey.V90: raises $1.50 to $2.50
+Burlica2013: calls $2.50
+andru_rock: folds 
+Pippa83: folds 
+*** FLOP *** [4h Tc 6h]
+Sergey.V90: bets $2.09
+Burlica2013: calls $2.09
+*** TURN *** [4h Tc 6h] [6d]
+Sergey.V90: bets $5.08
+Pon4uk.ua joins the table at seat #3 
+Burlica2013: folds 
+Uncalled bet ($5.08) returned to Sergey.V90
+Sergey.V90 collected $10.15 from pot
+Sergey.V90: doesn't show hand 
+*** SUMMARY ***
+Total pot $10.68 | Rake $0.53 
+Board [4h Tc 6h 6d]
+Seat 1: andru_rock (small blind) folded before Flop
+Seat 4: Pippa83 (big blind) folded before Flop
+Seat 5: Sergey.V90 collected ($10.15)
+Seat 6: Burlica2013 (button) folded on the Turn
+
+
+
+PokerStars Hand #254797481035:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:20:08 WET [2025/02/10 5:20:08 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 3: Pon4uk.ua ($100 in chips) is sitting out
+Seat 1: andru_rock ($100 in chips) 
+Seat 4: Pippa83 ($119.70 in chips) 
+Seat 5: Sergey.V90 ($101.06 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Pippa83: posts small blind $0.50
+Sergey.V90: posts big blind $1
+*** HOLE CARDS ***
+Burlica2013: folds 
+andru_rock: raises $1.50 to $2.50
+Corsair444 joins the table at seat #2 
+Pippa83: raises $8.50 to $11
+Sergey.V90: folds 
+andru_rock: folds 
+Uncalled bet ($8.50) returned to Pippa83
+Pippa83 collected $6 from pot
+Pippa83: doesn't show hand 
+*** SUMMARY ***
+Total pot $6 | Rake $0 
+Seat 3: Pon4uk.ua
+Seat 1: andru_rock (button) folded before Flop
+Seat 4: Pippa83 (small blind) collected ($6)
+Seat 5: Sergey.V90 (big blind) folded before Flop
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797483388:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:20:30 WET [2025/02/10 5:20:30 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 3: Pon4uk.ua ($100 in chips) is sitting out
+Seat 1: andru_rock ($100 in chips) 
+Seat 2: Corsair444 ($100 in chips) 
+Seat 4: Pippa83 ($123.20 in chips) 
+Seat 5: Sergey.V90 ($100.06 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Sergey.V90: posts small blind $0.50
+Burlica2013: posts big blind $1
+Corsair444: posts big blind $1
+Pon4uk.ua: sits out 
+*** HOLE CARDS ***
+andru_rock: folds 
+Corsair444: checks 
+Pippa83: raises $2.50 to $3.50
+Sergey.V90: folds 
+Burlica2013: folds 
+Corsair444: folds 
+Uncalled bet ($2.50) returned to Pippa83
+Pippa83 collected $3.50 from pot
+Pippa83: doesn't show hand 
+*** SUMMARY ***
+Total pot $3.50 | Rake $0 
+Seat 3: Pon4uk.ua
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 4: Pippa83 (button) collected ($3.50)
+Seat 5: Sergey.V90 (small blind) folded before Flop
+Seat 6: Burlica2013 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797486591:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:21:00 WET [2025/02/10 5:21:00 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 3: Pon4uk.ua ($100 in chips) is sitting out
+Seat 1: andru_rock ($100 in chips) 
+Seat 2: Corsair444 ($99 in chips) 
+Seat 4: Pippa83 ($125.70 in chips) 
+Seat 5: Sergey.V90 ($99.56 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Burlica2013: posts small blind $0.50
+andru_rock: posts big blind $1
+Pon4uk.ua: sits out 
+*** HOLE CARDS ***
+Corsair444: folds 
+Pippa83: folds 
+Sergey.V90: raises $1.50 to $2.50
+Burlica2013: raises $9.50 to $12
+andru_rock: folds 
+Sergey.V90: raises $15 to $27
+Burlica2013: folds 
+Uncalled bet ($15) returned to Sergey.V90
+Sergey.V90 collected $25 from pot
+Sergey.V90: doesn't show hand 
+*** SUMMARY ***
+Total pot $25 | Rake $0 
+Seat 3: Pon4uk.ua
+Seat 1: andru_rock (big blind) folded before Flop
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 4: Pippa83 folded before Flop (didn't bet)
+Seat 5: Sergey.V90 (button) collected ($25)
+Seat 6: Burlica2013 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797492007:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:21:50 WET [2025/02/10 5:21:50 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 3: Pon4uk.ua ($100 in chips) is sitting out
+Seat 1: andru_rock ($100 in chips) 
+Seat 2: Corsair444 ($99 in chips) 
+Seat 4: Pippa83 ($125.70 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+andru_rock: posts small blind $0.50
+Corsair444: posts big blind $1
+Pon4uk.ua: sits out 
+*** HOLE CARDS ***
+Pippa83: folds 
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: raises $2 to $3
+Corsair444: folds 
+Uncalled bet ($2) returned to andru_rock
+andru_rock collected $2 from pot
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 3: Pon4uk.ua
+Seat 1: andru_rock (small blind) collected ($2)
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 4: Pippa83 folded before Flop (didn't bet)
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797493408:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:22:03 WET [2025/02/10 5:22:03 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 1: andru_rock ($101 in chips) 
+Seat 2: Corsair444 ($98 in chips) 
+Seat 3: Pon4uk.ua ($100 in chips) 
+Seat 4: Pippa83 ($125.70 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Corsair444: posts small blind $0.50
+Pon4uk.ua: posts big blind $1
+*** HOLE CARDS ***
+Pippa83: folds 
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Uncalled bet ($0.50) returned to Pon4uk.ua
+Pon4uk.ua collected $1 from pot
+Pon4uk.ua: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: andru_rock (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Pon4uk.ua (big blind) collected ($1)
+Seat 4: Pippa83 folded before Flop (didn't bet)
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797494330:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:22:11 WET [2025/02/10 5:22:11 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 1: andru_rock ($101 in chips) 
+Seat 2: Corsair444 ($97.50 in chips) 
+Seat 3: Pon4uk.ua ($100.50 in chips) 
+Seat 4: Pippa83 ($125.70 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Pon4uk.ua: posts small blind $0.50
+Pippa83: posts big blind $1
+*** HOLE CARDS ***
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Pon4uk.ua: folds 
+Uncalled bet ($0.50) returned to Pippa83
+Pippa83 collected $1 from pot
+Pippa83: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Pon4uk.ua (small blind) folded before Flop
+Seat 4: Pippa83 (big blind) collected ($1)
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797495748:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:22:25 WET [2025/02/10 5:22:25 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 1: andru_rock ($101 in chips) 
+Seat 2: Corsair444 ($97.50 in chips) 
+Seat 3: Pon4uk.ua ($100 in chips) 
+Seat 4: Pippa83 ($126.20 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Pippa83: posts small blind $0.50
+Sergey.V90: posts big blind $1
+*** HOLE CARDS ***
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Pon4uk.ua: folds 
+Pippa83: folds 
+Uncalled bet ($0.50) returned to Sergey.V90
+Sergey.V90 collected $1 from pot
+Sergey.V90: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Pon4uk.ua (button) folded before Flop (didn't bet)
+Seat 4: Pippa83 (small blind) folded before Flop
+Seat 5: Sergey.V90 (big blind) collected ($1)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797498452:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:22:50 WET [2025/02/10 5:22:50 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 1: andru_rock ($101 in chips) 
+Seat 2: Corsair444 ($97.50 in chips) 
+Seat 3: Pon4uk.ua ($100 in chips) 
+Seat 4: Pippa83 ($125.70 in chips) 
+Seat 5: Sergey.V90 ($113.06 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Sergey.V90: posts small blind $0.50
+Burlica2013: posts big blind $1
+*** HOLE CARDS ***
+andru_rock: folds 
+Corsair444: folds 
+Pon4uk.ua: folds 
+Pippa83: folds 
+Sergey.V90: folds 
+Uncalled bet ($0.50) returned to Burlica2013
+Burlica2013 collected $1 from pot
+Burlica2013: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Pon4uk.ua folded before Flop (didn't bet)
+Seat 4: Pippa83 (button) folded before Flop (didn't bet)
+Seat 5: Sergey.V90 (small blind) folded before Flop
+Seat 6: Burlica2013 (big blind) collected ($1)
+
+
+
+PokerStars Hand #254797500846:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:23:12 WET [2025/02/10 5:23:12 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 3: Pon4uk.ua ($100 in chips) is sitting out
+Seat 1: andru_rock ($101 in chips) 
+Seat 2: Corsair444 ($97.50 in chips) 
+Seat 4: Pippa83 ($125.70 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($100.50 in chips) 
+Burlica2013: posts small blind $0.50
+andru_rock: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: folds 
+Pon4uk.ua leaves the table
+Pippa83: raises $1.50 to $2.50
+Sergey.V90: folds 
+Dai5dop joins the table at seat #3 
+Burlica2013: folds 
+andru_rock: raises $8.50 to $11
+Pippa83: folds 
+Uncalled bet ($8.50) returned to andru_rock
+andru_rock collected $5.50 from pot
+*** SUMMARY ***
+Total pot $5.50 | Rake $0 
+Seat 3: Pon4uk.ua
+Seat 1: andru_rock (big blind) collected ($5.50)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 4: Pippa83 folded before Flop
+Seat 5: Sergey.V90 (button) folded before Flop (didn't bet)
+Seat 6: Burlica2013 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797504822:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:23:49 WET [2025/02/10 5:23:49 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 3: Dai5dop ($100 in chips) is sitting out
+Seat 1: andru_rock ($104 in chips) 
+Seat 2: Corsair444 ($97.50 in chips) 
+Seat 4: Pippa83 ($123.20 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+andru_rock: posts small blind $0.50
+Corsair444: posts big blind $1
+Dai5dop: sits out 
+*** HOLE CARDS ***
+Pippa83: folds 
+Sergey.V90: folds 
+Burlica2013: raises $1.45 to $2.45
+andru_rock: folds 
+Corsair444: folds 
+Uncalled bet ($1.45) returned to Burlica2013
+Burlica2013 collected $2.50 from pot
+Burlica2013: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 3: Dai5dop
+Seat 1: andru_rock (small blind) folded before Flop
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 4: Pippa83 folded before Flop (didn't bet)
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 (button) collected ($2.50)
+
+
+
+PokerStars Hand #254797506188:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:24:01 WET [2025/02/10 5:24:01 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 1: andru_rock ($103.50 in chips) 
+Seat 2: Corsair444 ($96.50 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: Pippa83 ($123.20 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($101.50 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+Pippa83: folds 
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Uncalled bet ($0.50) returned to Dai5dop
+Dai5dop collected $1 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: andru_rock (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) collected ($1)
+Seat 4: Pippa83 folded before Flop (didn't bet)
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797507155:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:24:10 WET [2025/02/10 5:24:10 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 4: Pippa83 ($123.20 in chips) is sitting out
+Seat 1: andru_rock ($103.50 in chips) 
+Seat 2: Corsair444 ($96 in chips) 
+Seat 3: Dai5dop ($100.50 in chips) 
+Seat 5: Sergey.V90 ($112.56 in chips) 
+Seat 6: Burlica2013 ($101.50 in chips) 
+Dai5dop: posts small blind $0.50
+Pippa83: is sitting out 
+Sergey.V90: posts big blind $1
+*** HOLE CARDS ***
+Pippa83 leaves the table
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+S3MPR3IGUAL joins the table at seat #4 
+Dai5dop: raises $1.50 to $2.50
+Sergey.V90: calls $1.50
+*** FLOP *** [6c 2c Jh]
+Dai5dop: checks 
+Sergey.V90: bets $1.75
+Dai5dop: calls $1.75
+*** TURN *** [6c 2c Jh] [Jc]
+Dai5dop: checks 
+Sergey.V90: bets $8.08
+Dai5dop: calls $8.08
+*** RIVER *** [6c 2c Jh Jc] [7d]
+Dai5dop: checks 
+Sergey.V90: bets $15.72
+Dai5dop: folds 
+Uncalled bet ($15.72) returned to Sergey.V90
+Sergey.V90 collected $23.43 from pot
+Sergey.V90: doesn't show hand 
+*** SUMMARY ***
+Total pot $24.66 | Rake $1.23 
+Board [6c 2c Jh Jc 7d]
+Seat 4: Pippa83
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) folded on the River
+Seat 5: Sergey.V90 (big blind) collected ($23.43)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797515217:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:25:26 WET [2025/02/10 5:25:26 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 4: S3MPR3IGUAL ($100 in chips) is sitting out
+Seat 1: andru_rock ($103.50 in chips) 
+Seat 2: Corsair444 ($96 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 5: Sergey.V90 ($123.66 in chips) 
+Seat 6: Burlica2013 ($101.50 in chips) 
+Sergey.V90: posts small blind $0.50
+Burlica2013: posts big blind $1
+*** HOLE CARDS ***
+andru_rock: folds 
+Corsair444: folds 
+Dai5dop: raises $1.50 to $2.50
+Sergey.V90: calls $2
+Burlica2013: folds 
+*** FLOP *** [Ts Qh Qd]
+Sergey.V90: checks 
+Dai5dop: bets $1.71
+Sergey.V90: calls $1.71
+*** TURN *** [Ts Qh Qd] [3c]
+Sergey.V90: checks 
+Dai5dop: checks 
+*** RIVER *** [Ts Qh Qd 3c] [4s]
+Sergey.V90: checks 
+Dai5dop: bets $6.71
+Sergey.V90: folds 
+Uncalled bet ($6.71) returned to Dai5dop
+Dai5dop collected $8.95 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $9.42 | Rake $0.47 
+Board [Ts Qh Qd 3c 4s]
+Seat 4: S3MPR3IGUAL
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop (button) collected ($8.95)
+Seat 5: Sergey.V90 (small blind) folded on the River
+Seat 6: Burlica2013 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797522586:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:26:34 WET [2025/02/10 5:26:34 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 4: S3MPR3IGUAL ($100 in chips) is sitting out
+Seat 1: andru_rock ($103.50 in chips) 
+Seat 2: Corsair444 ($96 in chips) 
+Seat 3: Dai5dop ($104.74 in chips) 
+Seat 5: Sergey.V90 ($119.45 in chips) 
+Seat 6: Burlica2013 ($100.50 in chips) 
+Burlica2013: posts small blind $0.50
+andru_rock: posts big blind $1
+S3MPR3IGUAL: sits out 
+*** HOLE CARDS ***
+Corsair444: folds 
+Dai5dop: raises $1.50 to $2.50
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: calls $1.50
+*** FLOP *** [3s 2s 9c]
+andru_rock: checks 
+Dai5dop: bets $2.61
+andru_rock: raises $5.11 to $7.72
+Dai5dop: folds 
+Uncalled bet ($5.11) returned to andru_rock
+andru_rock collected $10.18 from pot
+*** SUMMARY ***
+Total pot $10.72 | Rake $0.54 
+Board [3s 2s 9c]
+Seat 4: S3MPR3IGUAL
+Seat 1: andru_rock (big blind) collected ($10.18)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop folded on the Flop
+Seat 5: Sergey.V90 (button) folded before Flop (didn't bet)
+Seat 6: Burlica2013 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797528287:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:27:27 WET [2025/02/10 5:27:27 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 4: S3MPR3IGUAL ($100 in chips) is sitting out
+Seat 1: andru_rock ($108.57 in chips) 
+Seat 2: Corsair444 ($96 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 5: Sergey.V90 ($119.45 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+andru_rock: posts small blind $0.50
+Corsair444: posts big blind $1
+S3MPR3IGUAL: sits out 
+*** HOLE CARDS ***
+Dai5dop: raises $1.20 to $2.20
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Uncalled bet ($1.20) returned to Dai5dop
+Dai5dop collected $2.50 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 4: S3MPR3IGUAL
+Seat 1: andru_rock (small blind) folded before Flop
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop collected ($2.50)
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797529714:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:27:40 WET [2025/02/10 5:27:40 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 4: S3MPR3IGUAL ($100 in chips) is sitting out
+Seat 1: andru_rock ($108.07 in chips) 
+Seat 2: Corsair444 ($95 in chips) 
+Seat 3: Dai5dop ($101.50 in chips) 
+Seat 5: Sergey.V90 ($119.45 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+S3MPR3IGUAL: sits out 
+*** HOLE CARDS ***
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: raises $1 to $2
+Dai5dop: calls $1
+*** FLOP *** [9h 8d Jd]
+Corsair444: bets $3.80
+Dai5dop: calls $3.80
+*** TURN *** [9h 8d Jd] [3d]
+Corsair444: checks 
+Dai5dop: checks 
+*** RIVER *** [9h 8d Jd 3d] [Jc]
+Corsair444: bets $5.51
+Dai5dop: calls $5.51
+*** SHOW DOWN ***
+Corsair444: shows [Tc Ad] (a pair of Jacks)
+Dai5dop: shows [Qs 8s] (two pair, Jacks and Eights)
+Dai5dop collected $21.49 from pot
+*** SUMMARY ***
+Total pot $22.62 | Rake $1.13 
+Board [9h 8d Jd 3d Jc]
+Seat 4: S3MPR3IGUAL
+Seat 1: andru_rock (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) showed [Tc Ad] and lost with a pair of Jacks
+Seat 3: Dai5dop (big blind) showed [Qs 8s] and won ($21.49) with two pair, Jacks and Eights
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797537574:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:28:52 WET [2025/02/10 5:28:52 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 1: andru_rock ($108.07 in chips) 
+Seat 2: Corsair444 ($83.69 in chips) 
+Seat 3: Dai5dop ($111.68 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: Sergey.V90 ($119.45 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Sergey.V90: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: calls $1
+Dai5dop: folds 
+S3MPR3IGUAL: raises $3 to $4
+Corsair444: calls $3
+*** FLOP *** [Td 4h 6h]
+S3MPR3IGUAL: checks 
+Corsair444: bets $8.08
+S3MPR3IGUAL: folds 
+Uncalled bet ($8.08) returned to Corsair444
+Corsair444 collected $8.08 from pot
+Corsair444: doesn't show hand 
+*** SUMMARY ***
+Total pot $8.50 | Rake $0.42 
+Board [Td 4h 6h]
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) collected ($8.08)
+Seat 3: Dai5dop (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded on the Flop
+Seat 5: Sergey.V90 folded before Flop (didn't bet)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797541056:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:29:24 WET [2025/02/10 5:29:24 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 5: Sergey.V90 ($119.45 in chips) is sitting out
+Seat 1: andru_rock ($108.07 in chips) 
+Seat 2: Corsair444 ($87.77 in chips) 
+Seat 3: Dai5dop ($111.18 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Burlica2013: posts big blind $1
+*** HOLE CARDS ***
+andru_rock: raises $1.10 to $2.10
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Burlica2013: folds 
+Uncalled bet ($1.10) returned to andru_rock
+andru_rock collected $2.50 from pot
+Sergey.V90 is disconnected 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: Sergey.V90
+Seat 1: andru_rock collected ($2.50)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 6: Burlica2013 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797542475:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:29:37 WET [2025/02/10 5:29:37 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 5: Sergey.V90 ($119.45 in chips) is sitting out
+Seat 1: andru_rock ($109.57 in chips) 
+Seat 2: Corsair444 ($87.77 in chips) 
+Seat 3: Dai5dop ($111.18 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Burlica2013: posts small blind $0.50
+andru_rock: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: raises $1 to $2
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Burlica2013: folds 
+andru_rock: folds 
+Uncalled bet ($1) returned to Corsair444
+Corsair444 collected $2.50 from pot
+Corsair444: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: Sergey.V90
+Seat 1: andru_rock (big blind) folded before Flop
+Seat 2: Corsair444 collected ($2.50)
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 6: Burlica2013 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797543886:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:29:50 WET [2025/02/10 5:29:50 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 5: Sergey.V90 ($119.45 in chips) is sitting out
+Seat 1: andru_rock ($108.57 in chips) 
+Seat 2: Corsair444 ($89.27 in chips) 
+Seat 3: Dai5dop ($111.18 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+andru_rock: posts small blind $0.50
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: Sergey.V90
+Seat 1: andru_rock (small blind) folded before Flop
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL collected ($2.50)
+Seat 6: Burlica2013 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797545227:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:30:02 WET [2025/02/10 5:30:02 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 5: Sergey.V90 ($119.45 in chips) is sitting out
+Seat 1: andru_rock ($108.07 in chips) 
+Seat 2: Corsair444 ($88.27 in chips) 
+Seat 3: Dai5dop ($111.18 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+Sergey.V90 leaves the table
+S3MPR3IGUAL: folds 
+Burlica2013: folds 
+andru_rock: raises $1.50 to $2.50
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($1.50) returned to andru_rock
+andru_rock collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: Sergey.V90
+Seat 1: andru_rock (button) collected ($2.50)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797546543:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:30:15 WET [2025/02/10 5:30:15 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 1: andru_rock ($109.57 in chips) 
+Seat 2: Corsair444 ($87.77 in chips) 
+Seat 3: Dai5dop ($110.18 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Burlica2013: folds 
+andru_rock: folds 
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($0.50) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $1 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) collected ($1)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797548522:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:30:33 WET [2025/02/10 5:30:33 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 1: andru_rock ($109.57 in chips) 
+Seat 2: Corsair444 ($87.77 in chips) 
+Seat 3: Dai5dop ($109.68 in chips) 
+Seat 4: S3MPR3IGUAL ($102 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Burlica2013: posts big blind $1
+*** HOLE CARDS ***
+andru_rock: folds 
+Corsair444: calls $1
+Dai5dop: folds 
+S3MPR3IGUAL: raises $4 to $5
+Burlica2013: folds 
+Corsair444: folds 
+Uncalled bet ($4) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $3 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $3 | Rake $0 
+Seat 1: andru_rock folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) collected ($3)
+Seat 6: Burlica2013 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797550856:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:30:54 WET [2025/02/10 5:30:54 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 1: andru_rock ($109.57 in chips) is sitting out
+Seat 2: Corsair444 ($86.77 in chips) 
+Seat 3: Dai5dop ($109.68 in chips) 
+Seat 4: S3MPR3IGUAL ($104 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Burlica2013: posts small blind $0.50
+andru_rock: is sitting out 
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: raises $1.50 to $2.50
+S3MPR3IGUAL: folds 
+Burlica2013: folds 
+Corsair444: folds 
+Uncalled bet ($1.50) returned to Dai5dop
+andru_rock leaves the table
+Dai5dop collected $2.50 from pot
+Dai5dop: doesn't show hand 
+ka100pka527 joins the table at seat #5 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: andru_rock
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop collected ($2.50)
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 6: Burlica2013 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797552565:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:31:09 WET [2025/02/10 5:31:09 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 5: ka100pka527 ($80 in chips) is sitting out
+Seat 2: Corsair444 ($85.77 in chips) 
+Seat 3: Dai5dop ($111.18 in chips) 
+Seat 4: S3MPR3IGUAL ($104 in chips) 
+Seat 6: Burlica2013 ($100 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+ka100pka527: sits out 
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+Burlica2013: raises $1.45 to $2.45
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($1.45) returned to Burlica2013
+Burlica2013 collected $2.50 from pot
+Burlica2013: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: ka100pka527
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 6: Burlica2013 (button) collected ($2.50)
+
+
+
+PokerStars Hand #254797553755:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:31:20 WET [2025/02/10 5:31:20 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 2: Corsair444 ($85.27 in chips) 
+Seat 3: Dai5dop ($110.18 in chips) 
+Seat 4: S3MPR3IGUAL ($104 in chips) 
+Seat 6: Burlica2013 ($101.50 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Burlica2013: folds 
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($0.50) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $1 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 5: ka100pka527
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) collected ($1)
+Seat 6: Burlica2013 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797554804:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:31:29 WET [2025/02/10 5:31:29 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 2: Corsair444 ($85.27 in chips) 
+Seat 3: Dai5dop ($109.68 in chips) 
+Seat 4: S3MPR3IGUAL ($104.50 in chips) 
+Seat 6: Burlica2013 ($101.50 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Burlica2013: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: raises $2 to $3
+Burlica2013: calls $2
+*** FLOP *** [2h 4s Jh]
+S3MPR3IGUAL: checks 
+Burlica2013: bets $1.88
+S3MPR3IGUAL: calls $1.88
+*** TURN *** [2h 4s Jh] [Ac]
+S3MPR3IGUAL: checks 
+Burlica2013: checks 
+*** RIVER *** [2h 4s Jh Ac] [9s]
+S3MPR3IGUAL: checks 
+Burlica2013: bets $6.95
+S3MPR3IGUAL: folds 
+Uncalled bet ($6.95) returned to Burlica2013
+Burlica2013 collected $9.27 from pot
+Burlica2013: doesn't show hand 
+*** SUMMARY ***
+Total pot $9.76 | Rake $0.49 
+Board [2h 4s Jh Ac 9s]
+Seat 5: ka100pka527
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded on the River
+Seat 6: Burlica2013 (big blind) collected ($9.27)
+
+
+
+PokerStars Hand #254797561537:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:32:31 WET [2025/02/10 5:32:31 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 2: Corsair444 ($85.27 in chips) 
+Seat 3: Dai5dop ($109.68 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+Corsair444: calls $0.50
+Dai5dop: raises $3 to $4
+Corsair444: calls $3
+*** FLOP *** [Jd 2d 5h]
+Corsair444: checks 
+Dai5dop: bets $2.28
+Corsair444: raises $2.28 to $4.56
+Dai5dop: calls $2.28
+*** TURN *** [Jd 2d 5h] [Kh]
+Corsair444: checks 
+elcutez joins the table at seat #6 
+elcutez is disconnected 
+happy0607 joins the table at seat #1 
+Dai5dop: checks 
+*** RIVER *** [Jd 2d 5h Kh] [Qd]
+Corsair444: checks 
+Dai5dop: checks 
+*** SHOW DOWN ***
+Corsair444: shows [Jh 3h] (a pair of Jacks)
+Dai5dop: mucks hand 
+Corsair444 collected $16.26 from pot
+*** SUMMARY ***
+Total pot $17.12 | Rake $0.86 
+Board [Jd 2d 5h Kh Qd]
+Seat 5: ka100pka527
+Seat 2: Corsair444 (small blind) showed [Jh 3h] and won ($16.26) with a pair of Jacks
+Seat 3: Dai5dop (big blind) mucked
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797570373:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:33:53 WET [2025/02/10 5:33:53 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 1: happy0607 ($100 in chips) is sitting out
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 2: Corsair444 ($92.97 in chips) 
+Seat 3: Dai5dop ($101.12 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($74.41 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+elcutez: posts big blind $1
+happy0607: sits out 
+*** HOLE CARDS ***
+elcutez: checks 
+Corsair444: calls $1
+Dai5dop: raises $4 to $5
+S3MPR3IGUAL: folds 
+elcutez: folds 
+Corsair444: folds 
+Uncalled bet ($4) returned to Dai5dop
+Dai5dop collected $4 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $4 | Rake $0 
+Seat 1: happy0607
+Seat 5: ka100pka527
+Seat 2: Corsair444 (button) folded before Flop
+Seat 3: Dai5dop (small blind) collected ($4)
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 6: elcutez folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797573168:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:34:18 WET [2025/02/10 5:34:18 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 1: happy0607 ($100 in chips) is sitting out
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 2: Corsair444 ($91.97 in chips) 
+Seat 3: Dai5dop ($104.12 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($73.41 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+elcutez: posts big blind $1
+happy0607: sits out 
+*** HOLE CARDS ***
+Corsair444: calls $1
+Dai5dop: raises $3 to $4
+S3MPR3IGUAL: folds 
+elcutez: folds 
+Corsair444: calls $3
+*** FLOP *** [Jd Kd 4d]
+Corsair444: checks 
+Dai5dop: checks 
+*** TURN *** [Jd Kd 4d] [5h]
+Corsair444: checks 
+Dai5dop: bets $6.77
+Corsair444: folds 
+Uncalled bet ($6.77) returned to Dai5dop
+Dai5dop collected $9.02 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $9.50 | Rake $0.48 
+Board [Jd Kd 4d 5h]
+Seat 1: happy0607
+Seat 5: ka100pka527
+Seat 2: Corsair444 folded on the Turn
+Seat 3: Dai5dop (button) collected ($9.02)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 6: elcutez (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797576989:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:34:53 WET [2025/02/10 5:34:53 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($100 in chips) 
+Seat 2: Corsair444 ($87.97 in chips) 
+Seat 3: Dai5dop ($109.14 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($72.41 in chips) 
+elcutez: posts small blind $0.50
+happy0607: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+elcutez: folds 
+Uncalled bet ($0.50) returned to happy0607
+happy0607 collected $1 from pot
+happy0607: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 (big blind) collected ($1)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 6: elcutez (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797578239:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:35:05 WET [2025/02/10 5:35:05 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($100.50 in chips) 
+Seat 2: Corsair444 ($87.97 in chips) 
+Seat 3: Dai5dop ($109.14 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($71.91 in chips) 
+happy0607: posts small blind $0.50
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+elcutez: folds 
+happy0607: raises $7.82 to $10.02
+Corsair444: folds 
+S3MPR3IGUAL: calls $7.82
+*** FLOP *** [Qc Kc Js]
+happy0607: bets $6.60
+S3MPR3IGUAL: folds 
+Uncalled bet ($6.60) returned to happy0607
+happy0607 collected $19.99 from pot
+happy0607: doesn't show hand 
+*** SUMMARY ***
+Total pot $21.04 | Rake $1.05 
+Board [Qc Kc Js]
+Seat 5: ka100pka527
+Seat 1: happy0607 (small blind) collected ($19.99)
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded on the Flop
+Seat 6: elcutez (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797581488:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:35:34 WET [2025/02/10 5:35:34 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($86.97 in chips) 
+Seat 3: Dai5dop ($109.14 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($71.91 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: raises $1.20 to $2.20
+elcutez: folds 
+happy0607: folds 
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL collected ($2.50)
+Seat 6: elcutez folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797582877:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:35:47 WET [2025/02/10 5:35:47 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($86.47 in chips) 
+Seat 3: Dai5dop ($108.14 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 6: elcutez ($71.91 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+elcutez: folds 
+happy0607: raises $1.50 to $2.50
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Uncalled bet ($1.50) returned to happy0607
+happy0607 collected $2.50 from pot
+happy0607: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 collected ($2.50)
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 6: elcutez folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797585422:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:36:10 WET [2025/02/10 5:36:10 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($86.47 in chips) 
+Seat 3: Dai5dop ($107.64 in chips) 
+Seat 4: S3MPR3IGUAL ($100.50 in chips) 
+Seat 6: elcutez ($71.91 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+elcutez: posts big blind $1
+*** HOLE CARDS ***
+happy0607: folds 
+Corsair444: calls $1
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+elcutez: checks 
+*** FLOP *** [7c Ks Td]
+elcutez: checks 
+Corsair444: checks 
+*** TURN *** [7c Ks Td] [5d]
+elcutez: checks 
+Corsair444: checks 
+*** RIVER *** [7c Ks Td 5d] [7h]
+elcutez: checks 
+Corsair444: checks 
+*** SHOW DOWN ***
+elcutez: shows [Jh 2c] (a pair of Sevens)
+Corsair444: shows [Ac 3s] (a pair of Sevens - Ace kicker)
+Corsair444 collected $2.38 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0.12 
+Board [7c Ks Td 5d 7h]
+Seat 5: ka100pka527
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 showed [Ac 3s] and won ($2.38) with a pair of Sevens
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 6: elcutez (big blind) showed [Jh 2c] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #254797588909:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:36:41 WET [2025/02/10 5:36:41 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($87.85 in chips) 
+Seat 3: Dai5dop ($107.64 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($70.91 in chips) 
+elcutez: posts small blind $0.50
+happy0607: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: calls $1
+Dai5dop: raises $3 to $4
+S3MPR3IGUAL: folds 
+elcutez: folds 
+happy0607: folds 
+Corsair444: calls $3
+*** FLOP *** [2h Kd 7h]
+Corsair444: checks 
+Dai5dop: bets $2.71
+Corsair444: folds 
+Uncalled bet ($2.71) returned to Dai5dop
+Dai5dop collected $9.02 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $9.50 | Rake $0.48 
+Board [2h Kd 7h]
+Seat 5: ka100pka527
+Seat 1: happy0607 (big blind) folded before Flop
+Seat 2: Corsair444 folded on the Flop
+Seat 3: Dai5dop collected ($9.02)
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 6: elcutez (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797592903:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:37:18 WET [2025/02/10 5:37:18 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.97 in chips) 
+Seat 2: Corsair444 ($83.85 in chips) 
+Seat 3: Dai5dop ($112.66 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 6: elcutez ($70.41 in chips) 
+happy0607: posts small blind $0.50
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+elcutez: folds 
+happy0607: folds 
+Corsair444: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 (small blind) folded before Flop
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL collected ($2.50)
+Seat 6: elcutez (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797594547:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:37:33 WET [2025/02/10 5:37:33 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($82.85 in chips) 
+Seat 3: Dai5dop ($112.66 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 6: elcutez ($70.41 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+elcutez: raises $2 to $3
+happy0607: folds 
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($2) returned to elcutez
+elcutez collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 6: elcutez collected ($2.50)
+
+
+
+PokerStars Hand #254797596230:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:37:47 WET [2025/02/10 5:37:47 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($82.35 in chips) 
+Seat 3: Dai5dop ($111.66 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 6: elcutez ($71.91 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+elcutez: folds 
+happy0607: folds 
+Corsair444: folds 
+Dai5dop: raises $2 to $3
+S3MPR3IGUAL: folds 
+Uncalled bet ($2) returned to Dai5dop
+Dai5dop collected $2 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) collected ($2)
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 6: elcutez folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797597602:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:38:00 WET [2025/02/10 5:38:00 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 5: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($82.35 in chips) 
+Seat 3: Dai5dop ($112.66 in chips) 
+Seat 4: S3MPR3IGUAL ($100.50 in chips) 
+Seat 6: elcutez ($71.91 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+elcutez: posts big blind $1
+*** HOLE CARDS ***
+happy0607: folds 
+Corsair444: raises $1 to $2
+Dai5dop: folds 
+S3MPR3IGUAL: raises $8 to $10
+elcutez: folds 
+Corsair444: raises $8 to $18
+S3MPR3IGUAL: raises $82.50 to $100.50 and is all-in
+Corsair444: folds 
+Uncalled bet ($82.50) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $37 from pot
+ka100pka527 leaves the table
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $37 | Rake $0 
+Seat 5: ka100pka527
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) collected ($37)
+Seat 6: elcutez (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797600320:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:38:25 WET [2025/02/10 5:38:25 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($64.35 in chips) 
+Seat 3: Dai5dop ($112.66 in chips) 
+Seat 4: S3MPR3IGUAL ($119.50 in chips) 
+Seat 6: elcutez ($70.91 in chips) 
+elcutez: posts small blind $0.50
+happy0607: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+elcutez: folds 
+Uncalled bet ($0.50) returned to happy0607
+happy0607 collected $1 from pot
+happy0607: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: happy0607 (big blind) collected ($1)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 6: elcutez (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797601759:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:38:38 WET [2025/02/10 5:38:38 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 1: happy0607 ($110.97 in chips) 
+Seat 2: Corsair444 ($64.35 in chips) 
+Seat 3: Dai5dop ($112.66 in chips) 
+Seat 4: S3MPR3IGUAL ($119.50 in chips) 
+Seat 6: elcutez ($70.41 in chips) 
+happy0607: posts small blind $0.50
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Pon4uk.ua joins the table at seat #5 
+Dai5dop: raises $1.20 to $2.20
+S3MPR3IGUAL: folds 
+elcutez: folds 
+happy0607: folds 
+Corsair444: calls $1.20
+*** FLOP *** [3s Ah Kh]
+Corsair444: checks 
+Dai5dop: bets $1.40
+Corsair444: calls $1.40
+*** TURN *** [3s Ah Kh] [9d]
+Corsair444: checks 
+Dai5dop: checks 
+*** RIVER *** [3s Ah Kh 9d] [2h]
+Corsair444: checks 
+elcutez leaves the table
+Dai5dop: checks 
+*** SHOW DOWN ***
+Corsair444: shows [Ac 6c] (a pair of Aces)
+Dai5dop: mucks hand 
+Corsair444 collected $7.32 from pot
+*** SUMMARY ***
+Total pot $7.70 | Rake $0.38 
+Board [3s Ah Kh 9d 2h]
+Seat 1: happy0607 (small blind) folded before Flop
+Seat 2: Corsair444 (big blind) showed [Ac 6c] and won ($7.32) with a pair of Aces
+Seat 3: Dai5dop mucked
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 6: elcutez (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797606787:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:39:24 WET [2025/02/10 5:39:24 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 5: Pon4uk.ua ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($68.07 in chips) 
+Seat 3: Dai5dop ($109.06 in chips) 
+Seat 4: S3MPR3IGUAL ($119.50 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+Pon4uk.ua: sits out 
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+ka100pka527 joins the table at seat #6 
+happy0607: folds 
+Corsair444: folds 
+Uncalled bet ($0.50) returned to Dai5dop
+Dai5dop collected $1 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 5: Pon4uk.ua
+Seat 1: happy0607 (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) collected ($1)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797607929:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:39:34 WET [2025/02/10 5:39:34 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 5: Pon4uk.ua ($100 in chips) is sitting out
+Seat 6: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($67.57 in chips) 
+Seat 3: Dai5dop ($109.56 in chips) 
+Seat 4: S3MPR3IGUAL ($119.50 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+Pon4uk.ua: sits out 
+ka100pka527: sits out 
+*** HOLE CARDS ***
+happy0607: folds 
+Corsair444: folds 
+Dai5dop: raises $2 to $3
+S3MPR3IGUAL: folds 
+Uncalled bet ($2) returned to Dai5dop
+Dai5dop collected $2 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 5: Pon4uk.ua
+Seat 6: ka100pka527
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) collected ($2)
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797609300:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:39:46 WET [2025/02/10 5:39:46 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 6: ka100pka527 ($100 in chips) is sitting out
+Seat 1: happy0607 ($110.47 in chips) 
+Seat 2: Corsair444 ($67.57 in chips) 
+Seat 3: Dai5dop ($110.56 in chips) 
+Seat 4: S3MPR3IGUAL ($118.50 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Pon4uk.ua: posts big blind $1
+ka100pka527: sits out 
+*** HOLE CARDS ***
+happy0607: raises $1.21 to $2.21
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Pon4uk.ua: folds 
+Uncalled bet ($1.21) returned to happy0607
+happy0607 collected $2.50 from pot
+happy0607: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 6: ka100pka527
+Seat 1: happy0607 collected ($2.50)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 5: Pon4uk.ua (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797612243:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:40:13 WET [2025/02/10 5:40:13 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($67.57 in chips) 
+Seat 3: Dai5dop ($110.56 in chips) 
+Seat 4: S3MPR3IGUAL ($118 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+Pon4uk.ua: posts small blind $0.50
+ka100pka527: posts big blind $1
+*** HOLE CARDS ***
+happy0607: folds 
+Corsair444: calls $1
+Dai5dop: raises $3 to $4
+S3MPR3IGUAL: folds 
+Pon4uk.ua: folds 
+ka100pka527: folds 
+Corsair444: calls $3
+*** FLOP *** [Qh 3h 8h]
+Corsair444: checks 
+Dai5dop: bets $2.71
+Corsair444: calls $2.71
+*** TURN *** [Qh 3h 8h] [Js]
+Corsair444: checks 
+Dai5dop: bets $12.04
+Corsair444: raises $12.04 to $24.08
+Dai5dop: folds 
+Uncalled bet ($12.04) returned to Corsair444
+Corsair444 collected $37.05 from pot
+Corsair444: doesn't show hand 
+*** SUMMARY ***
+Total pot $39 | Rake $1.95 
+Board [Qh 3h 8h Js]
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 collected ($37.05)
+Seat 3: Dai5dop folded on the Turn
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 5: Pon4uk.ua (small blind) folded before Flop
+Seat 6: ka100pka527 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797622044:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:41:44 WET [2025/02/10 5:41:44 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($85.87 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($118 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+ka100pka527: posts small blind $0.50
+happy0607: posts big blind $1
+*** HOLE CARDS ***
+Corsair444: raises $1 to $2
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Pon4uk.ua: folds 
+ka100pka527: folds 
+happy0607: folds 
+Uncalled bet ($1) returned to Corsair444
+Corsair444 collected $2.50 from pot
+Corsair444: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: happy0607 (big blind) folded before Flop
+Seat 2: Corsair444 collected ($2.50)
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: Pon4uk.ua (button) folded before Flop (didn't bet)
+Seat 6: ka100pka527 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797626544:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:42:24 WET [2025/02/10 5:42:24 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 1: happy0607 ($110.97 in chips) 
+Seat 2: Corsair444 ($87.37 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($118 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+happy0607: posts small blind $0.50
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Pon4uk.ua: folds 
+ka100pka527: folds 
+happy0607: raises $2 to $3
+Corsair444: folds 
+Uncalled bet ($2) returned to happy0607
+happy0607 collected $2 from pot
+happy0607: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: happy0607 (small blind) collected ($2)
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: Pon4uk.ua folded before Flop (didn't bet)
+Seat 6: ka100pka527 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797629202:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:42:48 WET [2025/02/10 5:42:48 ET]
+Table 'Agapenor' 6-max Seat #1 is the button
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($86.37 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($118 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: raises $1.20 to $2.20
+Pon4uk.ua: folds 
+ka100pka527: folds 
+happy0607: folds 
+Corsair444: folds 
+Dai5dop: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: happy0607 (button) folded before Flop (didn't bet)
+Seat 2: Corsair444 (small blind) folded before Flop
+Seat 3: Dai5dop (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL collected ($2.50)
+Seat 5: Pon4uk.ua folded before Flop (didn't bet)
+Seat 6: ka100pka527 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797630707:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:43:02 WET [2025/02/10 5:43:02 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($85.87 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($119.50 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Pon4uk.ua: folds 
+ka100pka527: folds 
+happy0607: folds 
+Corsair444: calls $1
+Dai5dop: folds 
+S3MPR3IGUAL: raises $3 to $4
+Corsair444: calls $3
+*** FLOP *** [2s Js 9s]
+S3MPR3IGUAL: checks 
+Corsair444: checks 
+*** TURN *** [2s Js 9s] [Kc]
+S3MPR3IGUAL: checks 
+Corsair444: checks 
+*** RIVER *** [2s Js 9s Kc] [Ah]
+S3MPR3IGUAL: checks 
+Corsair444: checks 
+*** SHOW DOWN ***
+S3MPR3IGUAL: shows [7d 6d] (high card Ace)
+Corsair444: mucks hand 
+S3MPR3IGUAL collected $8.08 from pot
+*** SUMMARY ***
+Total pot $8.50 | Rake $0.42 
+Board [2s Js 9s Kc Ah]
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 (button) mucked
+Seat 3: Dai5dop (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) showed [7d 6d] and won ($8.08) with high card Ace
+Seat 5: Pon4uk.ua folded before Flop (didn't bet)
+Seat 6: ka100pka527 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797635614:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:43:46 WET [2025/02/10 5:43:46 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($81.87 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($123.58 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Pon4uk.ua: posts big blind $1
+*** HOLE CARDS ***
+ka100pka527: folds 
+happy0607: folds 
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: raises $2 to $3
+Pon4uk.ua: folds 
+Uncalled bet ($2) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 folded before Flop (didn't bet)
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) collected ($2)
+Seat 5: Pon4uk.ua (big blind) folded before Flop
+Seat 6: ka100pka527 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797639836:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:44:25 WET [2025/02/10 5:44:25 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 1: happy0607 ($111.97 in chips) 
+Seat 2: Corsair444 ($81.87 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($124.58 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+Pon4uk.ua: posts small blind $0.50
+ka100pka527: posts big blind $1
+*** HOLE CARDS ***
+happy0607: folds 
+Corsair444: raises $1 to $2
+Dai5dop: folds 
+S3MPR3IGUAL: raises $4 to $6
+Pon4uk.ua: folds 
+ka100pka527: folds 
+Corsair444: calls $4
+*** FLOP *** [Qs 8h Ac]
+Corsair444: checks 
+S3MPR3IGUAL: bets $3.20
+Corsair444: calls $3.20
+*** TURN *** [Qs 8h Ac] [8d]
+Corsair444: checks 
+S3MPR3IGUAL: checks 
+*** RIVER *** [Qs 8h Ac 8d] [Qh]
+Corsair444: bets $9.45
+S3MPR3IGUAL: calls $9.45
+*** SHOW DOWN ***
+Corsair444: shows [As Kd] (two pair, Aces and Queens)
+S3MPR3IGUAL: shows [Tc Qc] (a full house, Queens full of Eights)
+S3MPR3IGUAL collected $36.86 from pot
+*** SUMMARY ***
+Total pot $38.80 | Rake $1.94 
+Board [Qs 8h Ac 8d Qh]
+Seat 1: happy0607 folded before Flop (didn't bet)
+Seat 2: Corsair444 showed [As Kd] and lost with two pair, Aces and Queens
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) showed [Tc Qc] and won ($36.86) with a full house, Queens full of Eights
+Seat 5: Pon4uk.ua (small blind) folded before Flop
+Seat 6: ka100pka527 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797646960:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:45:29 WET [2025/02/10 5:45:29 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 1: happy0607 ($111.97 in chips) is sitting out
+Seat 2: Corsair444 ($63.22 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($142.79 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+ka100pka527: posts small blind $0.50
+happy0607: is sitting out 
+Corsair444: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+happy0607 leaves the table
+Pon4uk.ua: folds 
+ka100pka527: folds 
+Corsair444: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: happy0607
+Seat 2: Corsair444 (big blind) folded before Flop
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL collected ($2.50)
+Seat 5: Pon4uk.ua (button) folded before Flop (didn't bet)
+Seat 6: ka100pka527 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797648479:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:45:42 WET [2025/02/10 5:45:42 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 2: Corsair444 ($62.22 in chips) 
+Seat 3: Dai5dop ($100 in chips) 
+Seat 4: S3MPR3IGUAL ($144.29 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+Corsair444: posts small blind $0.50
+Dai5dop: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+Pon4uk.ua: folds 
+ka100pka527: folds 
+Corsair444: raises $1 to $2
+Dai5dop: calls $1
+*** FLOP *** [8s 2s 3d]
+Corsair444: checks 
+Dai5dop: bets $1.90
+Corsair444: calls $1.90
+*** TURN *** [8s 2s 3d] [7s]
+Corsair444: checks 
+Dai5dop: bets $5.56
+Corsair444: folds 
+Uncalled bet ($5.56) returned to Dai5dop
+Dai5dop collected $7.41 from pot
+Dai5dop: doesn't show hand 
+*** SUMMARY ***
+Total pot $7.80 | Rake $0.39 
+Board [8s 2s 3d 7s]
+Seat 2: Corsair444 (small blind) folded on the Turn
+Seat 3: Dai5dop (big blind) collected ($7.41)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: Pon4uk.ua folded before Flop (didn't bet)
+Seat 6: ka100pka527 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797653388:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:46:26 WET [2025/02/10 5:46:26 ET]
+Table 'Agapenor' 6-max Seat #2 is the button
+Seat 2: Corsair444 ($58.32 in chips) 
+Seat 3: Dai5dop ($103.51 in chips) 
+Seat 4: S3MPR3IGUAL ($144.29 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+Dai5dop: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Pon4uk.ua: folds 
+ka100pka527: raises $1.50 to $2.50
+Corsair444: folds 
+Dai5dop: folds 
+S3MPR3IGUAL: folds 
+Uncalled bet ($1.50) returned to ka100pka527
+ka100pka527 collected $2.50 from pot
+ka100pka527: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 2: Corsair444 (button) folded before Flop (didn't bet)
+Seat 3: Dai5dop (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 5: Pon4uk.ua folded before Flop (didn't bet)
+Seat 6: ka100pka527 collected ($2.50)
+
+
+
+PokerStars Hand #254797655559:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:46:45 WET [2025/02/10 5:46:45 ET]
+Table 'Agapenor' 6-max Seat #3 is the button
+Seat 2: Corsair444 ($58.32 in chips) 
+Seat 3: Dai5dop ($103.01 in chips) 
+Seat 4: S3MPR3IGUAL ($143.29 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($101.50 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Pon4uk.ua: posts big blind $1
+*** HOLE CARDS ***
+ka100pka527: folds 
+Corsair444: raises $1 to $2
+Dai5dop: folds 
+S3MPR3IGUAL: raises $6 to $8
+Pon4uk.ua: folds 
+Corsair444: calls $6
+*** FLOP *** [Jh Qh 4d]
+S3MPR3IGUAL: bets $4.05
+Corsair444: calls $4.05
+*** TURN *** [Jh Qh 4d] [2d]
+S3MPR3IGUAL: bets $15.71
+Corsair444: calls $15.71
+*** RIVER *** [Jh Qh 4d 2d] [8c]
+S3MPR3IGUAL: bets $40.50
+Corsair444: calls $30.56 and is all-in
+Uncalled bet ($9.94) returned to S3MPR3IGUAL
+*** SHOW DOWN ***
+S3MPR3IGUAL: shows [Jc Js] (three of a kind, Jacks)
+Corsair444: shows [Ac Qs] (a pair of Queens)
+S3MPR3IGUAL collected $115.14 from pot
+*** SUMMARY ***
+Total pot $117.64 | Rake $2.50 
+Board [Jh Qh 4d 2d 8c]
+Seat 2: Corsair444 showed [Ac Qs] and lost with a pair of Queens
+Seat 3: Dai5dop (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) showed [Jc Js] and won ($115.14) with three of a kind, Jacks
+Seat 5: Pon4uk.ua (big blind) folded before Flop
+Seat 6: ka100pka527 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254797662220:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:47:43 WET [2025/02/10 5:47:43 ET]
+Table 'Agapenor' 6-max Seat #4 is the button
+Seat 2: Corsair444 ($0 in chips) is sitting out
+Seat 3: Dai5dop ($103.01 in chips) 
+Seat 4: S3MPR3IGUAL ($200.11 in chips) 
+Seat 5: Pon4uk.ua ($100 in chips) 
+Seat 6: ka100pka527 ($101.50 in chips) 
+Pon4uk.ua: posts small blind $0.50
+ka100pka527: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+Pon4uk.ua: raises $8.80 to $11
+ka100pka527: folds 
+S3MPR3IGUAL: folds 
+Uncalled bet ($8.80) returned to Pon4uk.ua
+Pon4uk.ua collected $5.40 from pot
+Pon4uk.ua: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.40 | Rake $0 
+Seat 2: Corsair444
+Seat 3: Dai5dop folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) folded before Flop
+Seat 5: Pon4uk.ua (small blind) collected ($5.40)
+Seat 6: ka100pka527 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254797664870:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:48:07 WET [2025/02/10 5:48:07 ET]
+Table 'Agapenor' 6-max Seat #5 is the button
+Seat 2: Corsair444 ($0 in chips) is sitting out
+Seat 3: Dai5dop ($103.01 in chips) is sitting out
+Seat 4: S3MPR3IGUAL ($197.91 in chips) 
+Seat 5: Pon4uk.ua ($103.20 in chips) 
+Seat 6: ka100pka527 ($100.50 in chips) 
+ka100pka527: posts small blind $0.50
+Dai5dop: is sitting out 
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Dai5dop leaves the table
+Pon4uk.ua: raises $1.50 to $2.50
+ka100pka527: folds 
+S3MPR3IGUAL: folds 
+Uncalled bet ($1.50) returned to Pon4uk.ua
+Pon4uk.ua collected $2.50 from pot
+Pon4uk.ua: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 2: Corsair444
+Seat 3: Dai5dop
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 5: Pon4uk.ua (button) collected ($2.50)
+Seat 6: ka100pka527 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254797666747:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 10:48:23 WET [2025/02/10 5:48:23 ET]
+Table 'Agapenor' 6-max Seat #6 is the button
+Seat 2: Corsair444 ($0 in chips) is sitting out
+Seat 4: S3MPR3IGUAL ($196.91 in chips) 
+Seat 5: Pon4uk.ua ($104.70 in chips) 
+Seat 6: ka100pka527 ($100 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Pon4uk.ua: posts big blind $1
+*** HOLE CARDS ***
+ka100pka527: raises $1.50 to $2.50
+S3MPR3IGUAL: raises $8.50 to $11
+Pon4uk.ua: folds 
+ka100pka527: calls $8.50
+*** FLOP *** [Jc Kc 7d]
+S3MPR3IGUAL: bets $5.50
+ka100pka527: calls $5.50
+*** TURN *** [Jc Kc 7d] [Qs]
+S3MPR3IGUAL: checks 
+ka100pka527: bets $22
+S3MPR3IGUAL: folds 
+Uncalled bet ($22) returned to ka100pka527
+ka100pka527 collected $33 from pot
+ka100pka527: doesn't show hand 
+*** SUMMARY ***
+Total pot $34 | Rake $1 
+Board [Jc Kc 7d Qs]
+Seat 2: Corsair444
+Seat 4: S3MPR3IGUAL (small blind) folded on the Turn
+Seat 5: Pon4uk.ua (big blind) folded before Flop
+Seat 6: ka100pka527 (button) collected ($33)
+
+
+

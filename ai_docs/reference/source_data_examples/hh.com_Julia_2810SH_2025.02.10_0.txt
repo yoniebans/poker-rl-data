@@ -1,0 +1,1807 @@
+﻿PokerStars Hand #254796361343:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 6:13:48 WET [2025/02/10 1:13:48 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: uuzka ($100 in chips) 
+Seat 4: Flix2204 ($100 in chips) 
+Flix2204: posts small blind $0.50
+uuzka: posts big blind $1
+*** HOLE CARDS ***
+Flix2204: raises $1.50 to $2.50
+uuzka: folds 
+Uncalled bet ($1.50) returned to Flix2204
+Flix2204 collected $2 from pot
+Flix2204: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: uuzka (big blind) folded before Flop
+Seat 4: Flix2204 (button) (small blind) collected ($2)
+
+
+
+PokerStars Hand #254795960406:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:42:15 WET [2025/02/09 23:42:15 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 3: Supermegopro ($101 in chips) 
+Seat 5: Xenicide ($100.50 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: raises $2 to $3
+Xenicide: raises $7.50 to $10.50
+Supermegopro: folds 
+Uncalled bet ($7.50) returned to Xenicide
+Xenicide collected $6 from pot
+*** SUMMARY ***
+Total pot $6 | Rake $0 
+Seat 3: Supermegopro (button) (small blind) folded before Flop
+Seat 5: Xenicide (big blind) collected ($6)
+
+
+
+PokerStars Hand #254795962345:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:42:37 WET [2025/02/09 23:42:37 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 3: Supermegopro ($100 in chips) 
+Seat 5: Xenicide ($103.50 in chips) 
+Xenicide: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1.25 to $2.25
+Supermegopro: raises $7.75 to $10
+Xenicide: calls $7.75
+*** FLOP *** [Ah 3d Th]
+Supermegopro: bets $6.27
+Xenicide: folds 
+Uncalled bet ($6.27) returned to Supermegopro
+Supermegopro collected $19 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $20 | Rake $1 
+Board [Ah 3d Th]
+Seat 3: Supermegopro (big blind) collected ($19)
+Seat 5: Xenicide (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #254796034373:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:57:32 WET [2025/02/09 23:57:32 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: mironchikvld ($100 in chips) 
+Seat 3: amrysatoru ($59.28 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($100 in chips) 
+amrysatoru: posts small blind $0.50
+Seavus10 is connected 
+Seavus10: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1 to $2
+mironchikvld: folds 
+amrysatoru: folds 
+Supermegopro joins the table at seat #6 
+Seavus10: folds 
+Uncalled bet ($1) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: mironchikvld (button) folded before Flop (didn't bet)
+Seat 3: amrysatoru (small blind) folded before Flop
+Seat 4: Seavus10 (big blind) folded before Flop
+Seat 5: Xenicide collected ($2.50)
+
+
+
+PokerStars Hand #254796035978:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:57:56 WET [2025/02/09 23:57:56 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 4: Seavus10 ($100 in chips) is sitting out
+Seat 1: mironchikvld ($100 in chips) 
+Seat 3: amrysatoru ($58.78 in chips) 
+Seat 5: Xenicide ($101.50 in chips) 
+Seat 6: Supermegopro ($109 in chips) 
+Xenicide: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+mironchikvld: raises $2 to $3
+amrysatoru: folds 
+Xenicide: folds 
+Supermegopro: calls $2
+*** FLOP *** [9s 4s 3c]
+Supermegopro: checks 
+mironchikvld: bets $2.04
+Supermegopro: folds 
+Uncalled bet ($2.04) returned to mironchikvld
+mironchikvld collected $6.18 from pot
+mironchikvld: doesn't show hand 
+*** SUMMARY ***
+Total pot $6.50 | Rake $0.32 
+Board [9s 4s 3c]
+Seat 4: Seavus10
+Seat 1: mironchikvld collected ($6.18)
+Seat 3: amrysatoru (button) folded before Flop (didn't bet)
+Seat 5: Xenicide (small blind) folded before Flop
+Seat 6: Supermegopro (big blind) folded on the Flop
+
+
+
+PokerStars Hand #254796037756:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:58:23 WET [2025/02/09 23:58:23 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 1: mironchikvld ($103.18 in chips) 
+Seat 3: amrysatoru ($58.78 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($101 in chips) 
+Seat 6: Supermegopro ($106 in chips) 
+Supermegopro: posts small blind $0.50
+mironchikvld: posts big blind $1
+Seavus10: posts small blind $0.50
+*** HOLE CARDS ***
+amrysatoru: folds 
+50CandyJoe joins the table at seat #2 
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: folds 
+Uncalled bet ($0.50) returned to mironchikvld
+mironchikvld collected $1.50 from pot
+mironchikvld: doesn't show hand 
+*** SUMMARY ***
+Total pot $1.50 | Rake $0 
+Seat 1: mironchikvld (big blind) collected ($1.50)
+Seat 3: amrysatoru folded before Flop (didn't bet)
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide (button) folded before Flop (didn't bet)
+Seat 6: Supermegopro (small blind) folded before Flop
+
+
+
+PokerStars Hand #254796038430:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:58:33 WET [2025/02/09 23:58:33 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: mironchikvld ($104.18 in chips) 
+Seat 2: 50CandyJoe ($100 in chips) 
+Seat 3: amrysatoru ($58.78 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($101 in chips) 
+Seat 6: Supermegopro ($105.50 in chips) 
+mironchikvld: posts small blind $0.50
+50CandyJoe: posts big blind $1
+*** HOLE CARDS ***
+amrysatoru: raises $1 to $2
+Seavus10: folds 
+Xenicide: raises $4 to $6
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru: calls $4
+*** FLOP *** [Jc Th 8s]
+amrysatoru: checks 
+Xenicide: bets $95 and is all-in
+amrysatoru: calls $52.78 and is all-in
+Uncalled bet ($42.22) returned to Xenicide
+*** TURN *** [Jc Th 8s] [5d]
+*** RIVER *** [Jc Th 8s 5d] [6d]
+*** SHOW DOWN ***
+amrysatoru: shows [9s Ts] (a pair of Tens)
+Xenicide: shows [Kh Qs] (high card King)
+amrysatoru collected $116.56 from pot
+*** SUMMARY ***
+Total pot $119.06 | Rake $2.50 
+Board [Jc Th 8s 5d 6d]
+Seat 1: mironchikvld (small blind) folded before Flop
+Seat 2: 50CandyJoe (big blind) folded before Flop
+Seat 3: amrysatoru showed [9s Ts] and won ($116.56) with a pair of Tens
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide showed [Kh Qs] and lost with high card King
+Seat 6: Supermegopro (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796042486:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:59:34 WET [2025/02/09 23:59:34 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: mironchikvld ($103.68 in chips) 
+Seat 2: 50CandyJoe ($100 in chips) 
+Seat 3: amrysatoru ($116.56 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($100 in chips) 
+Seat 6: Supermegopro ($105.50 in chips) 
+50CandyJoe: posts small blind $0.50
+amrysatoru: posts big blind $1
+*** HOLE CARDS ***
+Seavus10: folds 
+Xenicide: raises $1 to $2
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru: calls $1
+*** FLOP *** [Ks 9d 6d]
+amrysatoru: checks 
+Xenicide: bets $1.33
+amrysatoru: calls $1.33
+*** TURN *** [Ks 9d 6d] [4s]
+amrysatoru: checks 
+Xenicide: bets $10.20
+amrysatoru: folds 
+Uncalled bet ($10.20) returned to Xenicide
+Xenicide collected $6.80 from pot
+*** SUMMARY ***
+Total pot $7.16 | Rake $0.36 
+Board [Ks 9d 6d 4s]
+Seat 1: mironchikvld (button) folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (small blind) folded before Flop
+Seat 3: amrysatoru (big blind) folded on the Turn
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide collected ($6.80)
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796046709:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:00:36 WET [2025/02/10 0:00:36 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: mironchikvld ($103.68 in chips) 
+Seat 2: 50CandyJoe ($100 in chips) 
+Seat 3: amrysatoru ($113.23 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($103.47 in chips) 
+Seat 6: Supermegopro ($105.50 in chips) 
+amrysatoru: posts small blind $0.50
+Seavus10: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Supermegopro: raises $1.50 to $2.50
+mironchikvld: folds 
+50CandyJoe: calls $2.50
+amrysatoru: folds 
+Seavus10: folds 
+*** FLOP *** [6c Qc Qs]
+Supermegopro: checks 
+50CandyJoe: bets $2.04
+Supermegopro: folds 
+Uncalled bet ($2.04) returned to 50CandyJoe
+50CandyJoe collected $6.18 from pot
+50CandyJoe: doesn't show hand 
+*** SUMMARY ***
+Total pot $6.50 | Rake $0.32 
+Board [6c Qc Qs]
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (button) collected ($6.18)
+Seat 3: amrysatoru (small blind) folded before Flop
+Seat 4: Seavus10 (big blind) folded before Flop
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro folded on the Flop
+
+
+
+PokerStars Hand #254796049727:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:01:16 WET [2025/02/10 0:01:16 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 1: mironchikvld ($103.68 in chips) 
+Seat 2: 50CandyJoe ($103.68 in chips) 
+Seat 3: amrysatoru ($112.73 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($103.47 in chips) 
+Seat 6: Supermegopro ($103 in chips) 
+Seavus10: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: raises $1.20 to $2.20
+amrysatoru: calls $2.20
+Seavus10: folds 
+Xenicide: folds 
+*** FLOP *** [2s 5h 2d]
+50CandyJoe: bets $2.80
+amrysatoru: folds 
+Uncalled bet ($2.80) returned to 50CandyJoe
+50CandyJoe collected $5.60 from pot
+50CandyJoe: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.90 | Rake $0.30 
+Board [2s 5h 2d]
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe collected ($5.60)
+Seat 3: amrysatoru (button) folded on the Flop
+Seat 4: Seavus10 (small blind) folded before Flop
+Seat 5: Xenicide (big blind) folded before Flop
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796052237:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:01:48 WET [2025/02/10 0:01:48 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: mironchikvld ($103.68 in chips) 
+Seat 2: 50CandyJoe ($107.08 in chips) 
+Seat 3: amrysatoru ($110.53 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($102.47 in chips) 
+Seat 6: Supermegopro ($103 in chips) 
+Xenicide: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+mironchikvld: folds 
+50CandyJoe: raises $1.20 to $2.20
+amrysatoru: folds 
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: folds 
+Uncalled bet ($1.20) returned to 50CandyJoe
+50CandyJoe collected $2.50 from pot
+50CandyJoe: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe collected ($2.50)
+Seat 3: amrysatoru folded before Flop (didn't bet)
+Seat 4: Seavus10 (button) folded before Flop (didn't bet)
+Seat 5: Xenicide (small blind) folded before Flop
+Seat 6: Supermegopro (big blind) folded before Flop
+
+
+
+PokerStars Hand #254796054027:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:02:11 WET [2025/02/10 0:02:11 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 1: mironchikvld ($103.68 in chips) 
+Seat 2: 50CandyJoe ($108.58 in chips) 
+Seat 3: amrysatoru ($110.53 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($101.97 in chips) 
+Seat 6: Supermegopro ($102 in chips) 
+Supermegopro: posts small blind $0.50
+mironchikvld: posts big blind $1
+*** HOLE CARDS ***
+50CandyJoe: folds 
+amrysatoru: raises $1 to $2
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: calls $1.50
+mironchikvld: calls $1
+*** FLOP *** [9c 6s Ts]
+Supermegopro: checks 
+mironchikvld: checks 
+amrysatoru: checks 
+*** TURN *** [9c 6s Ts] [9h]
+Supermegopro: checks 
+mironchikvld: checks 
+amrysatoru: bets $2
+Supermegopro: folds 
+mironchikvld: calls $2
+*** RIVER *** [9c 6s Ts 9h] [Qs]
+mironchikvld: checks 
+amrysatoru: checks 
+*** SHOW DOWN ***
+mironchikvld: shows [Tc Qc] (two pair, Queens and Tens)
+amrysatoru: mucks hand 
+mironchikvld collected $9.50 from pot
+*** SUMMARY ***
+Total pot $10 | Rake $0.50 
+Board [9c 6s Ts 9h Qs]
+Seat 1: mironchikvld (big blind) showed [Tc Qc] and won ($9.50) with two pair, Queens and Tens
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 3: amrysatoru mucked
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide (button) folded before Flop (didn't bet)
+Seat 6: Supermegopro (small blind) folded on the Turn
+
+
+
+PokerStars Hand #254796059072:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:03:16 WET [2025/02/10 0:03:16 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: mironchikvld ($109.18 in chips) 
+Seat 2: 50CandyJoe ($108.58 in chips) 
+Seat 3: amrysatoru ($106.53 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($101.97 in chips) 
+Seat 6: Supermegopro ($100 in chips) 
+mironchikvld: posts small blind $0.50
+50CandyJoe: posts big blind $1
+*** HOLE CARDS ***
+amrysatoru: folds 
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: raises $1.50 to $2.50
+mironchikvld: folds 
+50CandyJoe: folds 
+Uncalled bet ($1.50) returned to Supermegopro
+Supermegopro collected $2.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: mironchikvld (small blind) folded before Flop
+Seat 2: 50CandyJoe (big blind) folded before Flop
+Seat 3: amrysatoru folded before Flop (didn't bet)
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro (button) collected ($2.50)
+
+
+
+PokerStars Hand #254796060510:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:03:35 WET [2025/02/10 0:03:35 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: mironchikvld ($108.68 in chips) 
+Seat 2: 50CandyJoe ($107.58 in chips) 
+Seat 3: amrysatoru ($106.53 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($101.97 in chips) 
+Seat 6: Supermegopro ($101.50 in chips) 
+50CandyJoe: posts small blind $0.50
+amrysatoru: posts big blind $1
+*** HOLE CARDS ***
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: folds 
+Uncalled bet ($0.50) returned to amrysatoru
+amrysatoru collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: mironchikvld (button) folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (small blind) folded before Flop
+Seat 3: amrysatoru (big blind) collected ($1)
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796062086:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:03:55 WET [2025/02/10 0:03:55 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: mironchikvld ($108.68 in chips) 
+Seat 2: 50CandyJoe ($107.08 in chips) 
+Seat 3: amrysatoru ($107.03 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($101.97 in chips) 
+Seat 6: Supermegopro ($101.50 in chips) 
+amrysatoru: posts small blind $0.50
+Seavus10: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1 to $2
+Supermegopro: folds 
+mironchikvld has timed out
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru has timed out
+amrysatoru: folds 
+Seavus10: folds 
+Uncalled bet ($1) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (button) folded before Flop (didn't bet)
+Seat 3: amrysatoru (small blind) folded before Flop
+Seat 4: Seavus10 (big blind) folded before Flop
+Seat 5: Xenicide collected ($2.50)
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796067306:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:05:01 WET [2025/02/10 0:05:01 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 3: amrysatoru ($106.53 in chips) is sitting out
+Seat 1: mironchikvld ($108.68 in chips) 
+Seat 2: 50CandyJoe ($107.08 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($103.47 in chips) 
+Seat 6: Supermegopro ($101.50 in chips) 
+Xenicide: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+mironchikvld has timed out
+mironchikvld: folds 
+50CandyJoe: folds 
+Seavus10: folds 
+Xenicide: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 3: amrysatoru
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 4: Seavus10 (button) folded before Flop (didn't bet)
+Seat 5: Xenicide (small blind) folded before Flop
+Seat 6: Supermegopro (big blind) collected ($1)
+
+
+
+PokerStars Hand #254796068893:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:05:21 WET [2025/02/10 0:05:21 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 3: amrysatoru ($106.53 in chips) is sitting out
+Seat 1: mironchikvld ($108.68 in chips) 
+Seat 2: 50CandyJoe ($107.08 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($102.97 in chips) 
+Seat 6: Supermegopro ($102 in chips) 
+Supermegopro: posts small blind $0.50
+mironchikvld: posts big blind $1
+*** HOLE CARDS ***
+50CandyJoe: folds 
+Seavus10: folds 
+Xenicide: raises $1.25 to $2.25
+Supermegopro: folds 
+mironchikvld: folds 
+Uncalled bet ($1.25) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 3: amrysatoru
+Seat 1: mironchikvld (big blind) folded before Flop
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide (button) collected ($2.50)
+Seat 6: Supermegopro (small blind) folded before Flop
+
+
+
+PokerStars Hand #254796070676:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:05:45 WET [2025/02/10 0:05:45 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 3: amrysatoru ($106.53 in chips) is sitting out
+Seat 1: mironchikvld ($107.68 in chips) 
+Seat 2: 50CandyJoe ($107.08 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($104.47 in chips) 
+Seat 6: Supermegopro ($101.50 in chips) 
+mironchikvld: posts small blind $0.50
+50CandyJoe: posts big blind $1
+*** HOLE CARDS ***
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: raises $1.50 to $2.50
+mironchikvld: folds 
+50CandyJoe: folds 
+Uncalled bet ($1.50) returned to Supermegopro
+Supermegopro collected $2.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 3: amrysatoru
+Seat 1: mironchikvld (small blind) folded before Flop
+Seat 2: 50CandyJoe (big blind) folded before Flop
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro (button) collected ($2.50)
+
+
+
+PokerStars Hand #254796072121:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:06:03 WET [2025/02/10 0:06:03 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: mironchikvld ($107.18 in chips) 
+Seat 2: 50CandyJoe ($106.08 in chips) 
+Seat 3: amrysatoru ($106.53 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($104.47 in chips) 
+Seat 6: Supermegopro ($103 in chips) 
+50CandyJoe: posts small blind $0.50
+amrysatoru: posts big blind $1
+*** HOLE CARDS ***
+Seavus10: folds 
+Xenicide: raises $1 to $2
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: calls $1.50
+amrysatoru: calls $1
+*** FLOP *** [Jc 8c 7c]
+50CandyJoe: checks 
+amrysatoru: checks 
+Xenicide: bets $2.39
+50CandyJoe: folds 
+amrysatoru: folds 
+Uncalled bet ($2.39) returned to Xenicide
+Xenicide collected $5.70 from pot
+*** SUMMARY ***
+Total pot $6 | Rake $0.30 
+Board [Jc 8c 7c]
+Seat 1: mironchikvld (button) folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (small blind) folded on the Flop
+Seat 3: amrysatoru (big blind) folded on the Flop
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide collected ($5.70)
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796077659:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:07:15 WET [2025/02/10 0:07:15 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: mironchikvld ($107.18 in chips) 
+Seat 2: 50CandyJoe ($104.08 in chips) 
+Seat 3: amrysatoru ($104.53 in chips) 
+Seat 4: Seavus10 ($100 in chips) 
+Seat 5: Xenicide ($108.17 in chips) 
+Seat 6: Supermegopro ($103 in chips) 
+amrysatoru: posts small blind $0.50
+Seavus10: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Supermegopro: raises $1.50 to $2.50
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru: calls $2
+Seavus10: raises $12.05 to $14.55
+Supermegopro: calls $12.05
+amrysatoru: folds 
+*** FLOP *** [8c 3c 5s]
+Seavus10: checks 
+Supermegopro: bets $9.91
+Seavus10: calls $9.91
+*** TURN *** [8c 3c 5s] [Kd]
+Seavus10: bets $16.14
+Supermegopro: calls $16.14
+*** RIVER *** [8c 3c 5s Kd] [Qd]
+Seavus10: bets $59.40 and is all-in
+Supermegopro: folds 
+Uncalled bet ($59.40) returned to Seavus10
+Seavus10 collected $81.20 from pot
+Seavus10: doesn't show hand 
+*** SUMMARY ***
+Total pot $83.70 | Rake $2.50 
+Board [8c 3c 5s Kd Qd]
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (button) folded before Flop (didn't bet)
+Seat 3: amrysatoru (small blind) folded before Flop
+Seat 4: Seavus10 (big blind) collected ($81.20)
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro folded on the River
+
+
+
+PokerStars Hand #254796085333:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:08:55 WET [2025/02/10 0:08:55 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 1: mironchikvld ($107.18 in chips) 
+Seat 2: 50CandyJoe ($104.08 in chips) 
+Seat 3: amrysatoru ($102.03 in chips) 
+Seat 4: Seavus10 ($140.60 in chips) 
+Seat 5: Xenicide ($108.17 in chips) 
+Seat 6: Supermegopro ($100 in chips) 
+Seavus10: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: raises $1.20 to $2.20
+amrysatoru: folds 
+Seavus10: folds 
+Xenicide: folds 
+Uncalled bet ($1.20) returned to 50CandyJoe
+50CandyJoe collected $2.50 from pot
+50CandyJoe: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe collected ($2.50)
+Seat 3: amrysatoru (button) folded before Flop (didn't bet)
+Seat 4: Seavus10 (small blind) folded before Flop
+Seat 5: Xenicide (big blind) folded before Flop
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796086658:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:09:13 WET [2025/02/10 0:09:13 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: mironchikvld ($107.18 in chips) 
+Seat 2: 50CandyJoe ($105.58 in chips) 
+Seat 3: amrysatoru ($102.03 in chips) 
+Seat 4: Seavus10 ($140.10 in chips) 
+Seat 5: Xenicide ($107.17 in chips) 
+Seat 6: Supermegopro ($100 in chips) 
+Xenicide: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru has timed out
+amrysatoru: folds 
+Seavus10: folds 
+Xenicide: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 3: amrysatoru folded before Flop (didn't bet)
+Seat 4: Seavus10 (button) folded before Flop (didn't bet)
+Seat 5: Xenicide (small blind) folded before Flop
+Seat 6: Supermegopro (big blind) collected ($1)
+
+
+
+PokerStars Hand #254796088217:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:09:33 WET [2025/02/10 0:09:33 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 3: amrysatoru ($102.03 in chips) is sitting out
+Seat 1: mironchikvld ($107.18 in chips) 
+Seat 2: 50CandyJoe ($105.58 in chips) 
+Seat 4: Seavus10 ($140.10 in chips) 
+Seat 5: Xenicide ($106.67 in chips) 
+Seat 6: Supermegopro ($100.50 in chips) 
+Supermegopro: posts small blind $0.50
+mironchikvld: posts big blind $1
+*** HOLE CARDS ***
+50CandyJoe: folds 
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: raises $2 to $3
+mironchikvld: folds 
+Uncalled bet ($2) returned to Supermegopro
+Supermegopro collected $2 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 3: amrysatoru
+Seat 1: mironchikvld (big blind) folded before Flop
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide (button) folded before Flop (didn't bet)
+Seat 6: Supermegopro (small blind) collected ($2)
+
+
+
+PokerStars Hand #254796089547:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:09:50 WET [2025/02/10 0:09:50 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: mironchikvld ($106.18 in chips) 
+Seat 2: 50CandyJoe ($105.58 in chips) 
+Seat 3: amrysatoru ($102.03 in chips) 
+Seat 4: Seavus10 ($140.10 in chips) 
+Seat 5: Xenicide ($106.67 in chips) 
+Seat 6: Supermegopro ($101.50 in chips) 
+mironchikvld: posts small blind $0.50
+50CandyJoe: posts big blind $1
+*** HOLE CARDS ***
+amrysatoru: raises $1 to $2
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: calls $1
+*** FLOP *** [Jd Td 2s]
+50CandyJoe: checks 
+amrysatoru: checks 
+*** TURN *** [Jd Td 2s] [8d]
+50CandyJoe: bets $7.49
+amrysatoru: folds 
+Uncalled bet ($7.49) returned to 50CandyJoe
+50CandyJoe collected $4.28 from pot
+50CandyJoe: doesn't show hand 
+*** SUMMARY ***
+Total pot $4.50 | Rake $0.22 
+Board [Jd Td 2s 8d]
+Seat 1: mironchikvld (small blind) folded before Flop
+Seat 2: 50CandyJoe (big blind) collected ($4.28)
+Seat 3: amrysatoru folded on the Turn
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796091918:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:10:21 WET [2025/02/10 0:10:21 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: mironchikvld ($105.68 in chips) 
+Seat 2: 50CandyJoe ($107.86 in chips) 
+Seat 3: amrysatoru ($100.03 in chips) 
+Seat 4: Seavus10 ($140.10 in chips) 
+Seat 5: Xenicide ($106.67 in chips) 
+Seat 6: Supermegopro ($101.50 in chips) 
+50CandyJoe: posts small blind $0.50
+amrysatoru: posts big blind $1
+*** HOLE CARDS ***
+Seavus10: folds 
+Xenicide: folds 
+Supermegopro: raises $1.50 to $2.50
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru: calls $1.50
+*** FLOP *** [3d Td As]
+amrysatoru: checks 
+Supermegopro: checks 
+*** TURN *** [3d Td As] [Ah]
+amrysatoru: bets $2
+Supermegopro: raises $8 to $10
+amrysatoru: folds 
+Uncalled bet ($8) returned to Supermegopro
+Supermegopro collected $9.02 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $9.50 | Rake $0.48 
+Board [3d Td As Ah]
+Seat 1: mironchikvld (button) folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (small blind) folded before Flop
+Seat 3: amrysatoru (big blind) folded on the Turn
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro collected ($9.02)
+
+
+
+PokerStars Hand #254796094804:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:10:59 WET [2025/02/10 0:10:59 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: mironchikvld ($105.68 in chips) 
+Seat 2: 50CandyJoe ($107.36 in chips) 
+Seat 3: amrysatoru ($95.53 in chips) 
+Seat 4: Seavus10 ($140.10 in chips) 
+Seat 5: Xenicide ($106.67 in chips) 
+Seat 6: Supermegopro ($106.02 in chips) 
+amrysatoru: posts small blind $0.50
+Seavus10: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Supermegopro: raises $1.50 to $2.50
+mironchikvld: folds 
+50CandyJoe: calls $2.50
+amrysatoru: raises $5.50 to $8
+Seavus10: folds 
+Supermegopro: calls $5.50
+50CandyJoe: calls $5.50
+*** FLOP *** [Qc 3s Qs]
+amrysatoru: checks 
+Supermegopro: bets $7.84
+50CandyJoe: calls $7.84
+amrysatoru: calls $7.84
+*** TURN *** [Qc 3s Qs] [7s]
+amrysatoru: checks 
+Supermegopro: checks 
+50CandyJoe: bets $15.21
+amrysatoru: raises $17.21 to $32.42
+Supermegopro: folds 
+50CandyJoe: raises $59.10 to $91.52 and is all-in
+amrysatoru: calls $47.27 and is all-in
+Uncalled bet ($11.83) returned to 50CandyJoe
+*** RIVER *** [Qc 3s Qs 7s] [9c]
+*** SHOW DOWN ***
+amrysatoru: shows [As Js] (a flush, Ace high)
+50CandyJoe: shows [Jc Qh] (three of a kind, Queens)
+amrysatoru collected $205.40 from pot
+*** SUMMARY ***
+Total pot $207.90 | Rake $2.50 
+Board [Qc 3s Qs 7s 9c]
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe (button) showed [Jc Qh] and lost with three of a kind, Queens
+Seat 3: amrysatoru (small blind) showed [As Js] and won ($205.40) with a flush, Ace high
+Seat 4: Seavus10 (big blind) folded before Flop
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro folded on the Turn
+
+
+
+PokerStars Hand #254796103208:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:12:50 WET [2025/02/10 0:12:50 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 1: mironchikvld ($105.68 in chips) 
+Seat 2: 50CandyJoe ($100 in chips) 
+Seat 3: amrysatoru ($205.40 in chips) 
+Seat 4: Seavus10 ($139.10 in chips) 
+Seat 5: Xenicide ($106.67 in chips) 
+Seat 6: Supermegopro ($100 in chips) 
+Seavus10: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru: raises $1 to $2
+Seavus10: folds 
+Xenicide: calls $1
+*** FLOP *** [Qs 6h 9c]
+Xenicide: checks 
+amrysatoru: bets $2
+Xenicide: calls $2
+*** TURN *** [Qs 6h 9c] [8h]
+Xenicide: checks 
+amrysatoru: checks 
+*** RIVER *** [Qs 6h 9c 8h] [Ts]
+Xenicide: checks 
+amrysatoru: checks 
+*** SHOW DOWN ***
+Xenicide: shows [Ah 6d] (a pair of Sixes)
+amrysatoru: shows [9d Qh] (two pair, Queens and Nines)
+amrysatoru collected $8.08 from pot
+*** SUMMARY ***
+Total pot $8.50 | Rake $0.42 
+Board [Qs 6h 9c 8h Ts]
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 3: amrysatoru (button) showed [9d Qh] and won ($8.08) with two pair, Queens and Nines
+Seat 4: Seavus10 (small blind) folded before Flop
+Seat 5: Xenicide (big blind) showed [Ah 6d] and lost with a pair of Sixes
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254796108407:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:13:57 WET [2025/02/10 0:13:57 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: mironchikvld ($105.68 in chips) 
+Seat 2: 50CandyJoe ($100 in chips) 
+Seat 3: amrysatoru ($209.48 in chips) 
+Seat 4: Seavus10 ($138.60 in chips) 
+Seat 5: Xenicide ($102.67 in chips) 
+Seat 6: Supermegopro ($100 in chips) 
+Xenicide: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+mironchikvld has timed out
+mironchikvld: folds 
+50CandyJoe: folds 
+amrysatoru: raises $1 to $2
+Seavus10: folds 
+Xenicide: calls $1.50
+Supermegopro: calls $1
+*** FLOP *** [6d 7c 8h]
+Xenicide: bets $2.39
+Supermegopro: calls $2.39
+amrysatoru: calls $2.39
+*** TURN *** [6d 7c 8h] [Qs]
+Xenicide: checks 
+Supermegopro: checks 
+amrysatoru: bets $8.26
+Xenicide: calls $8.26
+Supermegopro: folds 
+*** RIVER *** [6d 7c 8h Qs] [5h]
+Xenicide: bets $14.11
+amrysatoru: folds 
+Uncalled bet ($14.11) returned to Xenicide
+Xenicide collected $28.21 from pot
+*** SUMMARY ***
+Total pot $29.69 | Rake $1.48 
+Board [6d 7c 8h Qs 5h]
+Seat 1: mironchikvld folded before Flop (didn't bet)
+Seat 2: 50CandyJoe folded before Flop (didn't bet)
+Seat 3: amrysatoru folded on the River
+Seat 4: Seavus10 (button) folded before Flop (didn't bet)
+Seat 5: Xenicide (small blind) collected ($28.21)
+Seat 6: Supermegopro (big blind) folded on the Turn
+
+
+
+PokerStars Hand #254796115491:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:15:30 WET [2025/02/10 0:15:30 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 1: mironchikvld ($105.68 in chips) 
+Seat 2: 50CandyJoe ($100 in chips) 
+Seat 3: amrysatoru ($196.83 in chips) 
+Seat 4: Seavus10 ($138.60 in chips) 
+Seat 5: Xenicide ($118.23 in chips) 
+Seat 6: Supermegopro ($100 in chips) 
+Supermegopro: posts small blind $0.50
+mironchikvld: posts big blind $1
+*** HOLE CARDS ***
+50CandyJoe: raises $1.20 to $2.20
+amrysatoru: folds 
+Seavus10: folds 
+Xenicide: folds 
+amrysatoru leaves the table
+Supermegopro: raises $10.80 to $13
+mironchikvld: folds 
+50CandyJoe: folds 
+Uncalled bet ($10.80) returned to Supermegopro
+Supermegopro collected $5.40 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.40 | Rake $0 
+Seat 1: mironchikvld (big blind) folded before Flop
+Seat 2: 50CandyJoe folded before Flop
+Seat 3: amrysatoru folded before Flop (didn't bet)
+Seat 4: Seavus10 folded before Flop (didn't bet)
+Seat 5: Xenicide (button) folded before Flop (didn't bet)
+Seat 6: Supermegopro (small blind) collected ($5.40)
+
+
+
+PokerStars Hand #254796117543:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:15:57 WET [2025/02/10 0:15:57 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 2: 50CandyJoe ($100 in chips) is sitting out
+Seat 1: mironchikvld ($104.68 in chips) 
+Seat 4: Seavus10 ($138.60 in chips) 
+Seat 5: Xenicide ($118.23 in chips) 
+Seat 6: Supermegopro ($103.20 in chips) 
+mironchikvld: posts small blind $0.50
+Seavus10: posts big blind $1
+*** HOLE CARDS ***
+50CandyJoe leaves the table
+Xenicide: folds 
+Supermegopro: raises $2 to $3
+mironchikvld: folds 
+Seavus10: folds 
+Uncalled bet ($2) returned to Supermegopro
+Supermegopro collected $2.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 2: 50CandyJoe
+Seat 1: mironchikvld (small blind) folded before Flop
+Seat 4: Seavus10 (big blind) folded before Flop
+Seat 5: Xenicide folded before Flop (didn't bet)
+Seat 6: Supermegopro (button) collected ($2.50)
+
+
+
+PokerStars Hand #254796119044:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 5:16:17 WET [2025/02/10 0:16:17 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: mironchikvld ($104.18 in chips) 
+Seat 4: Seavus10 ($137.60 in chips) 
+Seat 5: Xenicide ($118.23 in chips) 
+Seat 6: Supermegopro ($104.70 in chips) 
+Seavus10: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Supermegopro leaves the table
+mironchikvld: folds 
+Seavus10: folds 
+Uncalled bet ($0.50) returned to Xenicide
+Xenicide collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: mironchikvld (button) folded before Flop (didn't bet)
+Seat 4: Seavus10 (small blind) folded before Flop
+Seat 5: Xenicide (big blind) collected ($1)
+Seat 6: Supermegopro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254795791083:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:11:19 WET [2025/02/09 23:11:19 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 3: Supermegopro ($100 in chips) 
+Seat 5: Xenicide ($100 in chips) 
+Seat 6: XneferX ($100 in chips) 
+Xenicide: posts small blind $0.50
+XneferX: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: folds 
+Uncalled bet ($0.50) returned to XneferX
+XneferX collected $1 from pot
+XneferX: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 3: Supermegopro (button) folded before Flop (didn't bet)
+Seat 5: Xenicide (small blind) folded before Flop
+Seat 6: XneferX (big blind) collected ($1)
+
+
+
+PokerStars Hand #254795792458:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:11:34 WET [2025/02/09 23:11:34 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 3: Supermegopro ($100 in chips) 
+Seat 5: Xenicide ($100 in chips) 
+Seat 6: XneferX ($100.50 in chips) 
+XneferX: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+XneferX: raises $2 to $3
+Supermegopro: folds 
+Uncalled bet ($2) returned to XneferX
+XneferX collected $2 from pot
+XneferX: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 3: Supermegopro (big blind) folded before Flop
+Seat 5: Xenicide (button) folded before Flop (didn't bet)
+Seat 6: XneferX (small blind) collected ($2)
+
+
+
+PokerStars Hand #254795794237:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:11:52 WET [2025/02/09 23:11:52 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 3: Supermegopro ($100 in chips) 
+Seat 5: Xenicide ($100 in chips) 
+Seat 6: XneferX ($101.50 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+XneferX: folds 
+Supermegopro: raises $2 to $3
+Xenicide: folds 
+Uncalled bet ($2) returned to Supermegopro
+Supermegopro collected $2 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 3: Supermegopro (small blind) collected ($2)
+Seat 5: Xenicide (big blind) folded before Flop
+Seat 6: XneferX (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254795797126:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:12:23 WET [2025/02/09 23:12:23 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 5: Xenicide ($100 in chips) 
+Seat 6: XneferX ($101.50 in chips) 
+Xenicide: posts small blind $0.50
+XneferX: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Uncalled bet ($0.50) returned to XneferX
+XneferX collected $1 from pot
+XneferX: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 5: Xenicide (button) (small blind) folded before Flop
+Seat 6: XneferX (big blind) collected ($1)
+
+
+
+PokerStars Hand #254795797989:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 4:12:32 WET [2025/02/09 23:12:32 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 5: Xenicide ($100 in chips) 
+Seat 6: XneferX ($102 in chips) 
+XneferX: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+XneferX: folds 
+Uncalled bet ($0.50) returned to Xenicide
+Xenicide collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 5: Xenicide (big blind) collected ($1)
+Seat 6: XneferX (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803491248:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:10:35 WET [2025/02/10 14:10:35 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: himqa ($100 in chips) is sitting out
+Seat 4: Twistenko ($100 in chips) is sitting out
+Seat 2: MauriFierro27 ($100 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 5: firstsr ($92.39 in chips) 
+Seat 6: SorinS28 ($107.80 in chips) 
+MauriFierro27: posts small blind $0.50
+whlzor: posts big blind $1
+Twistenko: sits out 
+*** HOLE CARDS ***
+firstsr: calls $1
+SorinS28: folds 
+MauriFierro27: raises $4.50 to $5.50
+whlzor: folds 
+firstsr: folds 
+Uncalled bet ($4.50) returned to MauriFierro27
+MauriFierro27 collected $3 from pot
+MauriFierro27: doesn't show hand 
+*** SUMMARY ***
+Total pot $3 | Rake $0 
+Seat 1: himqa
+Seat 4: Twistenko
+Seat 2: MauriFierro27 (small blind) collected ($3)
+Seat 3: whlzor (big blind) folded before Flop
+Seat 5: firstsr folded before Flop
+Seat 6: SorinS28 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803497743:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:10:56 WET [2025/02/10 14:10:56 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: himqa ($100 in chips) is sitting out
+Seat 2: MauriFierro27 ($102 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($100 in chips) 
+Seat 5: firstsr ($91.39 in chips) 
+Seat 6: SorinS28 ($107.80 in chips) 
+whlzor: posts small blind $0.50
+Twistenko: posts big blind $1
+himqa: sits out 
+*** HOLE CARDS ***
+firstsr: folds 
+SorinS28: folds 
+MauriFierro27: folds 
+whlzor: raises $2 to $3
+Twistenko: folds 
+Uncalled bet ($2) returned to whlzor
+whlzor collected $2 from pot
+whlzor: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: himqa
+Seat 2: MauriFierro27 (button) folded before Flop (didn't bet)
+Seat 3: whlzor (small blind) collected ($2)
+Seat 4: Twistenko (big blind) folded before Flop
+Seat 5: firstsr folded before Flop (didn't bet)
+Seat 6: SorinS28 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803501017:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:11:06 WET [2025/02/10 14:11:06 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 1: himqa ($100 in chips) is sitting out
+Seat 2: MauriFierro27 ($102 in chips) 
+Seat 3: whlzor ($101 in chips) 
+Seat 4: Twistenko ($100 in chips) 
+Seat 5: firstsr ($91.39 in chips) 
+Seat 6: SorinS28 ($107.80 in chips) 
+Twistenko: posts small blind $0.50
+firstsr: posts big blind $1
+himqa: sits out 
+*** HOLE CARDS ***
+SorinS28: folds 
+MauriFierro27: folds 
+whlzor: raises $2 to $3
+Twistenko: folds 
+firstsr: folds 
+Uncalled bet ($2) returned to whlzor
+whlzor collected $2.50 from pot
+whlzor: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa
+Seat 2: MauriFierro27 folded before Flop (didn't bet)
+Seat 3: whlzor (button) collected ($2.50)
+Seat 4: Twistenko (small blind) folded before Flop
+Seat 5: firstsr (big blind) folded before Flop
+Seat 6: SorinS28 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803506736:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:11:25 WET [2025/02/10 14:11:25 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: himqa ($100 in chips) is sitting out
+Seat 2: MauriFierro27 ($102 in chips) 
+Seat 3: whlzor ($102.50 in chips) 
+Seat 4: Twistenko ($100 in chips) 
+Seat 5: firstsr ($90.39 in chips) 
+Seat 6: SorinS28 ($107.80 in chips) 
+firstsr: posts small blind $0.50
+SorinS28: posts big blind $1
+himqa: sits out 
+*** HOLE CARDS ***
+MauriFierro27: folds 
+whlzor: folds 
+Twistenko: raises $1.50 to $2.50
+firstsr: calls $2
+SorinS28: folds 
+*** FLOP *** [8h 3c 4d]
+firstsr: checks 
+Twistenko: bets $1.50
+firstsr: calls $1.50
+*** TURN *** [8h 3c 4d] [2s]
+firstsr: checks 
+Twistenko: bets $6.41
+firstsr: raises $6.41 to $12.82
+Twistenko: calls $6.41
+*** RIVER *** [8h 3c 4d 2s] [9h]
+firstsr: checks 
+Twistenko: bets $16.46
+firstsr: calls $16.46
+*** SHOW DOWN ***
+Twistenko: shows [Ac 9d] (a pair of Nines)
+firstsr: mucks hand 
+Twistenko collected $65.06 from pot
+*** SUMMARY ***
+Total pot $67.56 | Rake $2.50 
+Board [8h 3c 4d 2s 9h]
+Seat 1: himqa
+Seat 2: MauriFierro27 folded before Flop (didn't bet)
+Seat 3: whlzor folded before Flop (didn't bet)
+Seat 4: Twistenko (button) showed [Ac 9d] and won ($65.06) with a pair of Nines
+Seat 5: firstsr (small blind) mucked
+Seat 6: SorinS28 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803521453:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:12:11 WET [2025/02/10 14:12:11 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 1: himqa ($100 in chips) 
+Seat 2: MauriFierro27 ($102 in chips) 
+Seat 3: whlzor ($102.50 in chips) 
+Seat 4: Twistenko ($131.78 in chips) 
+Seat 5: firstsr ($57.11 in chips) 
+Seat 6: SorinS28 ($106.80 in chips) 
+SorinS28: posts small blind $0.50
+himqa: posts big blind $1
+*** HOLE CARDS ***
+MauriFierro27: raises $1.20 to $2.20
+whlzor: folds 
+Twistenko: folds 
+firstsr: folds 
+SorinS28: folds 
+himqa: folds 
+Uncalled bet ($1.20) returned to MauriFierro27
+MauriFierro27 collected $2.50 from pot
+MauriFierro27: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa (big blind) folded before Flop
+Seat 2: MauriFierro27 collected ($2.50)
+Seat 3: whlzor folded before Flop (didn't bet)
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr (button) folded before Flop (didn't bet)
+Seat 6: SorinS28 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803526384:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:12:27 WET [2025/02/10 14:12:27 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: himqa ($100 in chips) 
+Seat 2: MauriFierro27 ($103.50 in chips) 
+Seat 3: whlzor ($102.50 in chips) 
+Seat 4: Twistenko ($131.78 in chips) 
+Seat 5: firstsr ($57.11 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+himqa: posts small blind $0.50
+MauriFierro27: posts big blind $1
+*** HOLE CARDS ***
+whlzor: raises $1.50 to $2.50
+Twistenko: folds 
+firstsr: calls $2.50
+SorinS28: folds 
+himqa: folds 
+MauriFierro27: calls $1.50
+*** FLOP *** [Kd Qd Jd]
+MauriFierro27: checks 
+whlzor: checks 
+firstsr: checks 
+*** TURN *** [Kd Qd Jd] [4d]
+MauriFierro27: checks 
+whlzor: checks 
+firstsr: checks 
+*** RIVER *** [Kd Qd Jd 4d] [6c]
+MauriFierro27: checks 
+whlzor: checks 
+firstsr: checks 
+*** SHOW DOWN ***
+MauriFierro27: shows [Th Ac] (a straight, Ten to Ace)
+whlzor: mucks hand 
+firstsr: mucks hand 
+MauriFierro27 collected $7.60 from pot
+*** SUMMARY ***
+Total pot $8 | Rake $0.40 
+Board [Kd Qd Jd 4d 6c]
+Seat 1: himqa (small blind) folded before Flop
+Seat 2: MauriFierro27 (big blind) showed [Th Ac] and won ($7.60) with a straight, Ten to Ace
+Seat 3: whlzor mucked
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr mucked
+Seat 6: SorinS28 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803546539:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:13:31 WET [2025/02/10 14:13:31 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: himqa ($100 in chips) 
+Seat 2: MauriFierro27 ($108.60 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($131.78 in chips) 
+Seat 5: firstsr ($54.61 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+MauriFierro27: posts small blind $0.50
+whlzor: posts big blind $1
+*** HOLE CARDS ***
+Twistenko: folds 
+firstsr: calls $1
+SorinS28: folds 
+himqa: raises $3 to $4
+MauriFierro27: folds 
+whlzor: folds 
+firstsr: calls $3
+*** FLOP *** [Th 8s 4c]
+firstsr: checks 
+himqa: bets $2.98
+firstsr: calls $2.98
+*** TURN *** [Th 8s 4c] [3s]
+firstsr: checks 
+himqa: bets $11.02
+firstsr: raises $11.02 to $22.04
+himqa: calls $11.02
+*** RIVER *** [Th 8s 4c 3s] [8h]
+firstsr: bets $25.59 and is all-in
+himqa: calls $25.59
+*** SHOW DOWN ***
+firstsr: shows [7s Ts] (two pair, Tens and Eights)
+himqa: shows [Qc Jc] (a pair of Eights)
+firstsr collected $108.22 from pot
+*** SUMMARY ***
+Total pot $110.72 | Rake $2.50 
+Board [Th 8s 4c 3s 8h]
+Seat 1: himqa (button) showed [Qc Jc] and lost with a pair of Eights
+Seat 2: MauriFierro27 (small blind) folded before Flop
+Seat 3: whlzor (big blind) folded before Flop
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr showed [7s Ts] and won ($108.22) with two pair, Tens and Eights
+Seat 6: SorinS28 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803568913:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:14:42 WET [2025/02/10 14:14:42 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: himqa ($100 in chips) 
+Seat 2: MauriFierro27 ($108.10 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($131.78 in chips) 
+Seat 5: firstsr ($108.22 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+whlzor: posts small blind $0.50
+Twistenko: posts big blind $1
+*** HOLE CARDS ***
+firstsr: folds 
+SorinS28: folds 
+himqa: raises $1.50 to $2.50
+MauriFierro27: folds 
+whlzor: folds 
+Twistenko: folds 
+Uncalled bet ($1.50) returned to himqa
+himqa collected $2.50 from pot
+himqa: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa collected ($2.50)
+Seat 2: MauriFierro27 (button) folded before Flop (didn't bet)
+Seat 3: whlzor (small blind) folded before Flop
+Seat 4: Twistenko (big blind) folded before Flop
+Seat 5: firstsr folded before Flop (didn't bet)
+Seat 6: SorinS28 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803573622:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:14:56 WET [2025/02/10 14:14:56 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 1: himqa ($101.50 in chips) 
+Seat 2: MauriFierro27 ($108.10 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($130.78 in chips) 
+Seat 5: firstsr ($108.22 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+Twistenko: posts small blind $0.50
+firstsr: posts big blind $1
+*** HOLE CARDS ***
+SorinS28: folds 
+himqa: folds 
+MauriFierro27: folds 
+whlzor: raises $2 to $3
+Twistenko: folds 
+firstsr: folds 
+Uncalled bet ($2) returned to whlzor
+whlzor collected $2.50 from pot
+whlzor: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa folded before Flop (didn't bet)
+Seat 2: MauriFierro27 folded before Flop (didn't bet)
+Seat 3: whlzor (button) collected ($2.50)
+Seat 4: Twistenko (small blind) folded before Flop
+Seat 5: firstsr (big blind) folded before Flop
+Seat 6: SorinS28 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803588314:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:15:43 WET [2025/02/10 14:15:43 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: himqa ($101.50 in chips) 
+Seat 2: MauriFierro27 ($108.10 in chips) 
+Seat 3: whlzor ($101.50 in chips) 
+Seat 4: Twistenko ($130.28 in chips) 
+Seat 5: firstsr ($107.22 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+firstsr: posts small blind $0.50
+SorinS28: posts big blind $1
+*** HOLE CARDS ***
+himqa: raises $1.50 to $2.50
+MauriFierro27: raises $5 to $7.50
+whlzor: folds 
+Twistenko: folds 
+firstsr: folds 
+SorinS28: folds 
+himqa: calls $5
+*** FLOP *** [9s Ad 6s]
+himqa: checks 
+MauriFierro27: bets $5.18
+himqa: calls $5.18
+*** TURN *** [9s Ad 6s] [5h]
+himqa: checks 
+MauriFierro27: bets $19.13
+himqa: folds 
+Uncalled bet ($19.13) returned to MauriFierro27
+MauriFierro27 collected $25.52 from pot
+MauriFierro27: doesn't show hand 
+*** SUMMARY ***
+Total pot $26.86 | Rake $1.34 
+Board [9s Ad 6s 5h]
+Seat 1: himqa folded on the Turn
+Seat 2: MauriFierro27 collected ($25.52)
+Seat 3: whlzor folded before Flop (didn't bet)
+Seat 4: Twistenko (button) folded before Flop (didn't bet)
+Seat 5: firstsr (small blind) folded before Flop
+Seat 6: SorinS28 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803605155:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:16:37 WET [2025/02/10 14:16:37 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 1: himqa ($100 in chips) 
+Seat 2: MauriFierro27 ($120.94 in chips) 
+Seat 3: whlzor ($101.50 in chips) 
+Seat 4: Twistenko ($130.28 in chips) 
+Seat 5: firstsr ($106.72 in chips) 
+Seat 6: SorinS28 ($105.30 in chips) 
+SorinS28: posts small blind $0.50
+himqa: posts big blind $1
+*** HOLE CARDS ***
+MauriFierro27: folds 
+whlzor: folds 
+Twistenko: folds 
+firstsr: folds 
+SorinS28: raises $2 to $3
+himqa: folds 
+Uncalled bet ($2) returned to SorinS28
+SorinS28 collected $2 from pot
+SorinS28: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: himqa (big blind) folded before Flop
+Seat 2: MauriFierro27 folded before Flop (didn't bet)
+Seat 3: whlzor folded before Flop (didn't bet)
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr (button) folded before Flop (didn't bet)
+Seat 6: SorinS28 (small blind) collected ($2)
+
+
+
+PokerStars Hand #254803610468:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:16:54 WET [2025/02/10 14:16:54 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: himqa ($100 in chips) 
+Seat 2: MauriFierro27 ($120.94 in chips) 
+Seat 3: whlzor ($101.50 in chips) 
+Seat 4: Twistenko ($130.28 in chips) 
+Seat 5: firstsr ($106.72 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+himqa: posts small blind $0.50
+MauriFierro27: posts big blind $1
+*** HOLE CARDS ***
+whlzor: raises $1.50 to $2.50
+Twistenko: folds 
+firstsr: folds 
+SorinS28: folds 
+himqa: raises $9.50 to $12
+MauriFierro27: folds 
+whlzor: calls $9.50
+*** FLOP *** [6c 4d 4s]
+himqa: bets $17.86
+whlzor: folds 
+Uncalled bet ($17.86) returned to himqa
+himqa collected $23.75 from pot
+himqa: doesn't show hand 
+*** SUMMARY ***
+Total pot $25 | Rake $1.25 
+Board [6c 4d 4s]
+Seat 1: himqa (small blind) collected ($23.75)
+Seat 2: MauriFierro27 (big blind) folded before Flop
+Seat 3: whlzor folded on the Flop
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr folded before Flop (didn't bet)
+Seat 6: SorinS28 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803631134:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:18:00 WET [2025/02/10 14:18:00 ET]
+Table 'Julia II' 6-max Seat #1 is the button
+Seat 1: himqa ($111.75 in chips) 
+Seat 2: MauriFierro27 ($119.94 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($130.28 in chips) 
+Seat 5: firstsr ($106.72 in chips) 
+Seat 6: SorinS28 ($106.30 in chips) 
+MauriFierro27: posts small blind $0.50
+whlzor: posts big blind $1
+*** HOLE CARDS ***
+Twistenko: folds 
+firstsr: folds 
+SorinS28: raises $1.30 to $2.30
+himqa: folds 
+MauriFierro27: folds 
+whlzor: calls $1.30
+*** FLOP *** [2d 9s Js]
+whlzor: checks 
+SorinS28: bets $1.36
+whlzor: folds 
+Uncalled bet ($1.36) returned to SorinS28
+SorinS28 collected $4.84 from pot
+SorinS28: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.10 | Rake $0.26 
+Board [2d 9s Js]
+Seat 1: himqa (button) folded before Flop (didn't bet)
+Seat 2: MauriFierro27 (small blind) folded before Flop
+Seat 3: whlzor (big blind) folded on the Flop
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr folded before Flop (didn't bet)
+Seat 6: SorinS28 collected ($4.84)
+
+
+
+PokerStars Hand #254803645750:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:18:46 WET [2025/02/10 14:18:46 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 1: himqa ($111.75 in chips) 
+Seat 2: MauriFierro27 ($119.44 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($130.28 in chips) 
+Seat 5: firstsr ($106.72 in chips) 
+Seat 6: SorinS28 ($108.84 in chips) 
+whlzor: posts small blind $0.50
+Twistenko: posts big blind $1
+*** HOLE CARDS ***
+firstsr: calls $1
+SorinS28: folds 
+himqa: raises $3 to $4
+MauriFierro27: folds 
+whlzor: folds 
+Twistenko: folds 
+firstsr: calls $3
+*** FLOP *** [7d 2s Jc]
+firstsr: checks 
+himqa: bets $2.98
+firstsr: calls $2.98
+*** TURN *** [7d 2s Jc] [6d]
+firstsr: checks 
+himqa: bets $15.02
+firstsr: calls $15.02
+*** RIVER *** [7d 2s Jc 6d] [Ac]
+firstsr: checks 
+himqa: bets $33.41
+firstsr: calls $33.41
+*** SHOW DOWN ***
+himqa: shows [6s 7s] (two pair, Sevens and Sixes)
+firstsr: mucks hand 
+himqa collected $109.82 from pot
+*** SUMMARY ***
+Total pot $112.32 | Rake $2.50 
+Board [7d 2s Jc 6d Ac]
+Seat 1: himqa showed [6s 7s] and won ($109.82) with two pair, Sevens and Sixes
+Seat 2: MauriFierro27 (button) folded before Flop (didn't bet)
+Seat 3: whlzor (small blind) folded before Flop
+Seat 4: Twistenko (big blind) folded before Flop
+Seat 5: firstsr mucked
+Seat 6: SorinS28 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803662773:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:19:40 WET [2025/02/10 14:19:40 ET]
+Table 'Julia II' 6-max Seat #3 is the button
+Seat 1: himqa ($166.16 in chips) 
+Seat 2: MauriFierro27 ($119.44 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($129.28 in chips) 
+Seat 5: firstsr ($51.31 in chips) 
+Seat 6: SorinS28 ($108.84 in chips) 
+Twistenko: posts small blind $0.50
+firstsr: posts big blind $1
+*** HOLE CARDS ***
+SorinS28: raises $1.02 to $2.02
+himqa: folds 
+MauriFierro27: folds 
+whlzor: folds 
+Twistenko: folds 
+firstsr: folds 
+Uncalled bet ($1.02) returned to SorinS28
+SorinS28 collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa folded before Flop (didn't bet)
+Seat 2: MauriFierro27 folded before Flop (didn't bet)
+Seat 3: whlzor (button) folded before Flop (didn't bet)
+Seat 4: Twistenko (small blind) folded before Flop
+Seat 5: firstsr (big blind) folded before Flop
+Seat 6: SorinS28 collected ($2.50)
+
+
+
+PokerStars Hand #254803667528:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:19:56 WET [2025/02/10 14:19:56 ET]
+Table 'Julia II' 6-max Seat #4 is the button
+Seat 1: himqa ($166.16 in chips) 
+Seat 2: MauriFierro27 ($119.44 in chips) 
+Seat 3: whlzor ($100 in chips) 
+Seat 4: Twistenko ($128.78 in chips) 
+Seat 5: firstsr ($50.31 in chips) 
+Seat 6: SorinS28 ($110.34 in chips) 
+firstsr: posts small blind $0.50
+SorinS28: posts big blind $1
+*** HOLE CARDS ***
+himqa: folds 
+MauriFierro27: folds 
+whlzor: raises $2 to $3
+Twistenko: folds 
+firstsr has timed out
+firstsr: folds 
+SorinS28: folds 
+Uncalled bet ($2) returned to whlzor
+whlzor collected $2.50 from pot
+whlzor: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa folded before Flop (didn't bet)
+Seat 2: MauriFierro27 folded before Flop (didn't bet)
+Seat 3: whlzor collected ($2.50)
+Seat 4: Twistenko (button) folded before Flop (didn't bet)
+Seat 5: firstsr (small blind) folded before Flop
+Seat 6: SorinS28 (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803678174:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:20:30 WET [2025/02/10 14:20:30 ET]
+Table 'Julia II' 6-max Seat #5 is the button
+Seat 1: himqa ($166.16 in chips) 
+Seat 2: MauriFierro27 ($119.44 in chips) 
+Seat 3: whlzor ($101.50 in chips) 
+Seat 4: Twistenko ($128.78 in chips) 
+Seat 5: firstsr ($49.81 in chips) 
+Seat 6: SorinS28 ($109.34 in chips) 
+SorinS28: posts small blind $0.50
+himqa: posts big blind $1
+*** HOLE CARDS ***
+MauriFierro27: raises $1.20 to $2.20
+whlzor: folds 
+Twistenko: folds 
+firstsr: calls $2.20
+SorinS28: folds 
+himqa: folds 
+*** FLOP *** [7c 6s 4s]
+MauriFierro27: checks 
+firstsr: checks 
+*** TURN *** [7c 6s 4s] [Jh]
+MauriFierro27: bets $4.20
+firstsr: calls $4.20
+*** RIVER *** [7c 6s 4s Jh] [3c]
+MauriFierro27: bets $19.04
+firstsr: folds 
+Uncalled bet ($19.04) returned to MauriFierro27
+MauriFierro27 collected $13.58 from pot
+MauriFierro27: doesn't show hand 
+*** SUMMARY ***
+Total pot $14.30 | Rake $0.72 
+Board [7c 6s 4s Jh 3c]
+Seat 1: himqa (big blind) folded before Flop
+Seat 2: MauriFierro27 collected ($13.58)
+Seat 3: whlzor folded before Flop (didn't bet)
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr (button) folded on the River
+Seat 6: SorinS28 (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803692999:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:21:18 WET [2025/02/10 14:21:18 ET]
+Table 'Julia II' 6-max Seat #6 is the button
+Seat 1: himqa ($165.16 in chips) 
+Seat 2: MauriFierro27 ($126.62 in chips) 
+Seat 3: whlzor ($101.50 in chips) 
+Seat 4: Twistenko ($128.78 in chips) 
+Seat 5: firstsr ($43.41 in chips) 
+Seat 6: SorinS28 ($108.84 in chips) 
+himqa: posts small blind $0.50
+MauriFierro27: posts big blind $1
+*** HOLE CARDS ***
+whlzor: raises $1.50 to $2.50
+Twistenko: folds 
+firstsr: folds 
+SorinS28: folds 
+himqa: folds 
+Twistenko leaves the table
+firstsr leaves the table
+MauriFierro27: folds 
+Uncalled bet ($1.50) returned to whlzor
+whlzor collected $2.50 from pot
+whlzor: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: himqa (small blind) folded before Flop
+Seat 2: MauriFierro27 (big blind) folded before Flop
+Seat 3: whlzor collected ($2.50)
+Seat 4: Twistenko folded before Flop (didn't bet)
+Seat 5: firstsr folded before Flop (didn't bet)
+Seat 6: SorinS28 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803699074:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:21:38 WET [2025/02/10 14:21:38 ET]
+Table 'Julia II' 6-max Seat #2 is the button
+Seat 3: whlzor ($103 in chips) is sitting out
+Seat 6: SorinS28 ($108.84 in chips) is sitting out
+Seat 1: himqa ($164.66 in chips) 
+Seat 2: MauriFierro27 ($125.62 in chips) 
+MauriFierro27: posts small blind $0.50
+whlzor: is sitting out 
+SorinS28: is sitting out 
+himqa: posts big blind $1
+*** HOLE CARDS ***
+MauriFierro27: folds 
+Uncalled bet ($0.50) returned to himqa
+SorinS28 leaves the table
+whlzor leaves the table
+himqa collected $1 from pot
+himqa: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 3: whlzor
+Seat 6: SorinS28
+Seat 1: himqa (big blind) collected ($1)
+Seat 2: MauriFierro27 (button) (small blind) folded before Flop
+
+
+

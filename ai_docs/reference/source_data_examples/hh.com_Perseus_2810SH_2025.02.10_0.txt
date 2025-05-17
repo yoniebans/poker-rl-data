@@ -1,0 +1,2672 @@
+﻿PokerStars Hand #254803218317:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:53:59 WET [2025/02/10 13:53:59 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($100 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($100 in chips) 
+michasia: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+michasia: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (big blind) collected ($1)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: michasia (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803223373:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:54:17 WET [2025/02/10 13:54:17 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($100.50 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($100 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+michasia: raises $1.80 to $2.80
+Supermegopro: raises $9.20 to $12
+Xenicide: folds 
+michasia: calls $9.20
+*** FLOP *** [2s 4c Td]
+Supermegopro: bets $12
+michasia: calls $12
+*** TURN *** [2s 4c Td] [4d]
+Supermegopro: bets $24
+michasia: calls $24
+*** RIVER *** [2s 4c Td 4d] [3h]
+Supermegopro: bets $52.50 and is all-in
+michasia: calls $52 and is all-in
+Uncalled bet ($0.50) returned to Supermegopro
+*** SHOW DOWN ***
+Supermegopro: shows [Qh Qd] (two pair, Queens and Fours)
+michasia: shows [As Ts] (two pair, Tens and Fours)
+Supermegopro collected $200 from pot
+*** SUMMARY ***
+Total pot $201 | Rake $1 
+Board [2s 4c Td 4d 3h]
+Seat 1: Supermegopro (small blind) showed [Qh Qd] and won ($200) with two pair, Queens and Fours
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: michasia (button) showed [As Ts] and lost with two pair, Tens and Fours
+
+
+
+PokerStars Hand #254803238503:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:55:13 WET [2025/02/10 13:55:13 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($200.50 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($100 in chips) 
+Xenicide: posts small blind $0.50
+michasia: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: folds 
+Uncalled bet ($0.50) returned to michasia
+michasia collected $1 from pot
+michasia: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 5: michasia (big blind) collected ($1)
+
+
+
+PokerStars Hand #254803240070:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:55:20 WET [2025/02/10 13:55:20 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($200.50 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($100.50 in chips) 
+michasia: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1.25 to $2.25
+michasia: folds 
+Supermegopro: folds 
+Uncalled bet ($1.25) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (big blind) folded before Flop
+Seat 3: Xenicide (button) collected ($2.50)
+Seat 5: michasia (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803244523:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:55:43 WET [2025/02/10 13:55:43 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($101.50 in chips) 
+Seat 5: michasia ($100 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+michasia: raises $1.80 to $2.80
+Supermegopro: folds 
+Xenicide: folds 
+Uncalled bet ($1.80) returned to michasia
+michasia collected $2.50 from pot
+michasia: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: michasia (button) collected ($2.50)
+
+
+
+PokerStars Hand #254803249903:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:56:08 WET [2025/02/10 13:56:08 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($199 in chips) 
+Seat 3: Xenicide ($100.50 in chips) 
+Seat 5: michasia ($101.50 in chips) 
+Xenicide: posts small blind $0.50
+michasia: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: raises $2.50 to $3.50
+michasia: calls $2.50
+*** FLOP *** [6s Jh Ks]
+Xenicide: checks 
+michasia: bets $4.43
+Xenicide: folds 
+Uncalled bet ($4.43) returned to michasia
+michasia collected $6.65 from pot
+michasia: doesn't show hand 
+*** SUMMARY ***
+Total pot $7 | Rake $0.35 
+Board [6s Jh Ks]
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded on the Flop
+Seat 5: michasia (big blind) collected ($6.65)
+
+
+
+PokerStars Hand #254803257997:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:56:48 WET [2025/02/10 13:56:48 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($199 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($104.65 in chips) 
+michasia: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1.25 to $2.25
+michasia: folds 
+Supermegopro: folds 
+Uncalled bet ($1.25) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (big blind) folded before Flop
+Seat 3: Xenicide (button) collected ($2.50)
+Seat 5: michasia (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803260535:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:57:00 WET [2025/02/10 13:57:00 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($198 in chips) 
+Seat 3: Xenicide ($101.50 in chips) 
+Seat 5: michasia ($104.15 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+michasia: folds 
+Supermegopro: raises $2 to $3
+Xenicide: folds 
+Uncalled bet ($2) returned to Supermegopro
+Supermegopro collected $2 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: Supermegopro (small blind) collected ($2)
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: michasia (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803262474:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:57:09 WET [2025/02/10 13:57:09 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($199 in chips) 
+Seat 3: Xenicide ($100.50 in chips) 
+Seat 5: michasia ($104.15 in chips) 
+Xenicide: posts small blind $0.50
+michasia: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: raises $1.50 to $2.50
+Xenicide: folds 
+michasia: folds 
+Uncalled bet ($1.50) returned to Supermegopro
+Supermegopro collected $2.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (button) collected ($2.50)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 5: michasia (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803265161:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:57:22 WET [2025/02/10 13:57:22 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($200.50 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($103.15 in chips) 
+michasia: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+michasia: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (big blind) collected ($1)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: michasia (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803266565:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:57:29 WET [2025/02/10 13:57:29 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($201 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: michasia ($102.65 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+michasia: folds 
+Supermegopro: raises $2 to $3
+Xenicide: calls $2
+*** FLOP *** [4d Qc 8s]
+Supermegopro: checks 
+Xenicide: checks 
+*** TURN *** [4d Qc 8s] [9h]
+Supermegopro: checks 
+michasia leaves the table
+Xenicide: checks 
+*** RIVER *** [4d Qc 8s 9h] [Jd]
+Nicedaymybro joins the table at seat #5 
+Supermegopro: checks 
+Xenicide: checks 
+*** SHOW DOWN ***
+Supermegopro: shows [7c Kc] (high card King)
+Xenicide: shows [6h Ah] (high card Ace)
+Xenicide collected $5.70 from pot
+*** SUMMARY ***
+Total pot $6 | Rake $0.30 
+Board [4d Qc 8s 9h Jd]
+Seat 1: Supermegopro (small blind) showed [7c Kc] and lost with high card King
+Seat 3: Xenicide (big blind) showed [6h Ah] and won ($5.70) with high card Ace
+Seat 5: michasia (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803278139:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:58:24 WET [2025/02/10 13:58:24 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($198 in chips) 
+Seat 3: Xenicide ($102.70 in chips) 
+Seat 5: Nicedaymybro ($100 in chips) 
+Xenicide: posts small blind $0.50
+Nicedaymybro: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: raises $1.50 to $2.50
+Xenicide: folds 
+Nicedaymybro: folds 
+Uncalled bet ($1.50) returned to Supermegopro
+Supermegopro collected $2.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (button) collected ($2.50)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 5: Nicedaymybro (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803280854:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:58:37 WET [2025/02/10 13:58:37 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($102.20 in chips) 
+Seat 5: Nicedaymybro ($100 in chips) 
+Nicedaymybro: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1.25 to $2.25
+Nicedaymybro: folds 
+Supermegopro: folds 
+Uncalled bet ($1.25) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (big blind) folded before Flop
+Seat 3: Xenicide (button) collected ($2.50)
+Seat 5: Nicedaymybro (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803284205:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:58:53 WET [2025/02/10 13:58:53 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($198.50 in chips) 
+Seat 3: Xenicide ($103.70 in chips) 
+Seat 5: Nicedaymybro ($100 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro: raises $1.50 to $2.50
+Supermegopro: folds 
+Xenicide: calls $1.50
+*** FLOP *** [3s 2h Ac]
+Xenicide: bets $1.62
+Nicedaymybro: raises $6.35 to $7.97
+Xenicide: folds 
+Uncalled bet ($6.35) returned to Nicedaymybro
+Nicedaymybro collected $8.30 from pot
+Nicedaymybro: doesn't show hand 
+*** SUMMARY ***
+Total pot $8.74 | Rake $0.44 
+Board [3s 2h Ac]
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded on the Flop
+Seat 5: Nicedaymybro (button) collected ($8.30)
+
+
+
+PokerStars Hand #254803292786:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:59:34 WET [2025/02/10 13:59:34 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($198 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: Nicedaymybro ($104.18 in chips) 
+Xenicide: posts small blind $0.50
+Nicedaymybro: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: raises $2.50 to $3.50
+Nicedaymybro: folds 
+Uncalled bet ($2.50) returned to Xenicide
+Xenicide collected $2 from pot
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) collected ($2)
+Seat 5: Nicedaymybro (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803296307:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 18:59:51 WET [2025/02/10 13:59:51 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($198 in chips) 
+Seat 3: Xenicide ($101 in chips) 
+Seat 5: Nicedaymybro ($103.18 in chips) 
+Nicedaymybro: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Nicedaymybro: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (big blind) collected ($1)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: Nicedaymybro (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803298292:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:00:00 WET [2025/02/10 14:00:00 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($198.50 in chips) 
+Seat 3: Xenicide ($101 in chips) 
+Seat 5: Nicedaymybro ($102.68 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro: folds 
+Supermegopro: raises $2 to $3
+Xenicide: folds 
+Uncalled bet ($2) returned to Supermegopro
+Supermegopro collected $2 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: Supermegopro (small blind) collected ($2)
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: Nicedaymybro (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803303718:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:00:20 WET [2025/02/10 14:00:20 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($100 in chips) 
+Seat 5: Nicedaymybro ($102.68 in chips) 
+Xenicide: posts small blind $0.50
+Nicedaymybro: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: raises $2.50 to $3.50
+Nicedaymybro: calls $2.50
+*** FLOP *** [7d 9h 7h]
+Xenicide: checks 
+Nicedaymybro: bets $3.33
+Xenicide: raises $7.32 to $10.65
+Nicedaymybro: calls $7.32
+*** TURN *** [7d 9h 7h] [7c]
+Xenicide: checks 
+Nicedaymybro: checks 
+*** RIVER *** [7d 9h 7h 7c] [Kh]
+Xenicide: bets $85.85 and is all-in
+Nicedaymybro: folds 
+Uncalled bet ($85.85) returned to Xenicide
+Xenicide collected $27.30 from pot
+*** SUMMARY ***
+Total pot $28.30 | Rake $1 
+Board [7d 9h 7h 7c Kh]
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) collected ($27.30)
+Seat 5: Nicedaymybro (big blind) folded on the River
+
+
+
+PokerStars Hand #254803327361:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:01:48 WET [2025/02/10 14:01:48 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($113.15 in chips) 
+Seat 5: Nicedaymybro ($100 in chips) 
+Nicedaymybro: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Nicedaymybro: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (big blind) collected ($1)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: Nicedaymybro (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803331532:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:02:02 WET [2025/02/10 14:02:02 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($200 in chips) 
+Seat 3: Xenicide ($113.15 in chips) 
+Seat 5: Nicedaymybro ($100 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro: raises $1.50 to $2.50
+Supermegopro: folds 
+Xenicide: folds 
+Uncalled bet ($1.50) returned to Nicedaymybro
+Nicedaymybro collected $2.50 from pot
+Nicedaymybro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: Nicedaymybro (button) collected ($2.50)
+
+
+
+PokerStars Hand #254803338152:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:02:24 WET [2025/02/10 14:02:24 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($112.15 in chips) 
+Seat 5: Nicedaymybro ($101.50 in chips) 
+Xenicide: posts small blind $0.50
+Nicedaymybro: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: raises $2.50 to $3.50
+Nicedaymybro: folds 
+Uncalled bet ($2.50) returned to Xenicide
+Xenicide collected $2 from pot
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) collected ($2)
+Seat 5: Nicedaymybro (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803342601:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:02:37 WET [2025/02/10 14:02:37 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($113.15 in chips) 
+Seat 5: Nicedaymybro ($100.50 in chips) 
+Nicedaymybro: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Nicedaymybro: folds 
+Uncalled bet ($0.50) returned to Supermegopro
+Supermegopro collected $1 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (big blind) collected ($1)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: Nicedaymybro (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803346691:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:02:49 WET [2025/02/10 14:02:49 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($200 in chips) 
+Seat 3: Xenicide ($113.15 in chips) 
+Seat 5: Nicedaymybro ($100 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro: raises $1.50 to $2.50
+Supermegopro: folds 
+Xenicide: folds 
+Uncalled bet ($1.50) returned to Nicedaymybro
+Nicedaymybro collected $2.50 from pot
+Nicedaymybro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: Nicedaymybro (button) collected ($2.50)
+
+
+
+PokerStars Hand #254803351331:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:03:05 WET [2025/02/10 14:03:05 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($112.15 in chips) 
+Seat 5: Nicedaymybro ($101.50 in chips) 
+Xenicide: posts small blind $0.50
+Nicedaymybro: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: raises $1.50 to $2.50
+Xenicide: folds 
+Nicedaymybro: folds 
+Uncalled bet ($1.50) returned to Supermegopro
+Supermegopro collected $2.50 from pot
+Supermegopro: doesn't show hand 
+S3MPR3IGUAL joins the table at seat #4 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (button) collected ($2.50)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 5: Nicedaymybro (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803354945:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:03:17 WET [2025/02/10 14:03:17 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 4: S3MPR3IGUAL ($100 in chips) is sitting out
+Seat 1: Supermegopro ($201 in chips) 
+Seat 3: Xenicide ($111.65 in chips) 
+Seat 5: Nicedaymybro ($100.50 in chips) 
+Nicedaymybro: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Nicedaymybro: raises $2 to $3
+Supermegopro: folds 
+Uncalled bet ($2) returned to Nicedaymybro
+Nicedaymybro collected $2 from pot
+Nicedaymybro: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 4: S3MPR3IGUAL
+Seat 1: Supermegopro (big blind) folded before Flop
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: Nicedaymybro (small blind) collected ($2)
+
+
+
+PokerStars Hand #254803360037:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:03:33 WET [2025/02/10 14:03:33 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 4: S3MPR3IGUAL ($100 in chips) is sitting out
+Seat 1: Supermegopro ($200 in chips) 
+Seat 3: Xenicide ($111.65 in chips) 
+Seat 5: Nicedaymybro ($101.50 in chips) 
+Supermegopro: posts small blind $0.50
+Xenicide: posts big blind $1
+S3MPR3IGUAL: sits out 
+*** HOLE CARDS ***
+Nicedaymybro: folds 
+Supermegopro: folds 
+Uncalled bet ($0.50) returned to Xenicide
+Xenicide collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 4: S3MPR3IGUAL
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 3: Xenicide (big blind) collected ($1)
+Seat 5: Nicedaymybro (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803362069:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:03:40 WET [2025/02/10 14:03:40 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($199.50 in chips) 
+Seat 3: Xenicide ($112.15 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: Nicedaymybro ($101.50 in chips) 
+Xenicide: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro: folds 
+Supermegopro: raises $1.50 to $2.50
+Haalleluja joins the table at seat #6 
+Haalleluja is disconnected 
+blackclan7 joins the table at seat #2 
+Xenicide: raises $7 to $9.50
+S3MPR3IGUAL: folds 
+Supermegopro: calls $7
+*** FLOP *** [6h Td 6d]
+Xenicide: checks 
+Supermegopro: checks 
+*** TURN *** [6h Td 6d] [2c]
+Xenicide: checks 
+Supermegopro: checks 
+*** RIVER *** [6h Td 6d 2c] [8s]
+Xenicide: checks 
+Supermegopro: checks 
+*** SHOW DOWN ***
+Xenicide: shows [Kc Ks] (two pair, Kings and Sixes)
+Supermegopro: mucks hand 
+Xenicide collected $19 from pot
+*** SUMMARY ***
+Total pot $20 | Rake $1 
+Board [6h Td 6d 2c 8s]
+Seat 1: Supermegopro (button) mucked
+Seat 3: Xenicide (small blind) showed [Kc Ks] and won ($19) with two pair, Kings and Sixes
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 5: Nicedaymybro folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803390246:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:05:10 WET [2025/02/10 14:05:10 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 2: blackclan7 ($100 in chips) is sitting out
+Seat 6: Haalleluja ($100 in chips) is sitting out
+Seat 1: Supermegopro ($190 in chips) 
+Seat 3: Xenicide ($121.65 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: Nicedaymybro ($101.50 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Nicedaymybro: posts big blind $1
+Haalleluja: sits out 
+blackclan7: sits out 
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+Uncalled bet ($0.50) returned to Nicedaymybro
+Nicedaymybro collected $1 from pot
+Nicedaymybro: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 2: blackclan7
+Seat 6: Haalleluja
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 5: Nicedaymybro (big blind) collected ($1)
+
+
+
+PokerStars Hand #254803394568:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:05:24 WET [2025/02/10 14:05:24 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 2: blackclan7 ($100 in chips) is sitting out
+Seat 1: Supermegopro ($190 in chips) 
+Seat 3: Xenicide ($121.65 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: Nicedaymybro ($102 in chips) 
+Seat 6: Haalleluja ($100 in chips) 
+Nicedaymybro: posts small blind $0.50
+Haalleluja: posts big blind $1
+blackclan7: sits out 
+*** HOLE CARDS ***
+Supermegopro: folds 
+Xenicide: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+Nicedaymybro: raises $7.80 to $10
+Haalleluja: folds 
+S3MPR3IGUAL: raises $14 to $24
+Nicedaymybro: raises $78 to $102 and is all-in
+S3MPR3IGUAL: folds 
+Uncalled bet ($78) returned to Nicedaymybro
+Nicedaymybro collected $49 from pot
+Nicedaymybro: doesn't show hand 
+*** SUMMARY ***
+Total pot $49 | Rake $0 
+Seat 2: blackclan7
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) folded before Flop
+Seat 5: Nicedaymybro (small blind) collected ($49)
+Seat 6: Haalleluja (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803402135:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:05:48 WET [2025/02/10 14:05:48 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 2: blackclan7 ($100 in chips) is sitting out
+Seat 1: Supermegopro ($190 in chips) 
+Seat 3: Xenicide ($121.65 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: Nicedaymybro ($127 in chips) 
+Seat 6: Haalleluja ($99 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+blackclan7: sits out 
+*** HOLE CARDS ***
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+Nicedaymybro: folds 
+Haalleluja: raises $2 to $3
+Supermegopro: raises $6 to $9
+Haalleluja: calls $6
+*** FLOP *** [6c 2s 6s]
+Haalleluja: checks 
+Supermegopro: bets $8.55
+Haalleluja: folds 
+Uncalled bet ($8.55) returned to Supermegopro
+Supermegopro collected $17.10 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $18 | Rake $0.90 
+Board [6c 2s 6s]
+Seat 2: blackclan7
+Seat 1: Supermegopro (big blind) collected ($17.10)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: Nicedaymybro (button) folded before Flop (didn't bet)
+Seat 6: Haalleluja (small blind) folded on the Flop
+
+
+
+PokerStars Hand #254803411845:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:06:19 WET [2025/02/10 14:06:19 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: Supermegopro ($198.10 in chips) 
+Seat 2: blackclan7 ($100 in chips) 
+Seat 3: Xenicide ($121.65 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: Nicedaymybro ($127 in chips) 
+Seat 6: Haalleluja ($90 in chips) 
+Supermegopro: posts small blind $0.50
+blackclan7: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+Nicedaymybro: folds 
+Haalleluja: calls $2.20
+Supermegopro: calls $1.70
+blackclan7: folds 
+*** FLOP *** [9h Ac Qc]
+Supermegopro: checks 
+S3MPR3IGUAL: checks 
+Haalleluja: checks 
+*** TURN *** [9h Ac Qc] [7h]
+Supermegopro: checks 
+S3MPR3IGUAL: bets $4.77
+Haalleluja: folds 
+Supermegopro: folds 
+Uncalled bet ($4.77) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $7.22 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $7.60 | Rake $0.38 
+Board [9h Ac Qc 7h]
+Seat 1: Supermegopro (small blind) folded on the Turn
+Seat 2: blackclan7 (big blind) folded before Flop
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL collected ($7.22)
+Seat 5: Nicedaymybro folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) folded on the Turn
+
+
+
+PokerStars Hand #254803427281:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:07:09 WET [2025/02/10 14:07:09 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($195.90 in chips) 
+Seat 2: blackclan7 ($100 in chips) 
+Seat 3: Xenicide ($121.65 in chips) 
+Seat 4: S3MPR3IGUAL ($105.02 in chips) 
+Seat 5: Nicedaymybro ($127 in chips) 
+Seat 6: Haalleluja ($87.80 in chips) 
+blackclan7: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+Nicedaymybro: raises $1.50 to $2.50
+Haalleluja: calls $2.50
+Supermegopro: folds 
+blackclan7: raises $12 to $14.50
+Xenicide: folds 
+Nicedaymybro: folds 
+Haalleluja: folds 
+Uncalled bet ($12) returned to blackclan7
+blackclan7 collected $8.50 from pot
+blackclan7: doesn't show hand 
+*** SUMMARY ***
+Total pot $8.50 | Rake $0 
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 2: blackclan7 (small blind) collected ($8.50)
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: Nicedaymybro folded before Flop
+Seat 6: Haalleluja folded before Flop
+
+
+
+PokerStars Hand #254803437845:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:07:43 WET [2025/02/10 14:07:43 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: Supermegopro ($195.90 in chips) 
+Seat 2: blackclan7 ($106 in chips) 
+Seat 3: Xenicide ($120.65 in chips) 
+Seat 4: S3MPR3IGUAL ($105.02 in chips) 
+Seat 5: Nicedaymybro ($124.50 in chips) 
+Seat 6: Haalleluja ($85.30 in chips) 
+Xenicide: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro: folds 
+Haalleluja: raises $2 to $3
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+Uncalled bet ($2) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 5: Nicedaymybro folded before Flop (didn't bet)
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803443537:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:08:01 WET [2025/02/10 14:08:01 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 5: Nicedaymybro ($124.50 in chips) is sitting out
+Seat 1: Supermegopro ($195.90 in chips) 
+Seat 2: blackclan7 ($106 in chips) 
+Seat 3: Xenicide ($120.15 in chips) 
+Seat 4: S3MPR3IGUAL ($104.02 in chips) 
+Seat 6: Haalleluja ($86.80 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+Nicedaymybro: is sitting out 
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Nicedaymybro leaves the table
+xxxZeka joins the table at seat #5 
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: raises $1.25 to $2.25
+S3MPR3IGUAL: folds 
+Haalleluja: calls $1.25
+*** FLOP *** [Ad 3s 4s]
+Haalleluja: checks 
+Xenicide: bets $1.19
+Haalleluja: calls $1.19
+*** TURN *** [Ad 3s 4s] [Kc]
+Haalleluja: checks 
+Xenicide: checks 
+*** RIVER *** [Ad 3s 4s Kc] [Qd]
+Haalleluja: checks 
+Xenicide: checks 
+*** SHOW DOWN ***
+Haalleluja: shows [7s 6d] (high card Ace)
+Xenicide: shows [6h 4h] (a pair of Fours)
+Xenicide collected $7.01 from pot
+*** SUMMARY ***
+Total pot $7.38 | Rake $0.37 
+Board [Ad 3s 4s Kc Qd]
+Seat 5: Nicedaymybro
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide (button) showed [6h 4h] and won ($7.01) with a pair of Fours
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) showed [7s 6d] and lost with high card Ace
+
+
+
+PokerStars Hand #254803463236:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:09:05 WET [2025/02/10 14:09:05 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 5: xxxZeka ($100 in chips) is sitting out
+Seat 1: Supermegopro ($195.90 in chips) 
+Seat 2: blackclan7 ($106 in chips) 
+Seat 3: Xenicide ($123.72 in chips) 
+Seat 4: S3MPR3IGUAL ($103.52 in chips) 
+Seat 6: Haalleluja ($83.36 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+Haalleluja: calls $1.70
+Supermegopro: calls $1.20
+*** FLOP *** [Ah 4c 4h]
+Haalleluja: checks 
+Supermegopro: checks 
+S3MPR3IGUAL: bets $1.76
+Haalleluja: calls $1.76
+Supermegopro: folds 
+*** TURN *** [Ah 4c 4h] [Tc]
+Haalleluja: bets $4.81
+S3MPR3IGUAL: calls $4.81
+*** RIVER *** [Ah 4c 4h Tc] [2h]
+Haalleluja: checks 
+S3MPR3IGUAL: checks 
+*** SHOW DOWN ***
+Haalleluja: shows [7c Ac] (two pair, Aces and Fours)
+S3MPR3IGUAL: shows [5s Ad] (two pair, Aces and Fours)
+Haalleluja collected $9.38 from pot
+S3MPR3IGUAL collected $9.37 from pot
+*** SUMMARY ***
+Total pot $19.74 | Rake $0.99 
+Board [Ah 4c 4h Tc 2h]
+Seat 5: xxxZeka
+Seat 1: Supermegopro (big blind) folded on the Flop
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) showed [5s Ad] and won ($9.37) with two pair, Aces and Fours
+Seat 6: Haalleluja (small blind) showed [7c Ac] and won ($9.38) with two pair, Aces and Fours
+
+
+
+PokerStars Hand #254803480487:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:10:01 WET [2025/02/10 14:10:01 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 5: xxxZeka ($100 in chips) is sitting out
+Seat 1: Supermegopro ($193.70 in chips) 
+Seat 2: blackclan7 ($106 in chips) 
+Seat 3: Xenicide ($123.72 in chips) 
+Seat 4: S3MPR3IGUAL ($104.12 in chips) 
+Seat 6: Haalleluja ($83.97 in chips) 
+Supermegopro: posts small blind $0.50
+blackclan7: posts big blind $1
+xxxZeka: sits out 
+*** HOLE CARDS ***
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: raises $6 to $8
+blackclan7: folds 
+Haalleluja: folds 
+Uncalled bet ($6) returned to Supermegopro
+Supermegopro collected $5 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $5 | Rake $0 
+Seat 5: xxxZeka
+Seat 1: Supermegopro (small blind) collected ($5)
+Seat 2: blackclan7 (big blind) folded before Flop
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) folded before Flop
+
+
+
+PokerStars Hand #254803490067:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:10:32 WET [2025/02/10 14:10:32 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 5: xxxZeka ($100 in chips) is sitting out
+Seat 1: Supermegopro ($196.70 in chips) 
+Seat 2: blackclan7 ($105 in chips) 
+Seat 3: Xenicide ($123.72 in chips) 
+Seat 4: S3MPR3IGUAL ($104.12 in chips) 
+Seat 6: Haalleluja ($81.97 in chips) 
+blackclan7: posts small blind $0.50
+Xenicide: posts big blind $1
+xxxZeka: sits out 
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+Uncalled bet ($1) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 5: xxxZeka
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 2: blackclan7 (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803494420:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:10:45 WET [2025/02/10 14:10:45 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 5: xxxZeka ($100 in chips) is sitting out
+Seat 1: Supermegopro ($196.70 in chips) 
+Seat 2: blackclan7 ($104.50 in chips) 
+Seat 3: Xenicide ($122.72 in chips) 
+Seat 4: S3MPR3IGUAL ($104.12 in chips) 
+Seat 6: Haalleluja ($83.47 in chips) 
+Xenicide: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+xxxZeka: sits out 
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: calls $1
+*** FLOP *** [3h 5d Kh]
+S3MPR3IGUAL: checks 
+Haalleluja: checks 
+*** TURN *** [3h 5d Kh] [Qs]
+S3MPR3IGUAL: bets $2.82
+Haalleluja: calls $2.82
+*** RIVER *** [3h 5d Kh Qs] [7s]
+S3MPR3IGUAL: bets $7.22
+Haalleluja: raises $11.22 to $18.44
+S3MPR3IGUAL: folds 
+Uncalled bet ($11.22) returned to Haalleluja
+Haalleluja collected $23.35 from pot
+*** SUMMARY ***
+Total pot $24.58 | Rake $1.23 
+Board [3h 5d Kh Qs 7s]
+Seat 5: xxxZeka
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded on the River
+Seat 6: Haalleluja collected ($23.35)
+
+
+
+PokerStars Hand #254803509613:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:11:34 WET [2025/02/10 14:11:34 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($196.70 in chips) 
+Seat 2: blackclan7 ($104.50 in chips) 
+Seat 3: Xenicide ($122.22 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($100 in chips) 
+Seat 6: Haalleluja ($94.78 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+xxxZeka: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+Supermegopro: raises $5.50 to $7.50
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: folds 
+Uncalled bet ($5.50) returned to Supermegopro
+Supermegopro collected $5.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.50 | Rake $0 
+Seat 1: Supermegopro collected ($5.50)
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 5: xxxZeka (big blind) folded before Flop
+Seat 6: Haalleluja folded before Flop
+
+
+
+PokerStars Hand #254803515567:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:11:53 WET [2025/02/10 14:11:53 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: Supermegopro ($200.20 in chips) 
+Seat 2: blackclan7 ($104.50 in chips) 
+Seat 3: Xenicide ($122.22 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($100 in chips) 
+Seat 6: Haalleluja ($92.78 in chips) 
+xxxZeka: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+xxxZeka: folds 
+Haalleluja: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) collected ($2.50)
+Seat 5: xxxZeka (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803520766:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:12:09 WET [2025/02/10 14:12:09 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($200.20 in chips) 
+Seat 2: blackclan7 ($104.50 in chips) 
+Seat 3: Xenicide ($122.22 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 5: xxxZeka ($100 in chips) 
+Seat 6: Haalleluja ($91.78 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: raises $1.50 to $2.50
+Haalleluja: folds 
+Supermegopro: folds 
+Uncalled bet ($1.50) returned to xxxZeka
+xxxZeka collected $2.50 from pot
+xxxZeka: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (big blind) folded before Flop
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka (button) collected ($2.50)
+Seat 6: Haalleluja (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803526082:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:12:26 WET [2025/02/10 14:12:26 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: Supermegopro ($199.20 in chips) 
+Seat 2: blackclan7 ($104.50 in chips) 
+Seat 3: Xenicide ($122.22 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 5: xxxZeka ($101.50 in chips) 
+Seat 6: Haalleluja ($91.28 in chips) 
+Supermegopro: posts small blind $0.50
+blackclan7: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+xxxZeka: folds 
+Haalleluja: folds 
+Supermegopro: folds 
+blackclan7: folds 
+Uncalled bet ($1.20) returned to S3MPR3IGUAL
+S3MPR3IGUAL collected $2.50 from pot
+S3MPR3IGUAL: doesn't show hand 
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 2: blackclan7 (big blind) folded before Flop
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL collected ($2.50)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803534181:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:12:51 WET [2025/02/10 14:12:51 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($198.70 in chips) 
+Seat 2: blackclan7 ($103.50 in chips) 
+Seat 3: Xenicide ($122.22 in chips) 
+Seat 4: S3MPR3IGUAL ($103 in chips) 
+Seat 5: xxxZeka ($101.50 in chips) 
+Seat 6: Haalleluja ($91.28 in chips) 
+blackclan7: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+Uncalled bet ($1) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 2: blackclan7 (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803540620:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:13:12 WET [2025/02/10 14:13:12 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: Supermegopro ($198.70 in chips) 
+Seat 2: blackclan7 ($103 in chips) 
+Seat 3: Xenicide ($121.22 in chips) 
+Seat 4: S3MPR3IGUAL ($103 in chips) 
+Seat 5: xxxZeka ($101.50 in chips) 
+Seat 6: Haalleluja ($92.78 in chips) 
+Xenicide: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+xxxZeka: raises $1.50 to $2.50
+Haalleluja: calls $2.50
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+*** FLOP *** [3s Ad 4s]
+xxxZeka: bets $2.04
+Haalleluja: calls $2.04
+*** TURN *** [3s Ad 4s] [8s]
+xxxZeka: bets $7.74
+Haalleluja: folds 
+Uncalled bet ($7.74) returned to xxxZeka
+xxxZeka collected $10.05 from pot
+xxxZeka: doesn't show hand 
+*** SUMMARY ***
+Total pot $10.58 | Rake $0.53 
+Board [3s Ad 4s 8s]
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 5: xxxZeka collected ($10.05)
+Seat 6: Haalleluja folded on the Turn
+
+
+
+PokerStars Hand #254803554404:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:13:56 WET [2025/02/10 14:13:56 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($198.70 in chips) 
+Seat 2: blackclan7 ($103 in chips) 
+Seat 3: Xenicide ($120.72 in chips) 
+Seat 4: S3MPR3IGUAL ($102 in chips) 
+Seat 5: xxxZeka ($107.01 in chips) 
+Seat 6: Haalleluja ($88.24 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+xxxZeka: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Uncalled bet ($1) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 5: xxxZeka (big blind) folded before Flop
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803560374:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:14:15 WET [2025/02/10 14:14:15 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: Supermegopro ($198.70 in chips) 
+Seat 2: blackclan7 ($103 in chips) 
+Seat 3: Xenicide ($120.72 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 5: xxxZeka ($106.01 in chips) 
+Seat 6: Haalleluja ($89.74 in chips) 
+xxxZeka: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+blackclan7: folds 
+Xenicide: raises $1 to $2
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: raises $8 to $10
+Xenicide: folds 
+Uncalled bet ($8) returned to Haalleluja
+Haalleluja collected $4.50 from pot
+*** SUMMARY ***
+Total pot $4.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 5: xxxZeka (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) collected ($4.50)
+
+
+
+PokerStars Hand #254803575126:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:15:01 WET [2025/02/10 14:15:01 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($198.70 in chips) 
+Seat 2: blackclan7 ($103 in chips) 
+Seat 3: Xenicide ($118.72 in chips) 
+Seat 4: S3MPR3IGUAL ($101.50 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($92.24 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+blackclan7: folds 
+Xenicide: folds 
+S3MPR3IGUAL: raises $1.20 to $2.20
+blackclan7 leaves the table
+xxxZeka: folds 
+Haalleluja: calls $1.70
+xcinaz joins the table at seat #2 
+Supermegopro: calls $1.20
+*** FLOP *** [7c Ks Qc]
+Haalleluja: checks 
+Supermegopro: bets $4.18
+S3MPR3IGUAL: calls $4.18
+Haalleluja: folds 
+*** TURN *** [7c Ks Qc] [Jd]
+Supermegopro: bets $9.47
+S3MPR3IGUAL: calls $9.47
+*** RIVER *** [7c Ks Qc Jd] [3h]
+Supermegopro: checks 
+S3MPR3IGUAL: checks 
+*** SHOW DOWN ***
+Supermegopro: shows [Ts Kh] (a pair of Kings)
+S3MPR3IGUAL: mucks hand 
+Supermegopro collected $32.20 from pot
+*** SUMMARY ***
+Total pot $33.90 | Rake $1.70 
+Board [7c Ks Qc Jd 3h]
+Seat 1: Supermegopro (big blind) showed [Ts Kh] and won ($32.20) with a pair of Kings
+Seat 2: blackclan7 folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL mucked
+Seat 5: xxxZeka (button) folded before Flop (didn't bet)
+Seat 6: Haalleluja (small blind) folded on the Flop
+
+
+
+PokerStars Hand #254803589483:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:15:47 WET [2025/02/10 14:15:47 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: Supermegopro ($215.05 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($118.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($90.04 in chips) 
+Supermegopro: posts small blind $0.50
+xcinaz: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+xcinaz: calls $1
+*** FLOP *** [Kd 3c 9s]
+xcinaz: checks 
+Haalleluja: checks 
+*** TURN *** [Kd 3c 9s] [3s]
+xcinaz: checks 
+Haalleluja: bets $2
+xcinaz: folds 
+Uncalled bet ($2) returned to Haalleluja
+Haalleluja collected $4.28 from pot
+*** SUMMARY ***
+Total pot $4.50 | Rake $0.22 
+Board [Kd 3c 9s 3s]
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 2: xcinaz (big blind) folded on the Turn
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) collected ($4.28)
+
+
+
+PokerStars Hand #254803602449:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:16:28 WET [2025/02/10 14:16:28 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($214.55 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($118.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($92.32 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: folds 
+Supermegopro: folds 
+xcinaz: folds 
+Uncalled bet ($0.50) returned to Xenicide
+Xenicide collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 2: xcinaz (small blind) folded before Flop
+Seat 3: Xenicide (big blind) collected ($1)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803608122:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:16:46 WET [2025/02/10 14:16:46 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: Supermegopro ($214.55 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($119.22 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($92.32 in chips) 
+Xenicide: posts small blind $0.50
+S3MPR3IGUAL: posts big blind $1
+*** HOLE CARDS ***
+xxxZeka: folds 
+Haalleluja: folds 
+Supermegopro: raises $1.50 to $2.50
+xcinaz: folds 
+Xenicide: raises $7 to $9.50
+S3MPR3IGUAL: folds 
+Supermegopro: raises $205.05 to $214.55 and is all-in
+Xenicide: folds 
+Uncalled bet ($205.05) returned to Supermegopro
+Supermegopro collected $20 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $20 | Rake $0 
+Seat 1: Supermegopro collected ($20)
+Seat 2: xcinaz (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: S3MPR3IGUAL (big blind) folded before Flop
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803619265:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:17:22 WET [2025/02/10 14:17:22 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($225.05 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($109.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($92.32 in chips) 
+S3MPR3IGUAL: posts small blind $0.50
+xxxZeka: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Uncalled bet ($1) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (small blind) folded before Flop
+Seat 5: xxxZeka (big blind) folded before Flop
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803626093:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:17:43 WET [2025/02/10 14:17:43 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: Supermegopro ($225.05 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($109.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($104.51 in chips) 
+Seat 6: Haalleluja ($93.82 in chips) 
+xxxZeka: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: raises $1 to $2
+Haalleluja: folds 
+Uncalled bet ($1) returned to xxxZeka
+xxxZeka collected $2 from pot
+xxxZeka: doesn't show hand 
+*** SUMMARY ***
+Total pot $2 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL (button) folded before Flop (didn't bet)
+Seat 5: xxxZeka (small blind) collected ($2)
+Seat 6: Haalleluja (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803631407:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:18:01 WET [2025/02/10 14:18:01 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($225.05 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($109.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($92.82 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+xcinaz: folds 
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: raises $2 to $3
+Supermegopro: calls $2
+*** FLOP *** [9s Ad 4d]
+Haalleluja: checks 
+Supermegopro: checks 
+*** TURN *** [9s Ad 4d] [4s]
+Haalleluja: checks 
+Supermegopro: bets $3.80
+Haalleluja: folds 
+Uncalled bet ($3.80) returned to Supermegopro
+Supermegopro collected $5.70 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $6 | Rake $0.30 
+Board [9s Ad 4d 4s]
+Seat 1: Supermegopro (big blind) collected ($5.70)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka (button) folded before Flop (didn't bet)
+Seat 6: Haalleluja (small blind) folded on the Turn
+
+
+
+PokerStars Hand #254803642618:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:18:36 WET [2025/02/10 14:18:36 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: Supermegopro ($227.75 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($109.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($89.82 in chips) 
+Supermegopro: posts small blind $0.50
+xcinaz: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+xcinaz: calls $1
+*** FLOP *** [Jd Kc Jc]
+xcinaz: checks 
+Haalleluja: checks 
+*** TURN *** [Jd Kc Jc] [Ah]
+xcinaz: checks 
+Haalleluja: checks 
+*** RIVER *** [Jd Kc Jc Ah] [3s]
+xcinaz: bets $1.41
+Haalleluja: raises $6.41 to $7.82
+xcinaz: folds 
+Uncalled bet ($6.41) returned to Haalleluja
+Haalleluja collected $6.95 from pot
+*** SUMMARY ***
+Total pot $7.32 | Rake $0.37 
+Board [Jd Kc Jc Ah 3s]
+Seat 1: Supermegopro (small blind) folded before Flop
+Seat 2: xcinaz (big blind) folded on the River
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) collected ($6.95)
+
+
+
+PokerStars Hand #254803657332:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:19:23 WET [2025/02/10 14:19:23 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($227.25 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($109.72 in chips) 
+Seat 4: S3MPR3IGUAL ($100 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($93.36 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+S3MPR3IGUAL: folds 
+xxxZeka: folds 
+Haalleluja: raises $1.50 to $2.50
+Supermegopro: folds 
+xcinaz: raises $9 to $11.50
+Xenicide: folds 
+Haalleluja: calls $9
+*** FLOP *** [As Qs Qh]
+xcinaz: bets $7.52
+Haalleluja: calls $7.52
+*** TURN *** [As Qs Qh] [Ks]
+S3MPR3IGUAL leaves the table
+xcinaz: bets $12.24
+Haalleluja: calls $12.24
+*** RIVER *** [As Qs Qh Ks] [Td]
+xcinaz: checks 
+Haalleluja: checks 
+*** SHOW DOWN ***
+xcinaz: shows [Kd Ah] (two pair, Aces and Kings)
+Haalleluja: shows [Ad Js] (a straight, Ten to Ace)
+Haalleluja collected $61.02 from pot
+*** SUMMARY ***
+Total pot $63.52 | Rake $2.50 
+Board [As Qs Qh Ks Td]
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 2: xcinaz (small blind) showed [Kd Ah] and lost with two pair, Aces and Kings
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 4: S3MPR3IGUAL folded before Flop (didn't bet)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja showed [Ad Js] and won ($61.02) with a straight, Ten to Ace
+
+
+
+PokerStars Hand #254803673967:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:20:16 WET [2025/02/10 14:20:16 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: Supermegopro ($227.25 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($108.72 in chips) 
+Seat 5: xxxZeka ($105.51 in chips) 
+Seat 6: Haalleluja ($123.12 in chips) 
+Xenicide: posts small blind $0.50
+xxxZeka: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: raises $8 to $10
+xxxZeka: folds 
+Haalleluja: folds 
+Uncalled bet ($8) returned to Xenicide
+Xenicide collected $5 from pot
+*** SUMMARY ***
+Total pot $5 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) collected ($5)
+Seat 5: xxxZeka (big blind) folded before Flop
+Seat 6: Haalleluja folded before Flop
+
+
+
+PokerStars Hand #254803682622:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:20:44 WET [2025/02/10 14:20:44 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($227.25 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($111.72 in chips) 
+Seat 5: xxxZeka ($104.51 in chips) 
+Seat 6: Haalleluja ($121.12 in chips) 
+xxxZeka: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+xxxZeka: folds 
+Uncalled bet ($0.50) returned to Haalleluja
+Haalleluja collected $1 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 5: xxxZeka (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) collected ($1)
+
+
+
+PokerStars Hand #254803685512:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:20:54 WET [2025/02/10 14:20:54 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($227.25 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($111.72 in chips) 
+Seat 5: xxxZeka ($104.01 in chips) 
+Seat 6: Haalleluja ($121.62 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+xcinaz: folds 
+Xenicide: folds 
+xxxZeka: raises $1.50 to $2.50
+Haalleluja: folds 
+Supermegopro: calls $1.50
+*** FLOP *** [4h Ks 9c]
+Supermegopro: checks 
+Lucastitos joins the table at seat #4 
+xxxZeka: bets $1.55
+Supermegopro: folds 
+Uncalled bet ($1.55) returned to xxxZeka
+xxxZeka collected $5.22 from pot
+xxxZeka: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.50 | Rake $0.28 
+Board [4h Ks 9c]
+Seat 1: Supermegopro (big blind) folded on the Flop
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 5: xxxZeka (button) collected ($5.22)
+Seat 6: Haalleluja (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803695653:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:21:27 WET [2025/02/10 14:21:27 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 4: Lucastitos ($100 in chips) is sitting out
+Seat 1: Supermegopro ($224.75 in chips) 
+Seat 2: xcinaz ($100 in chips) 
+Seat 3: Xenicide ($111.72 in chips) 
+Seat 5: xxxZeka ($106.73 in chips) 
+Seat 6: Haalleluja ($121.12 in chips) 
+Supermegopro: posts small blind $0.50
+xcinaz: posts big blind $1
+Lucastitos: sits out 
+*** HOLE CARDS ***
+Xenicide: folds 
+xxxZeka: folds 
+Haalleluja: folds 
+Supermegopro: raises $2 to $3
+xcinaz: calls $2
+*** FLOP *** [7d Jd 3s]
+Supermegopro: checks 
+xcinaz: checks 
+*** TURN *** [7d Jd 3s] [3h]
+Supermegopro: bets $2.28
+xcinaz: calls $2.28
+*** RIVER *** [7d Jd 3s 3h] [6h]
+Supermegopro: checks 
+xcinaz: bets $8.53
+Supermegopro: folds 
+Uncalled bet ($8.53) returned to xcinaz
+xcinaz collected $10.03 from pot
+xcinaz: doesn't show hand 
+*** SUMMARY ***
+Total pot $10.56 | Rake $0.53 
+Board [7d Jd 3s 3h 6h]
+Seat 4: Lucastitos
+Seat 1: Supermegopro (small blind) folded on the River
+Seat 2: xcinaz (big blind) collected ($10.03)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803715365:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:22:31 WET [2025/02/10 14:22:31 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 4: Lucastitos ($100 in chips) is sitting out
+Seat 1: Supermegopro ($219.47 in chips) 
+Seat 2: xcinaz ($104.75 in chips) 
+Seat 3: Xenicide ($111.72 in chips) 
+Seat 5: xxxZeka ($106.73 in chips) 
+Seat 6: Haalleluja ($121.12 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+Lucastitos: sits out 
+*** HOLE CARDS ***
+xxxZeka: raises $1.50 to $2.50
+Haalleluja: folds 
+Supermegopro: raises $5 to $7.50
+xcinaz: folds 
+Xenicide: folds 
+xxxZeka: folds 
+Uncalled bet ($5) returned to Supermegopro
+Supermegopro collected $6.50 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $6.50 | Rake $0 
+Seat 4: Lucastitos
+Seat 1: Supermegopro (button) collected ($6.50)
+Seat 2: xcinaz (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 5: xxxZeka folded before Flop
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803724820:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:23:01 WET [2025/02/10 14:23:01 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: Supermegopro ($223.47 in chips) 
+Seat 2: xcinaz ($104.25 in chips) 
+Seat 3: Xenicide ($110.72 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: xxxZeka ($104.23 in chips) 
+Seat 6: Haalleluja ($121.12 in chips) 
+Xenicide: posts small blind $0.50
+Lucastitos: posts big blind $1
+*** HOLE CARDS ***
+xxxZeka: raises $1.50 to $2.50
+Haalleluja: folds 
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: calls $1.50
+*** FLOP *** [Ah Kd 4d]
+Lucastitos: checks 
+xxxZeka: checks 
+*** TURN *** [Ah Kd 4d] [5s]
+Lucastitos: checks 
+xxxZeka: checks 
+*** RIVER *** [Ah Kd 4d 5s] [3s]
+Lucastitos: bets $4
+xxxZeka: calls $4
+*** SHOW DOWN ***
+Lucastitos: shows [Qd 9d] (high card Ace)
+xxxZeka: shows [Kc Qc] (a pair of Kings)
+xxxZeka collected $12.82 from pot
+*** SUMMARY ***
+Total pot $13.50 | Rake $0.68 
+Board [Ah Kd 4d 5s 3s]
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: Lucastitos (big blind) showed [Qd 9d] and lost with high card Ace
+Seat 5: xxxZeka showed [Kc Qc] and won ($12.82) with a pair of Kings
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803742307:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:23:58 WET [2025/02/10 14:23:58 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($223.47 in chips) 
+Seat 2: xcinaz ($104.25 in chips) 
+Seat 3: Xenicide ($110.22 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: xxxZeka ($110.55 in chips) 
+Seat 6: Haalleluja ($121.12 in chips) 
+Lucastitos: posts small blind $0.50
+xxxZeka: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+xxxZeka: folds 
+Uncalled bet ($1) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: Lucastitos (small blind) folded before Flop
+Seat 5: xxxZeka (big blind) folded before Flop
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803753706:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:24:35 WET [2025/02/10 14:24:35 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: Supermegopro ($223.47 in chips) 
+Seat 2: xcinaz ($104.25 in chips) 
+Seat 3: Xenicide ($110.22 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: xxxZeka ($109.55 in chips) 
+Seat 6: Haalleluja ($122.62 in chips) 
+xxxZeka: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: raises $1.50 to $2.50
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+xxxZeka: folds 
+Haalleluja: calls $1.50
+*** FLOP *** [Tc As 3c]
+Haalleluja: checks 
+Supermegopro: checks 
+*** TURN *** [Tc As 3c] [7s]
+Haalleluja: bets $2.61
+Supermegopro: calls $2.61
+*** RIVER *** [Tc As 3c 7s] [8h]
+Haalleluja: bets $5.09
+Supermegopro: folds 
+Uncalled bet ($5.09) returned to Haalleluja
+Haalleluja collected $10.18 from pot
+*** SUMMARY ***
+Total pot $10.72 | Rake $0.54 
+Board [Tc As 3c 7s 8h]
+Seat 1: Supermegopro folded on the River
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos (button) folded before Flop (didn't bet)
+Seat 5: xxxZeka (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) collected ($10.18)
+
+
+
+PokerStars Hand #254803764583:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:25:10 WET [2025/02/10 14:25:10 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: Supermegopro ($218.36 in chips) 
+Seat 2: xcinaz ($104.25 in chips) 
+Seat 3: Xenicide ($110.22 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($127.69 in chips) 
+Haalleluja: posts small blind $0.50
+Supermegopro: posts big blind $1
+*** HOLE CARDS ***
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+xxxZeka: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: raises $7 to $9
+Haalleluja: folds 
+Uncalled bet ($7) returned to Supermegopro
+Supermegopro collected $4 from pot
+Supermegopro: doesn't show hand 
+*** SUMMARY ***
+Total pot $4 | Rake $0 
+Seat 1: Supermegopro (big blind) collected ($4)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: xxxZeka (button) folded before Flop (didn't bet)
+Seat 6: Haalleluja (small blind) folded before Flop
+
+
+
+PokerStars Hand #254803774051:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:25:41 WET [2025/02/10 14:25:41 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: Supermegopro ($220.36 in chips) 
+Seat 2: xcinaz ($104.25 in chips) 
+Seat 3: Xenicide ($110.22 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($125.69 in chips) 
+Supermegopro: posts small blind $0.50
+xcinaz: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: raises $1 to $2
+Lucastitos: calls $2
+xxxZeka: folds 
+Haalleluja: calls $2
+Supermegopro: calls $1.50
+xcinaz: folds 
+*** FLOP *** [8h 6d 9h]
+Supermegopro: checks 
+Xenicide: checks 
+Lucastitos: bets $6.41
+Haalleluja: folds 
+Supermegopro: folds 
+Xenicide: folds 
+Uncalled bet ($6.41) returned to Lucastitos
+Lucastitos collected $8.55 from pot
+Lucastitos: doesn't show hand 
+*** SUMMARY ***
+Total pot $9 | Rake $0.45 
+Board [8h 6d 9h]
+Seat 1: Supermegopro (small blind) folded on the Flop
+Seat 2: xcinaz (big blind) folded before Flop
+Seat 3: Xenicide folded on the Flop
+Seat 4: Lucastitos collected ($8.55)
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) folded on the Flop
+
+
+
+PokerStars Hand #254803792629:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:26:41 WET [2025/02/10 14:26:41 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: Supermegopro ($218.36 in chips) 
+Seat 2: xcinaz ($103.25 in chips) 
+Seat 3: Xenicide ($108.22 in chips) 
+Seat 4: Lucastitos ($106.55 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($123.69 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Lucastitos: raises $1 to $2
+xxxZeka: folds 
+Haalleluja: calls $2
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: calls $1
+*** FLOP *** [2s Ad 2c]
+Xenicide: checks 
+Lucastitos: checks 
+Haalleluja: checks 
+*** TURN *** [2s Ad 2c] [3d]
+Xenicide: bets $7.72
+Lucastitos: folds 
+Haalleluja: folds 
+Uncalled bet ($7.72) returned to Xenicide
+Xenicide collected $6.18 from pot
+*** SUMMARY ***
+Total pot $6.50 | Rake $0.32 
+Board [2s Ad 2c 3d]
+Seat 1: Supermegopro (button) folded before Flop (didn't bet)
+Seat 2: xcinaz (small blind) folded before Flop
+Seat 3: Xenicide (big blind) collected ($6.18)
+Seat 4: Lucastitos folded on the Turn
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja folded on the Turn
+
+
+
+PokerStars Hand #254803806331:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:27:26 WET [2025/02/10 14:27:26 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: Supermegopro ($218.36 in chips) 
+Seat 2: xcinaz ($102.75 in chips) 
+Seat 3: Xenicide ($112.40 in chips) 
+Seat 4: Lucastitos ($104.55 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($121.69 in chips) 
+Xenicide: posts small blind $0.50
+Lucastitos: posts big blind $1
+*** HOLE CARDS ***
+xxxZeka: folds 
+Haalleluja: raises $1 to $2
+Supermegopro: folds 
+xcinaz: raises $5 to $7
+Xenicide: folds 
+Lucastitos: folds 
+Haalleluja: folds 
+Uncalled bet ($5) returned to xcinaz
+xcinaz collected $5.50 from pot
+xcinaz: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.50 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz (button) collected ($5.50)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: Lucastitos (big blind) folded before Flop
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop
+
+
+
+PokerStars Hand #254803811585:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:27:43 WET [2025/02/10 14:27:43 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: Supermegopro ($218.36 in chips) 
+Seat 2: xcinaz ($106.25 in chips) 
+Seat 3: Xenicide ($111.90 in chips) 
+Seat 4: Lucastitos ($103.55 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($119.69 in chips) 
+Lucastitos: posts small blind $0.50
+xxxZeka: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: folds 
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+Uncalled bet ($0.50) returned to xxxZeka
+xxxZeka collected $1 from pot
+xxxZeka: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: Lucastitos (small blind) folded before Flop
+Seat 5: xxxZeka (big blind) collected ($1)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803815883:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:27:57 WET [2025/02/10 14:27:57 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: Supermegopro ($218.36 in chips) 
+Seat 2: xcinaz ($106.25 in chips) 
+Seat 3: Xenicide ($111.90 in chips) 
+Seat 4: Lucastitos ($103.05 in chips) 
+Seat 5: xxxZeka ($109.55 in chips) 
+Seat 6: Haalleluja ($119.69 in chips) 
+xxxZeka: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+Supermegopro: folds 
+xcinaz: folds 
+Xenicide: folds 
+Supermegopro leaves the table
+Lucastitos: folds 
+xxxZeka: folds 
+Uncalled bet ($0.50) returned to Haalleluja
+Haalleluja collected $1 from pot
+peak joker33 joins the table at seat #1 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: Supermegopro folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos (button) folded before Flop (didn't bet)
+Seat 5: xxxZeka (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) collected ($1)
+
+
+
+PokerStars Hand #254803820359:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:28:11 WET [2025/02/10 14:28:11 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($106.25 in chips) 
+Seat 3: Xenicide ($111.90 in chips) 
+Seat 4: Lucastitos ($103.05 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($120.19 in chips) 
+Haalleluja: posts small blind $0.50
+peak joker33: posts big blind $1
+*** HOLE CARDS ***
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: raises $1.30 to $2.30
+xxxZeka: folds 
+Haalleluja: calls $1.80
+peak joker33: folds 
+*** FLOP *** [5c Jc 7s]
+Haalleluja: checks 
+Lucastitos: bets $1.44
+Haalleluja: folds 
+Uncalled bet ($1.44) returned to Lucastitos
+Lucastitos collected $5.32 from pot
+Lucastitos: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.60 | Rake $0.28 
+Board [5c Jc 7s]
+Seat 1: peak joker33 (big blind) folded before Flop
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos collected ($5.32)
+Seat 5: xxxZeka (button) folded before Flop (didn't bet)
+Seat 6: Haalleluja (small blind) folded on the Flop
+
+
+
+PokerStars Hand #254803831525:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:28:47 WET [2025/02/10 14:28:47 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($106.25 in chips) 
+Seat 3: Xenicide ($111.90 in chips) 
+Seat 4: Lucastitos ($106.07 in chips) 
+Seat 5: xxxZeka ($109.05 in chips) 
+Seat 6: Haalleluja ($117.89 in chips) 
+peak joker33: posts small blind $0.50
+xcinaz: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Lucastitos: raises $1.10 to $2.10
+xxxZeka: folds 
+Haalleluja: calls $2.10
+peak joker33: folds 
+xcinaz: calls $1.10
+*** FLOP *** [Kh Jh Ac]
+xcinaz: checks 
+Lucastitos: bets $1.74
+Haalleluja: calls $1.74
+xcinaz: calls $1.74
+*** TURN *** [Kh Jh Ac] [8h]
+xcinaz: checks 
+Lucastitos: checks 
+Haalleluja: bets $5
+xcinaz: calls $5
+Lucastitos: folds 
+*** RIVER *** [Kh Jh Ac 8h] [3h]
+xxxZeka leaves the table
+xcinaz: bets $17.78
+Haalleluja: folds 
+Uncalled bet ($17.78) returned to xcinaz
+xcinaz collected $20.92 from pot
+xcinaz: doesn't show hand 
+*** SUMMARY ***
+Total pot $22.02 | Rake $1.10 
+Board [Kh Jh Ac 8h 3h]
+Seat 1: peak joker33 (small blind) folded before Flop
+Seat 2: xcinaz (big blind) collected ($20.92)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos folded on the Turn
+Seat 5: xxxZeka folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) folded on the River
+
+
+
+PokerStars Hand #254803851099:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:29:50 WET [2025/02/10 14:29:50 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($118.33 in chips) 
+Seat 3: Xenicide ($111.90 in chips) 
+Seat 4: Lucastitos ($102.23 in chips) 
+Seat 6: Haalleluja ($109.05 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Lucastitos: folds 
+Haalleluja: folds 
+peak joker33: folds 
+xcinaz: raises $2 to $3
+Xenicide: calls $2
+*** FLOP *** [Js Qd 4d]
+BGS013 joins the table at seat #5 
+xcinaz: checks 
+Xenicide: bets $1.43
+xcinaz: calls $1.43
+*** TURN *** [Js Qd 4d] [4h]
+xcinaz: checks 
+Xenicide: checks 
+*** RIVER *** [Js Qd 4d 4h] [Qs]
+xcinaz: bets $11.37
+Xenicide: folds 
+Uncalled bet ($11.37) returned to xcinaz
+xcinaz collected $8.42 from pot
+xcinaz: doesn't show hand 
+*** SUMMARY ***
+Total pot $8.86 | Rake $0.44 
+Board [Js Qd 4d 4h Qs]
+Seat 1: peak joker33 (button) folded before Flop (didn't bet)
+Seat 2: xcinaz (small blind) collected ($8.42)
+Seat 3: Xenicide (big blind) folded on the River
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803884579:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:31:37 WET [2025/02/10 14:31:37 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 5: BGS013 ($100 in chips) is sitting out
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($122.32 in chips) 
+Seat 3: Xenicide ($107.47 in chips) 
+Seat 4: Lucastitos ($102.23 in chips) 
+Seat 6: Haalleluja ($109.05 in chips) 
+Xenicide: posts small blind $0.50
+Lucastitos: posts big blind $1
+BGS013: sits out 
+*** HOLE CARDS ***
+Haalleluja: folds 
+peak joker33: folds 
+xcinaz: folds 
+Xenicide: raises $2.50 to $3.50
+Lucastitos: raises $8.50 to $12
+Xenicide: raises $12 to $24
+Lucastitos: raises $78.23 to $102.23 and is all-in
+Xenicide: calls $78.23
+*** FLOP *** [8d 9d 3s]
+*** TURN *** [8d 9d 3s] [6s]
+*** RIVER *** [8d 9d 3s 6s] [Qs]
+*** SHOW DOWN ***
+Xenicide: shows [Kh Kc] (a pair of Kings)
+Lucastitos: shows [As Kd] (high card Ace)
+Xenicide collected $201.96 from pot
+*** SUMMARY ***
+Total pot $204.46 | Rake $2.50 
+Board [8d 9d 3s 6s Qs]
+Seat 5: BGS013
+Seat 1: peak joker33 folded before Flop (didn't bet)
+Seat 2: xcinaz (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) showed [Kh Kc] and won ($201.96) with a pair of Kings
+Seat 4: Lucastitos (big blind) showed [As Kd] and lost with high card Ace
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803901402:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:32:31 WET [2025/02/10 14:32:31 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($122.32 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: BGS013 ($100 in chips) 
+Seat 6: Haalleluja ($109.05 in chips) 
+Lucastitos: posts small blind $0.50
+BGS013: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: folds 
+peak joker33: folds 
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+Uncalled bet ($0.50) returned to BGS013
+BGS013 collected $1 from pot
+BGS013: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: peak joker33 folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: Lucastitos (small blind) folded before Flop
+Seat 5: BGS013 (big blind) collected ($1)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803906493:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:32:47 WET [2025/02/10 14:32:47 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($122.32 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: BGS013 ($100.50 in chips) 
+Seat 6: Haalleluja ($109.05 in chips) 
+BGS013: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+peak joker33: folds 
+xcinaz: raises $1 to $2
+Xenicide: folds 
+Lucastitos: calls $2
+BGS013: folds 
+Haalleluja: calls $1
+*** FLOP *** [3h 5s 7d]
+Haalleluja: checks 
+xcinaz: checks 
+Lucastitos: checks 
+*** TURN *** [3h 5s 7d] [8h]
+Haalleluja: checks 
+xcinaz: bets $2.04
+Lucastitos: folds 
+Haalleluja: calls $2.04
+*** RIVER *** [3h 5s 7d 8h] [3c]
+Haalleluja: checks 
+xcinaz: bets $8.54
+Haalleluja: calls $8.54
+*** SHOW DOWN ***
+xcinaz: shows [Ac Ah] (two pair, Aces and Threes)
+Haalleluja: mucks hand 
+xcinaz collected $26.28 from pot
+*** SUMMARY ***
+Total pot $27.66 | Rake $1.38 
+Board [3h 5s 7d 8h 3c]
+Seat 1: peak joker33 folded before Flop (didn't bet)
+Seat 2: xcinaz showed [Ac Ah] and won ($26.28) with two pair, Aces and Threes
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos (button) folded on the Turn
+Seat 5: BGS013 (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) mucked
+
+
+
+PokerStars Hand #254803931599:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:34:07 WET [2025/02/10 14:34:07 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($136.02 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: BGS013 ($100 in chips) 
+Seat 6: Haalleluja ($96.47 in chips) 
+Haalleluja: posts small blind $0.50
+peak joker33: posts big blind $1
+*** HOLE CARDS ***
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+BGS013: raises $1.50 to $2.50
+Haalleluja: calls $2
+peak joker33: folds 
+*** FLOP *** [9h 4h Kh]
+Haalleluja: checks 
+BGS013: bets $1.48
+Haalleluja: folds 
+Uncalled bet ($1.48) returned to BGS013
+BGS013 collected $5.70 from pot
+BGS013: doesn't show hand 
+*** SUMMARY ***
+Total pot $6 | Rake $0.30 
+Board [9h 4h Kh]
+Seat 1: peak joker33 (big blind) folded before Flop
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: BGS013 (button) collected ($5.70)
+Seat 6: Haalleluja (small blind) folded on the Flop
+
+
+
+PokerStars Hand #254803938670:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:34:30 WET [2025/02/10 14:34:30 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($136.02 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: BGS013 ($103.20 in chips) 
+Seat 6: Haalleluja ($93.97 in chips) 
+peak joker33: posts small blind $0.50
+xcinaz: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Lucastitos: folds 
+BGS013: folds 
+Haalleluja: raises $2 to $3
+peak joker33: folds 
+xcinaz: folds 
+Uncalled bet ($2) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: peak joker33 (small blind) folded before Flop
+Seat 2: xcinaz (big blind) folded before Flop
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: BGS013 folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) collected ($2.50)
+
+
+
+PokerStars Hand #254803944076:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:34:47 WET [2025/02/10 14:34:47 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($135.02 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: BGS013 ($103.20 in chips) 
+Seat 6: Haalleluja ($95.47 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Lucastitos: folds 
+BGS013: folds 
+Haalleluja: raises $2 to $3
+peak joker33: folds 
+xcinaz: folds 
+Xenicide: folds 
+Uncalled bet ($2) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: peak joker33 (button) folded before Flop (didn't bet)
+Seat 2: xcinaz (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded before Flop
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: BGS013 folded before Flop (didn't bet)
+Seat 6: Haalleluja collected ($2.50)
+
+
+
+PokerStars Hand #254803950002:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:35:06 WET [2025/02/10 14:35:06 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($134.52 in chips) 
+Seat 3: Xenicide ($206.20 in chips) 
+Seat 4: Lucastitos ($100 in chips) 
+Seat 5: BGS013 ($103.20 in chips) 
+Seat 6: Haalleluja ($96.97 in chips) 
+Xenicide: posts small blind $0.50
+Lucastitos: posts big blind $1
+*** HOLE CARDS ***
+BGS013: folds 
+Haalleluja: folds 
+peak joker33: folds 
+xcinaz: folds 
+Xenicide: folds 
+Uncalled bet ($0.50) returned to Lucastitos
+Lucastitos collected $1 from pot
+Lucastitos: doesn't show hand 
+*** SUMMARY ***
+Total pot $1 | Rake $0 
+Seat 1: peak joker33 folded before Flop (didn't bet)
+Seat 2: xcinaz (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: Lucastitos (big blind) collected ($1)
+Seat 5: BGS013 folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803955312:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:35:23 WET [2025/02/10 14:35:23 ET]
+Table 'Perseus III' 6-max Seat #3 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($134.52 in chips) 
+Seat 3: Xenicide ($205.70 in chips) 
+Seat 4: Lucastitos ($100.50 in chips) 
+Seat 5: BGS013 ($103.20 in chips) 
+Seat 6: Haalleluja ($96.97 in chips) 
+Lucastitos: posts small blind $0.50
+BGS013: posts big blind $1
+*** HOLE CARDS ***
+Haalleluja: raises $1 to $2
+peak joker33: folds 
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: raises $9 to $11
+BGS013: folds 
+Haalleluja: folds 
+Uncalled bet ($9) returned to Lucastitos
+Lucastitos collected $5 from pot
+Lucastitos: doesn't show hand 
+*** SUMMARY ***
+Total pot $5 | Rake $0 
+Seat 1: peak joker33 folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide (button) folded before Flop (didn't bet)
+Seat 4: Lucastitos (small blind) collected ($5)
+Seat 5: BGS013 (big blind) folded before Flop
+Seat 6: Haalleluja folded before Flop
+
+
+
+PokerStars Hand #254803963592:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:35:50 WET [2025/02/10 14:35:50 ET]
+Table 'Perseus III' 6-max Seat #4 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($134.52 in chips) 
+Seat 3: Xenicide ($205.70 in chips) 
+Seat 4: Lucastitos ($103.50 in chips) 
+Seat 5: BGS013 ($102.20 in chips) 
+Seat 6: Haalleluja ($94.97 in chips) 
+BGS013: posts small blind $0.50
+Haalleluja: posts big blind $1
+*** HOLE CARDS ***
+peak joker33: folds 
+xcinaz: folds 
+Xenicide: raises $1 to $2
+Lucastitos: folds 
+BGS013: folds 
+Haalleluja: folds 
+Uncalled bet ($1) returned to Xenicide
+Xenicide collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: peak joker33 folded before Flop (didn't bet)
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide collected ($2.50)
+Seat 4: Lucastitos (button) folded before Flop (didn't bet)
+Seat 5: BGS013 (small blind) folded before Flop
+Seat 6: Haalleluja (big blind) folded before Flop
+
+
+
+PokerStars Hand #254803969700:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:36:10 WET [2025/02/10 14:36:10 ET]
+Table 'Perseus III' 6-max Seat #5 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($134.52 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($103.50 in chips) 
+Seat 5: BGS013 ($101.70 in chips) 
+Seat 6: Haalleluja ($93.97 in chips) 
+Haalleluja: posts small blind $0.50
+peak joker33: posts big blind $1
+*** HOLE CARDS ***
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: folds 
+BGS013: raises $1.50 to $2.50
+Haalleluja: calls $2
+peak joker33: folds 
+*** FLOP *** [2c 8d As]
+Haalleluja: checks 
+BGS013: bets $1.48
+Haalleluja: folds 
+Uncalled bet ($1.48) returned to BGS013
+BGS013 collected $5.70 from pot
+BGS013: doesn't show hand 
+*** SUMMARY ***
+Total pot $6 | Rake $0.30 
+Board [2c 8d As]
+Seat 1: peak joker33 (big blind) folded before Flop
+Seat 2: xcinaz folded before Flop (didn't bet)
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: BGS013 (button) collected ($5.70)
+Seat 6: Haalleluja (small blind) folded on the Flop
+
+
+
+PokerStars Hand #254803979608:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:36:42 WET [2025/02/10 14:36:42 ET]
+Table 'Perseus III' 6-max Seat #6 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($134.52 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($103.50 in chips) 
+Seat 5: BGS013 ($104.90 in chips) 
+Seat 6: Haalleluja ($91.47 in chips) 
+peak joker33: posts small blind $0.50
+xcinaz: posts big blind $1
+*** HOLE CARDS ***
+Xenicide: folds 
+Lucastitos: folds 
+BGS013: folds 
+Haalleluja: raises $2 to $3
+peak joker33: folds 
+xcinaz: folds 
+Uncalled bet ($2) returned to Haalleluja
+Haalleluja collected $2.50 from pot
+*** SUMMARY ***
+Total pot $2.50 | Rake $0 
+Seat 1: peak joker33 (small blind) folded before Flop
+Seat 2: xcinaz (big blind) folded before Flop
+Seat 3: Xenicide folded before Flop (didn't bet)
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: BGS013 folded before Flop (didn't bet)
+Seat 6: Haalleluja (button) collected ($2.50)
+
+
+
+PokerStars Hand #254803985460:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:37:00 WET [2025/02/10 14:37:00 ET]
+Table 'Perseus III' 6-max Seat #1 is the button
+Seat 1: peak joker33 ($100 in chips) 
+Seat 2: xcinaz ($133.52 in chips) 
+Seat 3: Xenicide ($207.20 in chips) 
+Seat 4: Lucastitos ($103.50 in chips) 
+Seat 5: BGS013 ($104.90 in chips) 
+Seat 6: Haalleluja ($92.97 in chips) 
+xcinaz: posts small blind $0.50
+Xenicide: posts big blind $1
+*** HOLE CARDS ***
+Lucastitos: folds 
+BGS013: folds 
+Haalleluja: folds 
+peak joker33: raises $1.50 to $2.50
+xcinaz: folds 
+Xenicide: calls $1.50
+*** FLOP *** [Kh 6d 7h]
+Xenicide: checks 
+peak joker33: bets $1.72
+Xenicide: folds 
+Uncalled bet ($1.72) returned to peak joker33
+peak joker33 collected $5.22 from pot
+peak joker33: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.50 | Rake $0.28 
+Board [Kh 6d 7h]
+Seat 1: peak joker33 (button) collected ($5.22)
+Seat 2: xcinaz (small blind) folded before Flop
+Seat 3: Xenicide (big blind) folded on the Flop
+Seat 4: Lucastitos folded before Flop (didn't bet)
+Seat 5: BGS013 folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #254803998401:  Hold'em No Limit ($0.50/$1.00 USD) - 2025/02/10 19:37:42 WET [2025/02/10 14:37:42 ET]
+Table 'Perseus III' 6-max Seat #2 is the button
+Seat 1: peak joker33 ($102.72 in chips) 
+Seat 2: xcinaz ($133.02 in chips) 
+Seat 3: Xenicide ($204.70 in chips) 
+Seat 4: Lucastitos ($103.50 in chips) 
+Seat 5: BGS013 ($104.90 in chips) 
+Seat 6: Haalleluja ($92.97 in chips) 
+Xenicide: posts small blind $0.50
+Lucastitos: posts big blind $1
+*** HOLE CARDS ***
+BGS013: folds 
+Haalleluja: folds 
+peak joker33: raises $1.50 to $2.50
+xcinaz: folds 
+Xenicide: folds 
+Lucastitos: raises $9.50 to $12
+peak joker33: folds 
+Uncalled bet ($9.50) returned to Lucastitos
+Lucastitos collected $5.50 from pot
+Lucastitos: doesn't show hand 
+*** SUMMARY ***
+Total pot $5.50 | Rake $0 
+Seat 1: peak joker33 folded before Flop
+Seat 2: xcinaz (button) folded before Flop (didn't bet)
+Seat 3: Xenicide (small blind) folded before Flop
+Seat 4: Lucastitos (big blind) collected ($5.50)
+Seat 5: BGS013 folded before Flop (didn't bet)
+Seat 6: Haalleluja folded before Flop (didn't bet)
+
+
+
