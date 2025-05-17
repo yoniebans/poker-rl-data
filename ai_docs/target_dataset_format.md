@@ -2,6 +2,21 @@
 
 This document outlines the input and output format structure used for training the PokerGPT language model. The dataset is structured as prompt-response pairs, where the prompt provides poker game state information and the response contains the action taken by winning players.
 
+## Dataset Schema
+
+The final dataset exported to HuggingFace contains the following fields:
+
+1. **id** - Unique identifier for each record
+2. **hand_id** - Reference to the original hand history
+3. **winner** - Player ID of the winning player
+4. **bb_won** - Big blinds won in this hand
+5. **game_type** - Type of poker game (e.g., "Hold'em No Limit")
+6. **big_blind** - Value of the big blind
+7. **evaluator_rank** - Hand rank calculated by the poker_hand_evaluator
+8. **pokerstars_description** - Hand description from PokerStars summary
+9. **pokergpt_prompt** - The formatted prompt as shown below
+10. **winning_action** - The action taken by the winning player
+
 ## Input Prompt Format
 
 The input prompts follow a structured format that provides comprehensive information about the poker game state:
@@ -296,27 +311,46 @@ The actions can be: ["fold", "call", "re-raise", "all-in"]. What should I do? If
 call
 ```
 
-## Database Implementation Guidelines
+## Database and Export Implementation
 
 In the project codebase, these prompt-response pairs are generated from the structured poker hand data through the following process:
 
-1. The `pokergpt_formatter.py` module contains the `format_hand_to_pokergpt_prompt` method that transforms structured hand data into the input prompt format.
+1. **Collection & Storage**: Hand histories are parsed and stored in the database with structured data
+   
+2. **Prompt Generation**: The `pokergpt_formatter.py` module contains:
+   - `format_hand_to_pokergpt_prompt` method that transforms structured hand data into the input prompt format
+   - `format_batch_for_training` method that creates prompt-response pairs by:
+     - Generating the prompt
+     - Extracting the winning player's action as the expected output
+     
+3. **Dataset Record Creation**: For each hand that meets filtering criteria (winning player, minimum hands, etc.):
+   - Hand data is extracted from the database
+   - Prompt is generated with proper formatting
+   - Cards and actions are extracted with special handling for showdown hands
+   - Hand evaluation is performed using the poker_hand_evaluator
 
-2. The `format_batch_for_training` method in the same file creates the prompt-response pairs by:
-
-   - Generating the prompt using `format_hand_to_pokergpt_prompt`
-   - Extracting the winning player's action as the expected output
-
-3. The extracted action is stored in the dataset alongside the prompt in the format:
+4. **Export to HuggingFace**: The final dataset is exported with all schema fields for training:
+   - The extracted action is stored alongside all metadata
+   - Records are filtered by winning player criteria, hand completeness, etc.
+   - The dataset is exported to HuggingFace format with a comprehensive dataset card
+   - When loaded as a HuggingFace dataset, each record contains all fields from the schema, with the core prompt-response pair formatted as:
 
    ```python
    {
-       'prompt': formatted_prompt,
-       'action': winning_action  # e.g., "raise 2.5" or "check"
+       'id': '12345',
+       'hand_id': 'PS12345678',
+       'winner': 'PlayerA',
+       'bb_won': 5.5,
+       'game_type': 'Hold\'em No Limit',
+       'big_blind': 1.0,
+       'evaluator_rank': 'Pair',
+       'pokerstars_description': 'Player A wins pot with pair of kings',
+       'pokergpt_prompt': formatted_prompt,  # The full prompt as shown in examples above
+       'winning_action': 'raise 2.5'  # e.g., "raise 2.5" or "check"
    }
    ```
 
-4. When exporting to HuggingFace, these pairs are preserved in the dataset structure for direct use in training.
+4. This structure allows for fine-grained filtering and analysis during training, enabling the model to potentially learn from different game scenarios, player types, and hand strengths.
 
 Considerations for implementing this dataset format:
 
