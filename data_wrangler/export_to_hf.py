@@ -153,6 +153,7 @@ This dataset was created by:
 - `bb_won` (float): Amount won in big blinds
 - `game_type` (string): Type of poker game
 - `big_blind` (float): Size of the big blind
+- `game_stage` (string): The furthest stage reached in the hand (PREFLOP, FLOP, TURN, RIVER)
 """
 
         # Add PokerGPT-specific data fields if relevant
@@ -213,7 +214,14 @@ This dataset is intended for research and training of poker AI systems. The data
                     winner, 
                     bb_won,
                     game_type,
-                    big_blind
+                    big_blind,
+                    CASE 
+                        WHEN has_river THEN 'RIVER'
+                        WHEN has_turn THEN 'TURN'
+                        WHEN has_flop THEN 'FLOP'
+                        WHEN has_preflop THEN 'PREFLOP'
+                        ELSE 'UNKNOWN'
+                    END as game_stage
                 FROM hand_histories
                 WHERE {filter_query}
             """)
@@ -221,7 +229,7 @@ This dataset is intended for research and training of poker AI systems. The data
             rows = cur.fetchall()
             
         # Convert to pandas DataFrame
-        df = pd.DataFrame(rows, columns=['hand_id', 'pokergpt_format', 'winner', 'bb_won', 'game_type', 'big_blind'])
+        df = pd.DataFrame(rows, columns=['hand_id', 'pokergpt_format', 'winner', 'bb_won', 'game_type', 'big_blind', 'game_stage'])
         
         # Process the pokergpt_format column from JSON strings to dictionaries
         df['pokergpt_format'] = df['pokergpt_format'].apply(lambda x: json.loads(x) if isinstance(x, str) else x)

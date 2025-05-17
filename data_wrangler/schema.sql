@@ -80,6 +80,7 @@ CREATE TABLE dataset_records (
     bb_won NUMERIC,
     game_type TEXT,
     big_blind NUMERIC,
+    game_stage TEXT,  -- PREFLOP, FLOP, TURN, RIVER
     
     -- Card evaluations
     evaluator_rank TEXT,  -- Result from our poker_hand_evaluator

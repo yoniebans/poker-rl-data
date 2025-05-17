@@ -130,6 +130,7 @@ def log_dataset_records(dataset, db_connection):
         bb_won = record.get('bb_won')
         game_type = record.get('game_type')
         big_blind = record.get('big_blind')
+        game_stage = record.get('game_stage')
         
         # Get the prompt and action
         pokergpt_prompt = record.get('pokergpt_prompt', '')
@@ -171,14 +172,14 @@ def log_dataset_records(dataset, db_connection):
         # Insert the record
         cursor.execute("""
             INSERT INTO dataset_records (
-                hand_id, winner, bb_won, game_type, big_blind,
+                hand_id, winner, bb_won, game_type, big_blind, game_stage,
                 evaluator_rank, pokerstars_description, 
                 pokergpt_prompt, winning_action
             ) VALUES (
-                %s, %s, %s, %s, %s, %s, %s, %s, %s
+                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
             )
         """, (
-            hand_id, winner, bb_won, game_type, big_blind,
+            hand_id, winner, bb_won, game_type, big_blind, game_stage,
             evaluator_rank, pokerstars_description,
             pokergpt_prompt, winning_action
         ))

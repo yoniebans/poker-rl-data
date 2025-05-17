@@ -12,10 +12,11 @@ The final dataset exported to HuggingFace contains the following fields:
 4. **bb_won** - Big blinds won in this hand
 5. **game_type** - Type of poker game (e.g., "Hold'em No Limit")
 6. **big_blind** - Value of the big blind
-7. **evaluator_rank** - Hand rank calculated by the poker_hand_evaluator
-8. **pokerstars_description** - Hand description from PokerStars summary
-9. **pokergpt_prompt** - The formatted prompt as shown below
-10. **winning_action** - The action taken by the winning player
+7. **game_stage** - The furthest stage reached in the hand (PREFLOP, FLOP, TURN, or RIVER)
+8. **evaluator_rank** - Hand rank calculated by the poker_hand_evaluator
+9. **pokerstars_description** - Hand description from PokerStars summary
+10. **pokergpt_prompt** - The formatted prompt as shown below
+11. **winning_action** - The action taken by the winning player
 
 ## Input Prompt Format
 
@@ -343,6 +344,7 @@ In the project codebase, these prompt-response pairs are generated from the stru
        'bb_won': 5.5,
        'game_type': 'Hold\'em No Limit',
        'big_blind': 1.0,
+       'game_stage': 'RIVER',  # The furthest stage reached (PREFLOP, FLOP, TURN, RIVER)
        'evaluator_rank': 'Pair',
        'pokerstars_description': 'Player A wins pot with pair of kings',
        'pokergpt_prompt': formatted_prompt,  # The full prompt as shown in examples above
