@@ -92,7 +92,7 @@ The actions can be: ["fold", "call", "re-raise", "all-in"]. What should I do? If
 The output should be concise and follow poker terminology:
 
 ```
-call 2.00
+call
 ```
 
 OR
