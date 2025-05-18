@@ -24,7 +24,10 @@ def examine_hand(hand_id):
                 has_showdown,
                 winner,
                 blinds,
-                pot_total
+                pot_total,
+                winner_cards,
+                winning_action,
+                formatted_winning_action
             FROM hand_histories 
             WHERE hand_id = %s
         ''', (hand_id,))
@@ -34,7 +37,7 @@ def examine_hand(hand_id):
             print(f"No hand found with ID {hand_id}")
             return
             
-        pokergpt_format, raw_text, has_preflop, has_flop, has_turn, has_river, has_showdown, winner, blinds, pot_total = row
+        pokergpt_format, raw_text, has_preflop, has_flop, has_turn, has_river, has_showdown, winner, blinds, pot_total, winner_cards, winning_action_original, formatted_winning_action = row
         
         # Also get the dataset record with prompt and winning action
         cur.execute('''
@@ -47,16 +50,19 @@ def examine_hand(hand_id):
         
         dataset_row = cur.fetchone()
         if dataset_row:
-            pokergpt_prompt, winning_action = dataset_row
+            pokergpt_prompt, dataset_winning_action = dataset_row
         else:
             print(f"No dataset record found for hand ID {hand_id}")
-            pokergpt_prompt, winning_action = None, None
+            pokergpt_prompt, dataset_winning_action = None, None
         
         if isinstance(pokergpt_format, str):
             pokergpt_format = json.loads(pokergpt_format)
             
         print(f"======= Hand ID: {hand_id} =======")
         print(f"Winner: {winner}")
+        print(f"Winner's Cards: {winner_cards}")
+        print(f"Winning Action (Original): {winning_action_original}")
+        print(f"Winning Action (Formatted): {formatted_winning_action}")
         print(f"Blinds: {blinds}")
         print(f"Stored Pot Total: {pot_total}")
         print(f"Game stages: Preflop={has_preflop}, Flop={has_flop}, Turn={has_turn}, River={has_river}, Showdown={has_showdown}")
@@ -121,10 +127,10 @@ def examine_hand(hand_id):
         print(f"Intermediate representation saved to: {inter_path}")
         
         # Save final dataset representation
-        if pokergpt_prompt and winning_action:
+        if pokergpt_prompt and dataset_winning_action:
             final_data = {
                 "prompt": pokergpt_prompt,
-                "response": winning_action
+                "response": dataset_winning_action
             }
             final_path = os.path.join(output_dir, f"{hand_id}_final.json")
             with open(final_path, "w") as f:

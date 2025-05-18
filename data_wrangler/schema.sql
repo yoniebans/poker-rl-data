@@ -14,6 +14,8 @@ CREATE TABLE hand_histories (
     winner TEXT,
     bb_won NUMERIC,
     winning_action TEXT,    -- Stores the winner's final action (extracted from stages)
+    formatted_winning_action TEXT,  -- Stores the formatted version of the winning action
+    winner_cards TEXT[],    -- Stores the winner's cards as an array of card codes
     
     -- Game states
     has_preflop BOOLEAN,

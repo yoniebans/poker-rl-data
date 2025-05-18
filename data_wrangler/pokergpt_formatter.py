@@ -813,47 +813,32 @@ class PokerGPTFormatter:
             List of dictionaries with 'prompt' and optionally 'action' keys
         """
         formatted_data = []
+        skipped_count = 0
         
         for hand in hands_data:
+            # If we need actions but formatted_winning_action is missing, skip this hand
+            if include_actions:
+                winner = hand.get('winner')
+                if winner and (not 'formatted_winning_action' in hand or not hand['formatted_winning_action']):
+                    hand_id = hand.get('hand_id', 'unknown')
+                    print(f"Warning: Hand {hand_id} missing formatted_winning_action. Skipping this hand.")
+                    skipped_count += 1
+                    continue
+            
             # Get the prompt
             prompt = self.format_hand_to_pokergpt_prompt(hand)
             
             result = {'prompt': prompt}
             
-            # Optionally extract the winning action
+            # Add the formatted winning action if needed
             if include_actions:
                 winner = hand.get('winner')
-                if winner:
-                    # Find the winning action in the hand data
-                    pokergpt_format = hand.get('pokergpt_format', {})
-                    if isinstance(pokergpt_format, str):
-                        import json
-                        pokergpt_format = json.loads(pokergpt_format)
-                    
-                    stages = pokergpt_format.get('stages', {})
-                    
-                    # Get the last stage with actions
-                    stage_order = ['river', 'turn', 'flop', 'preflop']
-                    winner_action = None
-                    
-                    for stage in stage_order:
-                        if stage in stages:
-                            stage_actions = stages[stage].get('actions', [])
-                            # Find the last action by the winner
-                            for action in reversed(stage_actions):
-                                if action.get('player') == winner:
-                                    action_str = action.get('action', '')
-                                    if 'amount' in action:
-                                        action_str += f" {action['amount']}"
-                                    winner_action = action_str
-                                    break
-                            
-                            if winner_action:
-                                break
-                    
-                    if winner_action:
-                        result['action'] = winner_action
+                if winner and 'formatted_winning_action' in hand and hand['formatted_winning_action']:
+                    result['action'] = hand['formatted_winning_action']
             
             formatted_data.append(result)
+        
+        if skipped_count > 0:
+            print(f"Total hands skipped due to missing formatted_winning_action: {skipped_count}")
             
         return formatted_data
