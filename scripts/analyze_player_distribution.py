@@ -97,15 +97,15 @@ def analyze_player_distribution():
         plt.ylabel('Cumulative Proportion of Hands')
         plt.grid(True)
         
-        # 4. Bar chart of top 20 players
+        # 4. Bar chart of top 20 players (horizontal bars for better readability)
         plt.subplot(2, 2, 4)
         top_20 = df.head(20).copy()
         top_20['player_id'] = top_20['player_id'].apply(lambda x: x[:10] + '...' if len(x) > 10 else x)
-        sns.barplot(data=top_20, x='player_id', y='total_hands')
+        # Swap x and y for horizontal bar chart
+        sns.barplot(data=top_20, y='player_id', x='total_hands')
         plt.title('Top 20 Players by Hands Played')
-        plt.xlabel('Player ID')
-        plt.ylabel('Number of Hands')
-        plt.xticks(rotation=45, ha='right')
+        plt.ylabel('Player ID')
+        plt.xlabel('Number of Hands')
         plt.tight_layout()
         
         # Calculate Gini coefficient for hand distribution
@@ -118,16 +118,37 @@ def analyze_player_distribution():
         print("(0 = perfect equality, 1 = perfect inequality)")
         
         # 5. Create an additional figure for win rate vs. hands played
+        # Swap axes: Win rate on x-axis, hands played on y-axis
         plt.figure(figsize=(10, 6))
-        plt.scatter(df['total_hands'], df['mbb_per_hour'], alpha=0.5)
-        plt.title('Win Rate vs. Hands Played')
-        plt.xlabel('Total Hands Played')
-        plt.ylabel('Win Rate (mbb/hour)')
+        plt.scatter(df['mbb_per_hour'], df['total_hands'], alpha=0.5)
+        plt.title('Hands Played vs. Win Rate')
+        plt.xlabel('Win Rate (mbb/hour)')
+        plt.ylabel('Total Hands Played')
         plt.grid(True)
         
-        # Save plots
-        plt.savefig('player_distribution_analysis.png')
-        print("\nPlots saved to player_distribution_analysis.png")
+        # Add a second plot with log scale for better distribution visibility
+        plt.figure(figsize=(10, 6))
+        plt.scatter(df['mbb_per_hour'], df['total_hands'], alpha=0.5)
+        plt.yscale('log')  # Use log scale for y-axis (hands played)
+        plt.title('Hands Played vs. Win Rate (Log Scale)')
+        plt.xlabel('Win Rate (mbb/hour)')
+        plt.ylabel('Total Hands Played (Log Scale)')
+        plt.grid(True)
+        
+        # Save plots to separate files
+        plt.figure(1)  # First figure with the 4 subplots
+        plt.savefig('player_distribution_summary.png')
+        
+        plt.figure(2)  # Second figure with win rate vs hands
+        plt.savefig('win_rate_vs_hands.png')
+        
+        plt.figure(3)  # Third figure with log scale
+        plt.savefig('win_rate_vs_hands_log.png')
+        
+        print("\nPlots saved to:")
+        print("- player_distribution_summary.png")
+        print("- win_rate_vs_hands.png")
+        print("- win_rate_vs_hands_log.png")
         
         # Close database connection
         conn.close()
