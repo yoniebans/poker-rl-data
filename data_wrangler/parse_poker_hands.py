@@ -136,6 +136,22 @@ class PokerHandProcessor:
         rake = summary_info.get('rake') if summary_info else None
         board = summary_info.get('board') if summary_info else None
         
+        # Extract the winning action as a formatted string to store in the database
+        winning_action_str = None
+        if 'outcomes' in pokergpt_format and 'winning_action' in pokergpt_format['outcomes']:
+            winning_action = pokergpt_format['outcomes']['winning_action']
+            action_type = winning_action.get('type', '')
+            action_str = action_type
+            
+            if 'amount' in winning_action:
+                action_str += f" {winning_action['amount']}"
+            if 'total' in winning_action:
+                action_str += f" to {winning_action['total']}"
+            if winning_action.get('is_all_in', False):
+                action_str += " and is all-in"
+                
+            winning_action_str = action_str
+        
         return {
             'hand_id': hand_id,
             'raw_text': raw_hand,
@@ -161,7 +177,8 @@ class PokerHandProcessor:
             'pot_total': pot_total,
             'rake': rake,
             'board': board,
-            'has_multiple_boards': has_multiple_boards
+            'has_multiple_boards': has_multiple_boards,
+            'winning_action': winning_action_str
         }
     
     def _extract_blind_players(self, raw_hand: str) -> Tuple[Optional[str], Optional[str]]:
@@ -276,6 +293,36 @@ class PokerHandProcessor:
         if dealer_position is None:
             dealer_position = self._extract_dealer_position(raw_hand)
         
+        # Extract the winner's final action before creating the format
+        winning_action = None
+        if winner:
+            # Look for the last action by the winner in any stage, in reverse order by stage
+            stage_order = ['river', 'turn', 'flop', 'preflop']
+            for stage_name in stage_order:
+                if stage_name in stages and 'actions' in stages[stage_name]:
+                    stage_actions = stages[stage_name]['actions']
+                    # Search backward through actions to find the last action by the winner
+                    for i in range(len(stage_actions) - 1, -1, -1):
+                        action = stage_actions[i]
+                        if action.get('player') == winner:
+                            # Found the winner's last action - extract it and remove from stages
+                            action_type = action.get('action', '')
+                            if action_type in ['bets', 'raises', 'calls', 'checks', 'folds']:
+                                # Format the action string
+                                winning_action = {'type': action_type}
+                                if 'amount' in action:
+                                    winning_action['amount'] = action['amount']
+                                if 'total' in action:
+                                    winning_action['total'] = action['total']
+                                if 'is_all_in' in action and action['is_all_in']:
+                                    winning_action['is_all_in'] = True
+                                
+                                # Remove this action from stages data
+                                stages[stage_name]['actions'].pop(i)
+                                break
+                    if winning_action:
+                        break
+        
         # Create the basic pokergpt format
         pokergpt_format = {
             "basic_info": {
@@ -293,6 +340,10 @@ class PokerHandProcessor:
                 "bb_won": bb_won
             }
         }
+        
+        # Add the winning action to outcomes if found
+        if winning_action:
+            pokergpt_format["outcomes"]["winning_action"] = winning_action
         
         # Add summary information
         if summary_info:
@@ -657,13 +708,13 @@ class PokerHandProcessor:
                             player_count, winner, bb_won, has_preflop, has_flop, has_turn,
                             has_river, has_showdown, player_ids, played_at, table_name,
                             dealer_position, dealer_player, small_blind_player, big_blind_player,
-                            pot_total, rake, board
+                            pot_total, rake, board, winning_action
                         ) VALUES (
                             %(hand_id)s, %(raw_text)s, %(pokergpt_format)s, %(game_type)s, %(blinds)s, %(big_blind)s,
                             %(player_count)s, %(winner)s, %(bb_won)s, %(has_preflop)s, %(has_flop)s, %(has_turn)s,
                             %(has_river)s, %(has_showdown)s, %(player_ids)s, %(played_at)s, %(table_name)s,
                             %(dealer_position)s, %(dealer_player)s, %(small_blind_player)s, %(big_blind_player)s,
-                            %(pot_total)s, %(rake)s, %(board)s
+                            %(pot_total)s, %(rake)s, %(board)s, %(winning_action)s
                         )
                     """, {
                         **parsed_hand,
