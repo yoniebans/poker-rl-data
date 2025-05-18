@@ -90,6 +90,7 @@ CREATE TABLE dataset_records (
     pokerstars_description TEXT,  -- Description from PokerStars in summary/showdown
     
     -- PokerGPT dataset fields
+    pokergpt_format JSONB, -- Complete structured JSON representation of the hand
     pokergpt_prompt TEXT,  -- The formatted prompt
     winning_action TEXT,   -- The winning action
     

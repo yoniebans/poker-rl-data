@@ -117,6 +117,7 @@ def log_dataset_records(dataset, db_connection):
         db_connection: Database connection string
     """
     import psycopg2
+    import json
     
     conn = psycopg2.connect(db_connection)
     cursor = conn.cursor()
@@ -169,18 +170,21 @@ def log_dataset_records(dataset, db_connection):
             if rank_match:
                 evaluator_rank = rank_match.group(1)
         
-        # Insert the record
+        # Convert pokergpt_format to a JSON string for storage in JSONB column
+        pokergpt_format_json = json.dumps(pokergpt_format) if pokergpt_format else None
+
+        # Insert the record with the pokergpt_format field
         cursor.execute("""
             INSERT INTO dataset_records (
                 hand_id, winner, bb_won, game_type, big_blind, game_stage,
-                evaluator_rank, pokerstars_description, 
+                evaluator_rank, pokerstars_description, pokergpt_format,
                 pokergpt_prompt, winning_action
             ) VALUES (
-                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
             )
         """, (
             hand_id, winner, bb_won, game_type, big_blind, game_stage,
-            evaluator_rank, pokerstars_description,
+            evaluator_rank, pokerstars_description, pokergpt_format_json,
             pokergpt_prompt, winning_action
         ))
     
@@ -193,6 +197,7 @@ def log_dataset_records(dataset, db_connection):
 def export_showdown_hands_dataset(db_connection):
     """
     Export a dataset of showdown hands with proper card extraction and hand evaluation.
+    Creates train and test splits for machine learning.
     """
     # Create the SQL query to filter for hands with showdown and visible cards
     filter_query = """
@@ -212,22 +217,28 @@ def export_showdown_hands_dataset(db_connection):
     actual private cards of players. This ensures proper hand evaluation and more realistic
     decision contexts for the model. All hands are from players with a win rate of at least
     200 mbb/hour over at least 50 hands, representing skilled play.
+    
+    The dataset is split into train (90%) and test (10%) sets to facilitate machine learning
+    model development and evaluation.
     """
     
     # Initialize the exporter with proper formatting
     exporter = HuggingFaceExporter(db_connection)
     
-    # Export the dataset
+    # Export the dataset with train/test splits
     dataset = exporter.export_dataset(
         filter_query=filter_query,
         dataset_name="6max_nlh_poker_hands",
         push_to_hub=True,
         hub_name="yoniebans/6max-nlh-poker",
+        private=True,  # Set back to private
         filter_description=filter_description,
         win_rate_threshold=200,
         min_hands=50,
         include_pokergpt_format=True,
-        include_actions=True
+        include_actions=True,
+        create_train_test_split=True,
+        test_size=0.1
     )
     
     print(f"Exported {len(dataset)} showdown hands to dataset")

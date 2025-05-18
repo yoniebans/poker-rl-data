@@ -53,6 +53,9 @@ class HuggingFaceExporter:
             
         Returns:
             Markdown formatted dataset card
+            
+        Note:
+            The filter_description should mention if the dataset has train/test splits.
         """
         # Get the current date in ISO format
         current_date = datetime.now().strftime("%Y-%m-%d")
@@ -63,9 +66,9 @@ annotations_creators:
   - machine-generated
 language_creators:
   - found
-languages:
+language:
   - en
-licenses:
+license:
   - mit
 source_datasets:
   - original
@@ -74,7 +77,6 @@ task_categories:
   - reinforcement-learning
 task_ids:
   - language-modeling
-  - decision-making
 pretty_name: {dataset_name}
 size_categories:
   - 10K<n<100K
@@ -99,6 +101,28 @@ This dataset contains poker hand histories filtered for high-quality decision-ma
 
 The dataset contains {sample_count} hand histories structured in a format optimized for training poker AI models.
 
+**Splits:**
+The dataset is organized into train and test splits:
+- **train**: ~90% of the data (approximately {int(sample_count * 0.9)} examples)
+- **test**: ~10% of the data (approximately {int(sample_count * 0.1)} examples)
+
+To load and use specific splits:
+```python
+from datasets import load_dataset
+
+# Load the entire dataset
+dataset = load_dataset("yoniebans/6max-nlh-poker")
+
+# Access specific splits
+train_data = dataset["train"]
+test_data = dataset["test"]
+
+# Example: count examples in each split
+print("Train examples:", len(train_data))
+print("Test examples:", len(test_data))
+```
+
+**Data Fields:**
 Each entry contains:
 - `hand_id`: Unique identifier for the hand
 - `pokergpt_format`: Structured JSON representation of the entire hand including player actions, bet sizes, and community cards
@@ -147,7 +171,15 @@ This dataset was created by:
 - `hand_id` (string): Unique identifier for the hand
 - `pokergpt_format` (json): Complete structured representation of the hand
   - `basic_info`: General information about the game and players
-  - `stages`: Actions and cards for each stage of the hand (preflop, flop, turn, river)
+    - `blinds`: String representation of small/big blind (e.g., "$0.50/$1.00")
+    - `players`: Array of player objects with names and stack sizes
+    - `dealer_position`: Seat number of the dealer button
+  - `stages`: Actions and cards for each stage of the hand
+    - `preflop`: Preflop actions and information
+    - `flop`: Flop actions and community cards
+    - `turn`: Turn actions and card
+    - `river`: River actions and card
+    - `showdown`: Showdown information and revealed cards
   - `outcomes`: Winner and amount won
 - `winner` (string): Player who won the hand
 - `bb_won` (float): Amount won in big blinds
@@ -185,7 +217,9 @@ This dataset is intended for research and training of poker AI systems. The data
                       min_hands: Optional[int] = None,
                       game_stage: Optional[str] = None,
                       include_pokergpt_format: bool = True,
-                      include_actions: bool = True):
+                      include_actions: bool = True,
+                      create_train_test_split: bool = False,
+                      test_size: float = 0.1):
         """
         Export a filtered dataset to HuggingFace format.
         
@@ -201,6 +235,8 @@ This dataset is intended for research and training of poker AI systems. The data
             game_stage: Game stage filter (e.g., 'preflop')
             include_pokergpt_format: Whether to include PokerGPT format prompts
             include_actions: Whether to include winning actions
+            create_train_test_split: Whether to create train and test splits
+            test_size: Proportion of data to use for test set (0.0 to 1.0)
             
         Returns:
             The created HuggingFace Dataset
@@ -289,6 +325,36 @@ This dataset is intended for research and training of poker AI systems. The data
         # Create the dataset
         dataset = Dataset.from_pandas(df)
         
+        # Create train and test splits if requested
+        if create_train_test_split:
+            from datasets import DatasetDict
+            
+            # Shuffle the dataset
+            dataset = dataset.shuffle(seed=42)
+            
+            # Calculate the split indices
+            dataset_size = len(dataset)
+            test_size_count = int(dataset_size * test_size)
+            train_size_count = dataset_size - test_size_count
+            
+            # Create the splits
+            train_dataset = dataset.select(range(train_size_count))
+            test_dataset = dataset.select(range(train_size_count, dataset_size))
+            
+            # Create a DatasetDict with train and test splits
+            dataset_dict = DatasetDict({
+                'train': train_dataset,
+                'test': test_dataset
+            })
+            
+            print(f"Created train/test splits: {train_size_count} training samples, {test_size_count} test samples")
+            
+            # Use the DatasetDict as our dataset
+            dataset_to_save = dataset_dict
+        else:
+            # No splits needed
+            dataset_to_save = dataset
+        
         # Save dataset card if pushing to hub
         if push_to_hub and hub_name:
             # Create dataset card
@@ -307,16 +373,54 @@ This dataset is intended for research and training of poker AI systems. The data
             with open(card_path, "w") as f:
                 f.write(card_content)
             
-            # Push to HuggingFace Hub with dataset card
+            # Push to HuggingFace Hub
             token = os.environ.get("HUGGINGFACE_TOKEN")
             if token:
-                dataset.push_to_hub(
-                    hub_name, 
-                    private=private,
-                    # readme_path parameter removed due to compatibility issue
-                    # readme_path=card_path,
-                    token=token
-                )
+                # Import HfApi and create_repo
+                from huggingface_hub import HfApi, create_repo
+                
+                # Initialize the API
+                api = HfApi(token=token)
+                
+                # Try to create the repo, but catch the error if it already exists
+                try:
+                    print(f"Creating repository {hub_name} if it doesn't exist...")
+                    create_repo(
+                        repo_id=hub_name,
+                        token=token,
+                        private=private,
+                        repo_type="dataset",
+                        exist_ok=True  # This will not raise an error if the repo exists
+                    )
+                except Exception as e:
+                    # If there's an error but it's not because the repo already exists, print it
+                    if "already exists" not in str(e):
+                        print(f"Warning: {str(e)}")
+                
+                # Then push the dataset
+                try:
+                    print("Pushing dataset to Hugging Face Hub...")
+                    dataset_to_save.push_to_hub(
+                        hub_name, 
+                        private=private,
+                        token=token
+                    )
+                    print("Dataset push succeeded.")
+                    
+                    # Then upload the README.md separately
+                    print("Uploading README.md...")
+                    api.upload_file(
+                        path_or_fileobj=card_path,
+                        path_in_repo="README.md",
+                        repo_id=hub_name,
+                        repo_type="dataset",
+                        token=token
+                    )
+                    print("README upload succeeded.")
+                except Exception as e:
+                    print(f"Error during Hugging Face upload: {str(e)}")
+                    print("The dataset has been saved locally, but the Hugging Face upload failed.")
+                
                 print(f"Dataset pushed to HuggingFace Hub: {hub_name} (Private: {private})")
             else:
                 print("Warning: HUGGINGFACE_TOKEN not found in environment. Set it in .env file.")
@@ -325,7 +429,7 @@ This dataset is intended for research and training of poker AI systems. The data
             os.remove(card_path)
         else:
             # Save locally
-            dataset.save_to_disk(dataset_name)
+            dataset_to_save.save_to_disk(dataset_name)
             print(f"Dataset saved locally to: {dataset_name}")
         
         return dataset
