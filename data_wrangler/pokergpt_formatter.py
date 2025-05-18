@@ -108,8 +108,8 @@ class PokerGPTFormatter:
                     # If there's already a bet and someone raises, mark as raise
                     context['has_raise'] = True
                     
-            # Check for all-ins
-            if 'all-in' in action_type.lower():
+            # Check for all-ins - either as text in action_type or as a dedicated flag
+            if 'all-in' in action_type.lower() or action.get('is_all_in', False):
                 context['facing_all_in'] = True
         
         return context
@@ -656,18 +656,29 @@ class PokerGPTFormatter:
                             # Handle conversion errors or missing players gracefully
                             pass
         
-        # Calculate pot value - simplified approximation
+        # Calculate pot value - use pot_total from hand_data if available
         pot_value = 0
-        for p_name in player_names:
-            if p_name in player_actions:  # Only count players who have taken action
-                initial_stack = default_stack
-                for p in players:
-                    if p.get('name') == p_name:
-                        initial_stack = float(p.get('stack', default_stack))
-                        break
-                
-                current_stack = player_stacks.get(p_name, initial_stack)
-                pot_value += max(0, initial_stack - current_stack)  # Ensure no negative contributions
+        
+        # First try to use the pot_total from hand_data if available
+        if 'pot_total' in hand_data and hand_data['pot_total'] is not None:
+            try:
+                pot_value = float(hand_data['pot_total'])
+            except (ValueError, TypeError):
+                # If pot_total conversion fails, fall back to calculating from actions
+                pot_value = 0
+        
+        # If no pot_total or conversion failed, calculate from player actions
+        if pot_value <= 0:
+            for p_name in player_names:
+                if p_name in player_actions:  # Only count players who have taken action
+                    initial_stack = default_stack
+                    for p in players:
+                        if p.get('name') == p_name:
+                            initial_stack = float(p.get('stack', default_stack))
+                            break
+                    
+                    current_stack = player_stacks.get(p_name, initial_stack)
+                    pot_value += max(0, initial_stack - current_stack)  # Ensure no negative contributions
         
         # Format the prompt following PokerGPT paper structure
         prompt = f"""You are an experienced gambler. Now you need to assist me to make decisions in Texas Hold'em games. You have been provided with a series of observable information:
@@ -678,22 +689,22 @@ class PokerGPTFormatter:
 
     Stage: "{stage.upper()}", Public cards: {community_cards}
     My rank: ["{hand_rank}"], Money: [{player_stacks.get(player_perspective, default_stack):.2f}], Action: {player_actions.get(player_perspective, [])}
-    """
+"""
         
-        # Add other players' information
+        # Add other players' information - keep consistent indentation for all seats
         for p in players:
             p_name = p.get('name')
             if p_name and p_name != player_perspective:
                 p_cards = ['**', '**']  # Hidden cards for opponents
                 p_seat = p.get('seat', players.index(p) + 1)
-                prompt += f"Seat {p_seat}: {p_cards}, Money: [{player_stacks.get(p_name, default_stack):.2f}], Action: {player_actions.get(p_name, [])}, Discard: [{discard_status.get(p_name, False)}]\n"
+                prompt += f"    Seat {p_seat}: {p_cards}, Money: [{player_stacks.get(p_name, default_stack):.2f}], Action: {player_actions.get(p_name, [])}, Discard: [{discard_status.get(p_name, False)}]\n"
         
         # Also add any players mentioned in actions but not in the player list
         for p_name in all_players_in_actions:
             if p_name not in [p.get('name') for p in players] and p_name != player_perspective:
-                prompt += f"{p_name}: ['**', '**'], Money: [{player_stacks.get(p_name, default_stack):.2f}], Action: {player_actions.get(p_name, [])}, Discard: [{discard_status.get(p_name, False)}]\n"
+                prompt += f"    {p_name}: ['**', '**'], Money: [{player_stacks.get(p_name, default_stack):.2f}], Action: {player_actions.get(p_name, [])}, Discard: [{discard_status.get(p_name, False)}]\n"
         
-        # Add pot value and available actions
+        # Add pot value and available actions - no indentation for these lines
         prompt += f"\nThe pot value is [{pot_value:.2f}]\n"
         
         # Get hand_id for error messages
@@ -701,12 +712,34 @@ class PokerGPTFormatter:
         
         # Determine available actions based on betting context - we don't catch errors here
         # because if we can't determine valid actions, we should fail and fix the issue
-        available_actions = self._determine_available_actions(stages.get(stage, {}).get('actions', []))
+        stage_actions = stages.get(stage, {}).get('actions', [])
+        available_actions = self._determine_available_actions(stage_actions)
+        
+        # Check if the player is facing an all-in
+        context = self._analyze_betting_context(stage_actions)
+        facing_all_in = context['facing_all_in']
         
         # Generate formatted action prompt
         action_prompt = f"The actions can be: {available_actions}. What should I do?"
         
+        # Check if this is an all-in situation (either the player is facing all-in or went all-in themselves)
+        # This covers both players who face others' all-ins and players who themselves went all-in
+        is_all_in_situation = facing_all_in or player_stacks.get(player_perspective, default_stack) <= 0
+        
+        # If it's an all-in situation, adjust the action prompt to only include valid options
+        if is_all_in_situation:
+            # When facing an all-in, player can only fold or call the exact amount
+            action_prompt = "The actions can be: ['fold', 'call']. What should I do?"
+            # Add the call amount for clarity
+            current_bet = self._get_current_bet(stage_actions, hand_id=hand_id)
+            if current_bet > 0:
+                action_prompt = f"The actions can be: ['fold', 'call']. What should I do? If I choose to \"call\", it will be for {current_bet}."
+            
+            # Return the prompt immediately, no bet sizing needed for all-in situations
+            return prompt + action_prompt
+        
         # Add bet sizing options if applicable (bet, raise, or re-raise actions available)
+        # Only gets here if NOT an all-in situation
         bet_action_types = {"bet", "raise", "re-raise"} & set(available_actions)
         if bet_action_types:
             # Validate that we have only one betting action type (which is what we expect)
