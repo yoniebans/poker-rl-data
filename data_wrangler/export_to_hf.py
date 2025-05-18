@@ -215,6 +215,7 @@ This dataset is intended for research and training of poker AI systems. The data
                     bb_won,
                     game_type,
                     big_blind,
+                    pot_total,
                     CASE 
                         WHEN has_river THEN 'RIVER'
                         WHEN has_turn THEN 'TURN'
@@ -229,7 +230,7 @@ This dataset is intended for research and training of poker AI systems. The data
             rows = cur.fetchall()
             
         # Convert to pandas DataFrame
-        df = pd.DataFrame(rows, columns=['hand_id', 'pokergpt_format', 'winner', 'bb_won', 'game_type', 'big_blind', 'game_stage'])
+        df = pd.DataFrame(rows, columns=['hand_id', 'pokergpt_format', 'winner', 'bb_won', 'game_type', 'big_blind', 'pot_total', 'game_stage'])
         
         # Process the pokergpt_format column from JSON strings to dictionaries
         df['pokergpt_format'] = df['pokergpt_format'].apply(lambda x: json.loads(x) if isinstance(x, str) else x)
@@ -250,7 +251,9 @@ This dataset is intended for research and training of poker AI systems. The data
                 for _, row in batch.iterrows():
                     hand_data = {
                         'pokergpt_format': row['pokergpt_format'], 
-                        'winner': row['winner']
+                        'winner': row['winner'],
+                        'hand_id': row['hand_id'],
+                        'pot_total': row.get('pot_total', None)
                     }
                     batch_data.append(hand_data)
                 
