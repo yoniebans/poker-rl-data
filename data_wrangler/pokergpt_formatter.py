@@ -761,27 +761,16 @@ class PokerGPTFormatter:
                 )
             }
             
-            # Add the winning action amount from the pokergpt_format
+            # Add the winning action amount from the pokergpt_format outcomes field
             if player_perspective == pokergpt_format.get('outcomes', {}).get('winner'):
-                # Look for the amount associated with the winner's last action
-                # Check all stages in reverse order to find the last action by the winner
-                stage_order = ['river', 'turn', 'flop', 'preflop']
-                for stage_name in stage_order:
-                    if stage_name in stages and 'actions' in stages[stage_name]:
-                        stage_actions = stages[stage_name]['actions']
-                        # Look for the last action by this player that's a bet/raise/call
-                        for action in reversed(stage_actions):
-                            if action.get('player') == player_perspective:
-                                action_type = action.get('action')
-                                if action_type in ['bets', 'raises', 'calls'] and 'amount' in action:
-                                    try:
-                                        game_state['winning_amount'] = float(action['amount'])
-                                        break
-                                    except (ValueError, TypeError):
-                                        pass
-                        # If we found a winning amount, stop looking through stages
-                        if 'winning_amount' in game_state:
-                            break
+                # Look directly in the outcomes.winning_action field (where it's stored after being removed from stages)
+                if 'outcomes' in pokergpt_format and 'winning_action' in pokergpt_format['outcomes']:
+                    winning_action = pokergpt_format['outcomes']['winning_action']
+                    if 'amount' in winning_action:
+                        try:
+                            game_state['winning_amount'] = float(winning_action['amount'])
+                        except (ValueError, TypeError):
+                            pass
             
             # Generate sizing options - don't catch exceptions here either
             # If we can't generate proper sizing options, we should fail and fix the issue

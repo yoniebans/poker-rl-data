@@ -897,19 +897,32 @@ def main():
     import os
     processor = PokerHandProcessor(args.db_connection, debug_mode=args.debug)
     
-    # Process each file in the input directory
-    for filename in os.listdir(args.input_dir):
-        if filename.endswith('.txt'):
-            file_path = os.path.join(args.input_dir, filename)
-            print(f"Processing file: {file_path}")
-            processor.process_hand_file(file_path)
+    # Function to process all text files in a directory and its subdirectories
+    def process_directory(directory):
+        files_processed = 0
+        print(f"Processing directory: {directory}")
+        
+        # Walk through the directory and all subdirectories
+        for root, dirs, files in os.walk(directory):
+            # Process each text file
+            for filename in files:
+                if filename.endswith('.txt'):
+                    file_path = os.path.join(root, filename)
+                    print(f"Processing file: {file_path}")
+                    processor.process_hand_file(file_path)
+                    files_processed += 1
+        
+        return files_processed
+    
+    # Start processing from the input directory
+    total_files = process_directory(args.input_dir)
     
     # Save debug log if in debug mode
     if args.debug:
         processor.save_debug_log(args.debug_log)
     
     processor.close()
-    print("Processing complete")
+    print(f"Processing complete - processed {total_files} files in total")
 
 
 if __name__ == "__main__":
