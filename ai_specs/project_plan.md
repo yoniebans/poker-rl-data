@@ -1,23 +1,20 @@
-# Poker LLM Training Implementation with Atropos
+# Poker RL Data Processing Pipeline
 
-This implementation follows Atropos's modular architecture with a focus on reusable, configurable reward functions.
+This project creates a data processing pipeline for poker hand histories, focused on creating high-quality training datasets for reinforcement learning models.
 
-## Directory Structure
+## Project Components
 
-```
-project/
-├── scripts/
-│   ├── parse_poker_hands.py
-│   ├── calculate_win_rates.py
-│   └── export_to_hf.py
-├── environments/
-│   └── poker_env.py       # Atropos environment implementation
-├── reward_fns/            # Custom poker reward functions
-│   ├── __init__.py
-│   ├── action_match.py
-│   ├── bet_sizing.py
-│   └── combined_poker.py
-└── README.md
+```ascii
+┌───────────────┐     ┌────────────────┐     ┌──────────────┐     ┌───────────────┐
+│ Hand History  │     │ PostgreSQL DB  │     │ PokerGPT     │     │ HuggingFace   │
+│ Parser        │────>│ Storage        │────>│ Formatter    │────>│ Dataset       │
+└───────────────┘     └────────────────┘     └──────────────┘     └───────────────┘
+                             │
+                             ▼
+                      ┌────────────────┐
+                      │ Win Rate       │
+                      │ Calculator     │
+                      └────────────────┘
 ```
 
 ## Database Schema
@@ -927,25 +924,43 @@ class PokerEnv(BaseEnv):
         await self.wandb_log(metrics)
 ```
 
-## Running the Complete Pipeline
+## Core Components
 
-1. **Setup the Database**:
-   ```bash
-   psql -U postgres -c "CREATE DATABASE poker_db;"
-   psql -U postgres -d poker_db -f schema.sql  # Save the schema SQL to this file
-   ```
+1. **Hand Parser** (`data_wrangler/parse_poker_hands.py`)
+   - Parses PokerStars hand history files
+   - Extracts structured data using robust pattern matching
+   - Handles edge cases including multi-table situations
 
-2. **Parse and Load Data**:
-   ```bash
-   python -m scripts.parse_poker_hands --input-dir /Users/yoni/Downloads/2025-05-04_STA_NL100_SH_LXUBI280/2025-02-10_CO_NL100_SH_CBSWAVX29 --db-connection "postgresql://postgres:Jh3&xYjLkQAf6x@localhost:5432/poker_db"
-   ```
+2. **Database Schema**
+   - Structured storage with filtering capabilities
+   - Support for win rate tracking and advanced queries
+   - Efficient hand retrieval for dataset creation
 
-3. **Calculate Win Rates**:
-   ```bash
-   python -m scripts.calculate_win_rates --db-connection "postgres://user:pass@localhost:5432/poker_db"
-   ```
+3. **Win Rate Calculator** (`data_wrangler/player_win_rates.py`)
+   - Table-based approach for accurate win rate calculation
+   - Tracks player performance across multiple tables
+   - Creates reliable player metrics for filtering skilled players
 
-4. **Export to HuggingFace Dataset**:
-   ```bash
-   python -m scripts.export_to_hf --db-connection "postgres://user:pass@localhost:5432/poker_db" --min-win-rate 500 --dataset-name "poker_winning_players"
-   ```
+4. **PokerGPT Formatter** (`data_wrangler/pokergpt_formatter.py`)
+   - Transforms structured hand data into LLM-ready prompt format
+   - Handles special cases like all-in situations
+   - Maintains consistent formatting and indentation
+   - Removes winning player's final action for training purposes
+
+5. **Dataset Exporter** (`data_wrangler/export_to_hf.py`)
+   - Filters hands based on player skill level
+   - Creates HuggingFace-compatible datasets
+   - Supports both local storage and hub publishing
+
+## Current Status
+
+The core data pipeline is operational, with recent improvements to:
+- Fix prompt formatting and indentation
+- Handle all-in situations correctly
+- Calculate pot values accurately
+- Generate reference examples for debugging
+
+Next steps include:
+- Further refinements to prompt structure
+- Integration with RL training environment
+- Expanded test coverage for edge cases
