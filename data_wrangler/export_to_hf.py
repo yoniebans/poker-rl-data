@@ -215,6 +215,9 @@ This dataset is intended for research and training of poker AI systems. The data
                     bb_won,
                     game_type,
                     big_blind,
+                    pot_total,
+                    winning_action,
+                    formatted_winning_action,
                     CASE 
                         WHEN has_river THEN 'RIVER'
                         WHEN has_turn THEN 'TURN'
@@ -229,7 +232,7 @@ This dataset is intended for research and training of poker AI systems. The data
             rows = cur.fetchall()
             
         # Convert to pandas DataFrame
-        df = pd.DataFrame(rows, columns=['hand_id', 'pokergpt_format', 'winner', 'bb_won', 'game_type', 'big_blind', 'game_stage'])
+        df = pd.DataFrame(rows, columns=['hand_id', 'pokergpt_format', 'winner', 'bb_won', 'game_type', 'big_blind', 'pot_total', 'winning_action', 'formatted_winning_action', 'game_stage'])
         
         # Process the pokergpt_format column from JSON strings to dictionaries
         df['pokergpt_format'] = df['pokergpt_format'].apply(lambda x: json.loads(x) if isinstance(x, str) else x)
@@ -250,7 +253,12 @@ This dataset is intended for research and training of poker AI systems. The data
                 for _, row in batch.iterrows():
                     hand_data = {
                         'pokergpt_format': row['pokergpt_format'], 
-                        'winner': row['winner']
+                        'winner': row['winner'],
+                        'hand_id': row['hand_id'],
+                        'pot_total': row.get('pot_total', None),
+                        'winning_action': row.get('winning_action', None),
+                        # Using formatted_winning_action for consistent formatting in the dataset
+                        'formatted_winning_action': row.get('formatted_winning_action', None)
                     }
                     batch_data.append(hand_data)
                 
@@ -305,7 +313,8 @@ This dataset is intended for research and training of poker AI systems. The data
                 dataset.push_to_hub(
                     hub_name, 
                     private=private,
-                    readme_path=card_path,
+                    # readme_path parameter removed due to compatibility issue
+                    # readme_path=card_path,
                     token=token
                 )
                 print(f"Dataset pushed to HuggingFace Hub: {hub_name} (Private: {private})")

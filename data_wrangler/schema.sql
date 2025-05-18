@@ -13,6 +13,9 @@ CREATE TABLE hand_histories (
     -- Win statistics
     winner TEXT,
     bb_won NUMERIC,
+    winning_action TEXT,    -- Stores the winner's final action (extracted from stages)
+    formatted_winning_action TEXT,  -- Stores the formatted version of the winning action
+    winner_cards TEXT[],    -- Stores the winner's cards as an array of card codes
     
     -- Game states
     has_preflop BOOLEAN,
@@ -98,5 +101,6 @@ CREATE TABLE dataset_records (
 CREATE INDEX idx_hand_histories_winner ON hand_histories(winner);
 CREATE INDEX idx_hand_histories_played_at ON hand_histories(played_at);
 CREATE INDEX idx_hand_histories_table_name ON hand_histories(table_name);
+CREATE INDEX idx_hand_histories_winning_action ON hand_histories(winning_action);
 CREATE INDEX idx_players_mbb_per_hour ON players(mbb_per_hour);
 CREATE INDEX idx_dataset_records_hand_id ON dataset_records(hand_id);

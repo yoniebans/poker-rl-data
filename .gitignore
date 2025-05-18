@@ -190,5 +190,9 @@ preflop_decisions/
 diagnostic_logs/
 pokergpt_showdown_hands/
 
+# Reference data examples - keep directories but exclude contents
+ai_docs/reference/data_lifecycle_examples/*
+ai_docs/reference/source_data_examples/*
+
 # OS files
 .DS_Store

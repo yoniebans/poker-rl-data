@@ -132,7 +132,7 @@ def log_dataset_records(dataset, db_connection):
         big_blind = record.get('big_blind')
         game_stage = record.get('game_stage')
         
-        # Get the prompt and action
+        # Get the prompt and action (which now uses formatted_winning_action)
         pokergpt_prompt = record.get('pokergpt_prompt', '')
         winning_action = record.get('action', '')
         
@@ -220,8 +220,9 @@ def export_showdown_hands_dataset(db_connection):
     # Export the dataset
     dataset = exporter.export_dataset(
         filter_query=filter_query,
-        dataset_name="pokergpt_showdown_hands",
-        push_to_hub=False,
+        dataset_name="6max_nlh_poker_hands",
+        push_to_hub=True,
+        hub_name="yoniebans/6max-nlh-poker",
         filter_description=filter_description,
         win_rate_threshold=200,
         min_hands=50,
