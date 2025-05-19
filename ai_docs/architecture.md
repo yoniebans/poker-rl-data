@@ -17,13 +17,13 @@ Person(modelResearcher, "ML Researcher", "Uses the processed datasets for model 
 
 System(pokerRLData, "Poker-RL Data Pipeline", "Processes poker hand histories and prepares AI training datasets")
 
-System_Ext(pokerStars, "PokerStars", "Source of hand history files")
+System_Ext(pokerClient, "Poker Client", "Source of hand history files")
 System_Ext(postgres, "PostgreSQL", "Stores structured hand data and player statistics")
 System_Ext(huggingface, "HuggingFace Hub", "Hosts the processed datasets")
 System_Ext(pokerRL, "Poker-RL Models", "Consumes the datasets for training")
 
 Rel(dataEngineer, pokerRLData, "Configures, runs")
-Rel(pokerRLData, pokerStars, "Reads hand history files from")
+Rel(pokerRLData, pokerClient, "Reads hand history files from")
 Rel(pokerRLData, postgres, "Stores & queries data in")
 Rel(pokerRLData, huggingface, "Exports datasets to")
 Rel(modelResearcher, huggingface, "Downloads datasets from")
@@ -48,7 +48,7 @@ System_Boundary(pokerRLData, "Poker-RL Data Pipeline") {
     Container(datasetExporter, "Dataset Exporter", "Python", "Exports filtered datasets to HuggingFace format")
 }
 
-System_Ext(pokerStars, "PokerStars", "Source of hand history files")
+System_Ext(pokerClient, "Poker Client", "Source of hand history files")
 System_Ext(postgres, "PostgreSQL", "Stores structured hand data and player statistics")
 System_Ext(huggingface, "HuggingFace Hub", "Hosts the processed datasets")
 
@@ -56,7 +56,7 @@ Rel(dataEngineer, handParser, "Runs with input directory and DB connection")
 Rel(dataEngineer, winRateCalc, "Runs with min hands threshold")
 Rel(dataEngineer, datasetExporter, "Runs with filtering criteria")
 
-Rel(handParser, pokerStars, "Reads hand history files from")
+Rel(handParser, pokerClient, "Reads hand history files from")
 Rel(handParser, postgres, "Stores parsed hands in")
 Rel(winRateCalc, postgres, "Reads hand data & updates player stats")
 Rel(pokerGPTFormatter, postgres, "Reads hand and player data")
@@ -208,6 +208,7 @@ sequenceDiagram
 The Hand Parser is responsible for converting raw poker hand history text files into structured database records.
 
 **Key Responsibilities:**
+
 - Process hand history files with robust encoding handling
 - Extract individual hands using regex pattern matching
 - Parse game stages (preflop, flop, turn, river, showdown)
@@ -216,6 +217,7 @@ The Hand Parser is responsible for converting raw poker hand history text files 
 - Store structured data in PostgreSQL
 
 **Design Considerations:**
+
 - Uses regex patterns for reliable text parsing
 - Implements error handling for problematic hands
 - Tracks diagnostic information for parser issues
@@ -226,6 +228,7 @@ The Hand Parser is responsible for converting raw poker hand history text files 
 The Win Rate Calculator implements a sophisticated table-based approach to accurately measure player skill levels.
 
 **Key Responsibilities:**
+
 - Identify distinct table sessions for each player
 - Detect when players join and leave specific tables
 - Create a timeline of active play accounting for multi-tabling
@@ -233,6 +236,7 @@ The Win Rate Calculator implements a sophisticated table-based approach to accur
 - Compute win rates in mbb/hand and mbb/hour
 
 **Design Considerations:**
+
 - Uses timeline analysis to handle overlapping table sessions
 - Accounts for breaks between sessions
 - Normalizes win rates based on actual active time
@@ -243,6 +247,7 @@ The Win Rate Calculator implements a sophisticated table-based approach to accur
 The PokerGPT Formatter transforms structured hand data into prompts formatted for language model training.
 
 **Key Responsibilities:**
+
 - Extract player private cards from showdown hands
 - Evaluate hand strength using the poker hand evaluator
 - Analyze card characteristics (high cards, suited, connected)
@@ -250,6 +255,7 @@ The PokerGPT Formatter transforms structured hand data into prompts formatted fo
 - Support action extraction for supervised training
 
 **Design Considerations:**
+
 - Follows the exact prompt structure from PokerGPT research
 - Provides card and hand analysis
 - Formats stage-specific information
@@ -260,6 +266,7 @@ The PokerGPT Formatter transforms structured hand data into prompts formatted fo
 The Dataset Exporter filters hand data by player skill and prepares datasets for HuggingFace.
 
 **Key Responsibilities:**
+
 - Build SQL queries with filtering criteria
 - Process data in batches to handle large datasets
 - Generate formatted prompts using the PokerGPT Formatter
@@ -268,6 +275,7 @@ The Dataset Exporter filters hand data by player skill and prepares datasets for
 - Push datasets to HuggingFace Hub
 
 **Design Considerations:**
+
 - Supports multiple filtering options (win rate, hands played)
 - Creates specialized datasets (winning players, preflop decisions)
 - Handles authentication with HuggingFace Hub
@@ -280,6 +288,7 @@ The system uses two primary database tables:
 ### `hand_histories` Table
 
 Stores individual poker hands with structured data:
+
 - `hand_id`: Unique identifier
 - `raw_text`: Original hand history text
 - `pokergpt_format`: JSON representation
@@ -297,6 +306,7 @@ Stores individual poker hands with structured data:
 ### `players` Table
 
 Stores player statistics with an emphasis on table-based metrics:
+
 - `player_id`: Unique identifier
 - `total_hands`: Total number of hands played
 - `total_bb`: Total big blinds won/lost
@@ -312,12 +322,14 @@ Stores player statistics with an emphasis on table-based metrics:
 ## Technical Implementation
 
 The pipeline is implemented in Python with the following key dependencies:
+
 - `psycopg2`: PostgreSQL database connectivity
 - `pandas`: Data manipulation
 - `datasets`: HuggingFace dataset creation
 - `huggingface-hub`: HuggingFace Hub integration
 
 Command-line interfaces are provided for each major component:
+
 - `parse-hands`: Parse hand history files
 - `calculate-win-rates`: Calculate player win rates
 - `export-dataset`: Export filtered datasets
@@ -326,11 +338,13 @@ Command-line interfaces are provided for each major component:
 ## Future Considerations
 
 1. **Scalability Improvements**:
+
    - Implement parallel processing for hand parsing
    - Add support for incremental updates to the database
    - Optimize database queries for larger datasets
 
 2. **Feature Enhancements**:
+
    - Support for additional poker variants
    - Enhanced player skill metrics beyond win rate
    - Strategic decision point identification

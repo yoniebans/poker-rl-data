@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository contains a data processing pipeline for poker hand histories, specifically designed to support poker-rl training. The pipeline:
 
-1. Parses PokerStars hand history files
+1. Parses Poker hand history files
 2. Stores data in a PostgreSQL database
 3. Calculates player win rates using a table-based approach
 4. Exports filtered datasets to HuggingFace format for training
@@ -77,7 +77,7 @@ The project uses two primary tables:
 ### Core Components
 
 1. **Hand Parser** (`parse_poker_hands.py`)
-   - Parses PokerStars hand history files with regex pattern matching
+   - Parses Poker hand history files with regex pattern matching
    - Extracts table names, timestamps, and player actions
    - Converts to structured JSON format for later analysis
    - Handles encoding issues and edge cases robustly
