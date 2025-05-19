@@ -143,22 +143,22 @@ def log_dataset_records(dataset, db_connection):
             import json
             pokergpt_format = json.loads(pokergpt_format)
         
-        # Get PokerStars description from showdown or summary
-        pokerstars_description = ""
+        # Get description from showdown or summary
+        description = ""
         
         # Try to get from showdown first
         if 'showdown' in pokergpt_format.get('stages', {}):
             showdown = pokergpt_format['stages']['showdown']
             for player in showdown.get('players', []):
                 if player.get('player') == winner and 'hand_description' in player:
-                    pokerstars_description = player['hand_description']
+                    description = player['hand_description']
                     break
         
         # If not found in showdown, try summary
-        if not pokerstars_description and 'summary' in pokergpt_format:
+        if not description and 'summary' in pokergpt_format:
             for result in pokergpt_format['summary'].get('player_results', []):
                 if result.get('player') == winner and 'hand_description' in result:
-                    pokerstars_description = result['hand_description']
+                    description = result['hand_description']
                     break
         
         # Extract evaluator rank from the prompt
@@ -177,14 +177,14 @@ def log_dataset_records(dataset, db_connection):
         cursor.execute("""
             INSERT INTO dataset_records (
                 hand_id, winner, bb_won, game_type, big_blind, game_stage,
-                evaluator_rank, pokerstars_description, pokergpt_format,
+                evaluator_rank, description, pokergpt_format,
                 pokergpt_prompt, winning_action
             ) VALUES (
                 %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
             )
         """, (
             hand_id, winner, bb_won, game_type, big_blind, game_stage,
-            evaluator_rank, pokerstars_description, pokergpt_format_json,
+            evaluator_rank, description, pokergpt_format_json,
             pokergpt_prompt, winning_action
         ))
     

@@ -6,7 +6,7 @@ A comprehensive toolkit for processing poker hand histories and preparing high-q
 
 This project provides a data processing pipeline for poker hand histories that:
 
-1. Parses PokerStars hand history files with robust error handling
+1. Parses hand history files with robust error handling
 2. Stores structured data in a PostgreSQL database
 3. Calculates accurate player win rates using a table-based approach
 4. Exports filtered datasets for Poker-RL training based on player skill level
@@ -127,7 +127,7 @@ The diagram shows the relationship between the two main tables. Each player can 
 
 ### 1. Hand Parser (`parse_poker_hands.py`)
 
-Parses PokerStars hand history files and stores structured data in the database. The parser:
+Parses hand history files and stores structured data in the database. The parser:
 
 - Extracts hand details including table name and timestamp
 - Creates a structured JSON representation

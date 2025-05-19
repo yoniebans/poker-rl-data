@@ -17,8 +17,8 @@ class PokerHandProcessor:
         if self.debug_mode:
             os.makedirs('diagnostic_logs', exist_ok=True)
         
-    def parse_pokerstars_hand(self, raw_hand: str) -> Dict[str, Any]:
-        """Parse a PokerStars hand history into structured format"""
+    def parse_hand(self, raw_hand: str) -> Dict[str, Any]:
+        """Parse hand history into structured format"""
         # Extract hand ID
         hand_id_match = re.search(r'Hand #(\d+)', raw_hand)
         if not hand_id_match:
@@ -816,7 +816,7 @@ class PokerHandProcessor:
             if not hand_text.strip():
                 continue
                 
-            # Skip entries that don't start with "PokerStars Hand #" (typically the first split)
+            # Skip entries that don't start with "Ref Hand #" (typically the first split)
             if not hand_text.lstrip().startswith("PokerStars Hand #"):
                 if i == 0:  # Only log this for the first split to avoid confusion
                     if self.debug_mode:
@@ -835,7 +835,7 @@ class PokerHandProcessor:
                 continue
                     
             try:
-                parsed_hand = self.parse_pokerstars_hand(hand_text)
+                parsed_hand = self.parse_hand(hand_text)
                 
                 # Check if this hand had missing players
                 hand_id = parsed_hand.get('hand_id', 'unknown')

@@ -87,7 +87,7 @@ CREATE TABLE dataset_records (
     
     -- Card evaluations
     evaluator_rank TEXT,  -- Result from our poker_hand_evaluator
-    pokerstars_description TEXT,  -- Description from PokerStars in summary/showdown
+    description TEXT,  -- Description from summary/showdown
     
     -- PokerGPT dataset fields
     pokergpt_format JSONB, -- Complete structured JSON representation of the hand

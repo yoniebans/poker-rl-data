@@ -14,7 +14,7 @@ The final dataset exported to HuggingFace contains the following fields:
 6. **big_blind** - Value of the big blind
 7. **game_stage** - The furthest stage reached in the hand (PREFLOP, FLOP, TURN, or RIVER)
 8. **evaluator_rank** - Hand rank calculated by the poker_hand_evaluator
-9. **pokerstars_description** - Hand description from PokerStars summary
+9. **description** - Hand description
 10. **pokergpt_prompt** - The formatted prompt as shown below
 11. **winning_action** - The action taken by the winning player
 
@@ -317,20 +317,20 @@ call
 In the project codebase, these prompt-response pairs are generated from the structured poker hand data through the following process:
 
 1. **Collection & Storage**: Hand histories are parsed and stored in the database with structured data
-   
 2. **Prompt Generation**: The `pokergpt_formatter.py` module contains:
    - `format_hand_to_pokergpt_prompt` method that transforms structured hand data into the input prompt format
    - `format_batch_for_training` method that creates prompt-response pairs by:
      - Generating the prompt
      - Extracting the winning player's action as the expected output
-     
 3. **Dataset Record Creation**: For each hand that meets filtering criteria (winning player, minimum hands, etc.):
+
    - Hand data is extracted from the database
    - Prompt is generated with proper formatting
    - Cards and actions are extracted with special handling for showdown hands
    - Hand evaluation is performed using the poker_hand_evaluator
 
 4. **Export to HuggingFace**: The final dataset is exported with all schema fields for training:
+
    - The extracted action is stored alongside all metadata
    - Records are filtered by winning player criteria, hand completeness, etc.
    - The dataset is exported to HuggingFace format with a comprehensive dataset card
@@ -346,13 +346,13 @@ In the project codebase, these prompt-response pairs are generated from the stru
        'big_blind': 1.0,
        'game_stage': 'RIVER',  # The furthest stage reached (PREFLOP, FLOP, TURN, RIVER)
        'evaluator_rank': 'Pair',
-       'pokerstars_description': 'Player A wins pot with pair of kings',
+       'description': 'Player A wins pot with pair of kings',
        'pokergpt_prompt': formatted_prompt,  # The full prompt as shown in examples above
        'winning_action': 'raise 2.5'  # e.g., "raise 2.5" or "check"
    }
    ```
 
-4. This structure allows for fine-grained filtering and analysis during training, enabling the model to potentially learn from different game scenarios, player types, and hand strengths.
+5. This structure allows for fine-grained filtering and analysis during training, enabling the model to potentially learn from different game scenarios, player types, and hand strengths.
 
 Considerations for implementing this dataset format:
 

@@ -156,7 +156,7 @@ The actions can be: ["fold", "raise", "call"]. What should I do? If I choose to 
 ### Data Collection and Processing
 
 This dataset was created by:
-1. Parsing PokerStars hand history files with robust error handling
+1. Parsing hand history files with robust error handling
 2. Storing structured data in a PostgreSQL database
 3. Calculating accurate player win rates using a table-based approach that:
    - Identifies distinct table sessions (when players join and leave tables)

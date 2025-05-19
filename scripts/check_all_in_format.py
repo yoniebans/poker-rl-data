@@ -8,7 +8,7 @@ load_dotenv()
 
 def check_all_in_formats():
     """
-    Check how PokerStars formats all-in situations in hand histories
+    Check formats of all-in situations in hand histories
     """
     try:
         conn = psycopg2.connect(os.environ.get('DB_CONNECTION'))

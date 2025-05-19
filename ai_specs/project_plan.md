@@ -71,8 +71,8 @@ class PokerHandProcessor:
     def __init__(self, db_connection_string: str):
         self.conn = psycopg2.connect(db_connection_string)
         
-    def parse_pokerstars_hand(self, raw_hand: str) -> Dict[str, Any]:
-        """Parse a PokerStars hand history into structured format"""
+    def parse_hand(self, raw_hand: str) -> Dict[str, Any]:
+        """Parse hand history into structured format"""
         # Extract hand ID
         hand_id = re.search(r'Hand #(\d+)', raw_hand).group(1)
         
@@ -248,7 +248,7 @@ class PokerHandProcessor:
             content = f.read()
         
         # Split the file into individual hands
-        # Hand histories typically start with "PokerStars Hand #"
+        # Hand histories typically start with "Ref Hand #"
         hand_splits = re.split(r'(?=PokerStars Hand #)', content)
         
         for hand_text in hand_splits:
@@ -256,7 +256,7 @@ class PokerHandProcessor:
                 continue
                 
             try:
-                parsed_hand = self.parse_pokerstars_hand(hand_text)
+                parsed_hand = self.parse_hand(hand_text)
                 self.insert_hand(parsed_hand)
                 print(f"Processed hand {parsed_hand['hand_id']}")
             except Exception as e:
@@ -927,7 +927,7 @@ class PokerEnv(BaseEnv):
 ## Core Components
 
 1. **Hand Parser** (`data_wrangler/parse_poker_hands.py`)
-   - Parses PokerStars hand history files
+   - Parses hand history files
    - Extracts structured data using robust pattern matching
    - Handles edge cases including multi-table situations
 
